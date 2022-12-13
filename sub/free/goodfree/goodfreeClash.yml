@@ -1,0 +1,95 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇸🇬 如无法使用请更新订阅, server: azxg.iacgbt.com, port: 26010, type: trojan, password: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, sni: a1.iacgbt.com, skip-cert-verify: true, udp: true}
+  - {name: 官方网站：iacgbt.com, server: azxg.iacgbt.com, port: 26010, type: trojan, password: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, sni: a1.iacgbt.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | 103 | 杭港 | 1x, server: relay-us.bfstec.com, port: 31002, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 香港 | 105 | 海港 | 1x\t", server: relay-hk2.bfstec.com, port: 44275, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | 102 | 海港 | 1.5x, server: relay-hk4.bfstec.com, port: 33556, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | 103 | 美区解锁 | 1x, server: relay-us.bfstec.com, port: 25119, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | 101 | 流媒体优化 | 1x, server: relay-us2.bfstec.com, port: 51959, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 | 102 | 流媒体优化 | 1x, server: relay-jp.bfstec.com, port: 27152, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 | 101 | 杭州入口 | 1x, server: relay-sg1.bfstec.com, port: 11211, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇰🇷 韩国  | 101 | 江苏BGP | 1x\t", server: relay-sg.bfstec.com, port: 52791, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 香港 | 106 | 深港IPLC | 1x\t", server: relay-hk3.bfstec.com, port: 32123, type: vmess, uuid: 0b6a3884-8cfc-346f-a388-e27ff54dcff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+proxy-groups:
+  - name: 规则选择
+    type: select
+    proxies:
+      - 负载均衡
+      - 自动选择
+  - name: 中国节点
+    type: select
+    proxies:
+      - 🇭🇰 香港 | 103 | 杭港 | 1x
+      - "🇭🇰 香港 | 105 | 海港 | 1x\t"
+      - 🇭🇰 香港 | 102 | 海港 | 1.5x
+      - "🇭🇰 香港 | 106 | 深港IPLC | 1x\t"
+  - name: 日本节点
+    type: select
+    proxies:
+      - 🇯🇵 日本 | 102 | 流媒体优化 | 1x
+  - name: 新加坡节点
+    type: select
+    proxies:
+      - 🇸🇬 新加坡 | 101 | 杭州入口 | 1x
+  - name: 美国节点
+    type: select
+    proxies:
+      - 🇺🇸 美国 | 103 | 美区解锁 | 1x
+      - 🇺🇸 美国 | 101 | 流媒体优化 | 1x
+  - name: 手动切换
+    type: select
+    proxies:
+      - 🇸🇬 如无法使用请更新订阅
+      - 官方网站：iacgbt.com
+      - 🇭🇰 香港 | 103 | 杭港 | 1x
+      - "🇭🇰 香港 | 105 | 海港 | 1x\t"
+      - 🇭🇰 香港 | 102 | 海港 | 1.5x
+      - 🇺🇸 美国 | 103 | 美区解锁 | 1x
+      - 🇺🇸 美国 | 101 | 流媒体优化 | 1x
+      - 🇯🇵 日本 | 102 | 流媒体优化 | 1x
+      - 🇸🇬 新加坡 | 101 | 杭州入口 | 1x
+      - "🇰🇷 韩国  | 101 | 江苏BGP | 1x\t"
+      - "🇭🇰 香港 | 106 | 深港IPLC | 1x\t"
+  - name: 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 如无法使用请更新订阅
+      - 官方网站：iacgbt.com
+      - 🇭🇰 香港 | 103 | 杭港 | 1x
+      - "🇭🇰 香港 | 105 | 海港 | 1x\t"
+      - 🇭🇰 香港 | 102 | 海港 | 1.5x
+      - 🇺🇸 美国 | 103 | 美区解锁 | 1x
+      - 🇺🇸 美国 | 101 | 流媒体优化 | 1x
+      - 🇯🇵 日本 | 102 | 流媒体优化 | 1x
+      - 🇸🇬 新加坡 | 101 | 杭州入口 | 1x
+      - "🇰🇷 韩国  | 101 | 江苏BGP | 1x\t"
+      - "🇭🇰 香港 | 106 | 深港IPLC | 1x\t"
+  - name: 负载均衡
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 如无法使用请更新订阅
+      - 官方网站：iacgbt.com
+      - 🇭🇰 香港 | 103 | 杭港 | 1x
+      - "🇭🇰 香港 | 105 | 海港 | 1x\t"
+      - 🇭🇰 香港 | 102 | 海港 | 1.5x
+      - 🇺🇸 美国 | 103 | 美区解锁 | 1x
+      - 🇺🇸 美国 | 101 | 流媒体优化 | 1x
+      - 🇯🇵 日本 | 102 | 流媒体优化 | 1x
+      - 🇸🇬 新加坡 | 101 | 杭州入口 | 1x
+      - "🇰🇷 韩国  | 101 | 江苏BGP | 1x\t"
+      - "🇭🇰 香港 | 106 | 深港IPLC | 1x\t"
+rules:
+ - MATCH,规则选择

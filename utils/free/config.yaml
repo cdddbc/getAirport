@@ -1,0 +1,37 @@
+#想取消那个可以在单行开头'#'
+V2board:
+#优秀
+  - https://www.dgycom.com/         #10G,1天，多线
+#普通
+  - https://fastestcloud.xyz/       #1G，2天，多线路
+  - https://feiniaoyun.top/         #1G，1天，多线路
+  - https://shan-cloud.xyz/         #5G，1天，多线路
+  - https://www.ckcloud.xyz/        #1G，1天，多线路
+  
+
+SSpanel:
+#优秀
+  - https://www.iacgbt.com/         #50G，1天，多线 
+  - http://zhuzhu12.com/            #100G,7天，多线，需验证机器人
+
+#普通  
+  - https://flyairport.top/         #5G，1天，单线路，只支持v2
+  - https://www.douluos.xyz/        #2G，1天，多线路
+  - https://jsmao.org/              #1G，1天，多线路
+  - https://www.jafiyun.cc/         #512MB，1天，多线路
+  - https://www.liuchangyun.com/    #1G，1天，多线路
+  - https://www.wolaile.icu/        #1G，1天，多线路
+  - https://gflink.net/             #1G，1天，多线
+  - https://maossr.top/             #1G,1天，多线路
+  - https://www.kuaicloud.xyz/      #1G，1天，多线路        需用QQ邮箱 
+  - https://htavpn.com/             #1G，1天，多线路        需用QQ邮箱 
+# 流量少
+#  - https://www.wiougong.me/        #102.4MB，1天，多线路
+#  - https://www.wiougong.space/     #102.4MB，1天，多线路
+
+
+# bad
+#  - https://www.mxyssr.fun/         #10G，1天，多线路
+#  - https://v2ray.mom/              #qq邮箱，不限量，限速512KB，可用1年半
+#  - https://kakayun.xyz/            #2G，2天，多线路
+#  - https://paopaocloud.com/        #1G，1天，多线路

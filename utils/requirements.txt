@@ -1,0 +1,6 @@
+requests == 2.28.1
+PyYAML == 6.0
+tqdm == 4.64.0
+retry == 0.9.2
+bs4 == 0.0.1
+geoip2==4.4.0
