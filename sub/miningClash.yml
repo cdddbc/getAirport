@@ -5,6 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN2_Viettel, server: vn2.hello4g.pw, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
+  - {name: VN4_Viettel SSL, server: vn2.hello4g.pw, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
+  - {name: 距离下次重置剩余：30 天, server: 20.239.94.179, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港1 | 0.1x, server: 20.239.94.179, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港2 | 0.1x, server: 20.205.108.87, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港3 | 0.1x, server: 20.239.198.103, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港4 | 0.1x, server: 20.239.165.34, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡1 | 0.1x, server: 20.212.35.155, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-sg.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡2 | 0.1x, server: 20.212.204.112, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-sg.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 使用前请更新订阅获取最新节点信息, server: dl-hk1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: "永久地址: 值得买机场.com", server: dl-hk1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 01, server: dl-hk1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 02, server: dl-hk2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 03, server: dl-hk3.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 04, server: dl-hk4.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 05, server: dl-hk5.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 06, server: dl-hk6.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-hk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 01, server: dl-tw1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-tw.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 02, server: dl-tw2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-tw.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 03, server: dl-tw3.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-tw.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 04, server: dl-tw4.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-tw.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 01, server: dl-jp1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-jp.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 02, server: dl-jp2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-jp.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 03, server: dl-jp3.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-jp.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 04, server: dl-jp4.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-jp.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 首尔, server: dl-kr1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ockrsl.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 春川, server: dl-kr2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ockrcc.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 01, server: dl-sg1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-sg.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-sg.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 03, server: dl-sg3.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-sg.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 04, server: dl-sg4.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-sg.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 01, server: dl-us1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-us.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 02, server: dl-us2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-us.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 03, server: dl-us3.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-us.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 04, server: dl-us4.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-us.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-in.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-in.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚 悉尼, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-au.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇺 澳大利亚 墨尔本, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-au2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇪 阿联酋 迪拜, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ae.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇪 阿联酋 阿布扎比, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ae2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇦 沙特 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-sa.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇦 沙特 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-sa.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇱 以色列 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-il.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇱 以色列 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-il.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇿🇦 南非 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-za.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇿🇦 南非 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-za.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-de.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-de.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-fr.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-fr.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 伦敦, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-uk.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 加的夫, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-uk2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇹 意大利 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-it.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇹 意大利 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-it.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇪🇸 西班牙 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-es.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇪🇸 西班牙 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-es.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇭 瑞士 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ch.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇭 瑞士 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ch.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-nl.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-nl.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇪 瑞典 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-se.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇪 瑞典 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-se.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其 01, server: dl-eu1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-tr.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其 02, server: dl-eu2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-tr.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 01, server: core1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ru.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯 02, server: core2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ru.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 多伦多, server: dl-am1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ca.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 蒙特利尔, server: dl-am2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ca2.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西 01, server: dl-am1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-br.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西 02, server: dl-am2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-br.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇱 智利 01, server: dl-am1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-cl.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇱 智利 02, server: dl-am2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-cl.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 阿根廷 01, server: dl-am1.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ar.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇷 阿根廷 02, server: dl-am2.efyunpan.com, port: 443, type: trojan, password: d11f1d67-f409-48ef-9767-a0fe081fe81d, sni: data-ar.efyunpan.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 CA 加拿大「用前更新订阅」, server: tun.ca.xlkjjs.top, port: 16274, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca.xlkjjs.top}}, udp: true}
+  - {name: 🇨🇳 CN 台湾「高速流媒体」, server: tun.tw.xlkjjs.top, port: 20763, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tun.tw.xlkjjs.top}}, udp: true}
+  - {name: 🇫🇷 FR 法国「免费福利」, server: frr.xlkjjs.top, port: 443, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frr.xlkjjs.top}}, udp: true}
+  - {name: 🇭🇰 HK 香港「镇站一号」, server: wuyuhk.xlkjjs.top, port: 10294, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wuyuhk.xlkjjs.top}}, udp: true}
+  - {name: 🇭🇰 HK 香港「镇站二号」, server: cmi.hk.xlkjjs.top, port: 27027, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cmi.hk.xlkjjs.top}}, udp: true}
+  - {name: 🇭🇰 HK 香港「高速流媒体」, server: hkd.xlkjjs.top, port: 10141, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkg.xlkjjs.top}}, udp: true}
+  - {name: 🇭🇰 UK 英国「高速港转」, server: tun.xlkjjs.top, port: 16375, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tun.xlkjjs.top}}, udp: true}
+  - {name: 🇺🇸 US 美国「独立线路」, server: usf.xlkjjs.top, port: 25614, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usf.xlkjjs.top}}, udp: true}
+  - {name: 🇺🇸 US 美国「高速流媒体」, server: pus.xlkjjs.top, port: 16274, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pus.xlkjjs.top}}, udp: true}
+  - {name: GetAFreeNode-Frankfurt, server: 46.102.156.61, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode-Novosibirsk, server: 194.38.9.6, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: 94.177.8.87, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 GetAFreeNode-Moscow, server: 79.137.207.202, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: 88.210.37.18, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳, server: 103.167.196.8, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: HÀ NỘI 3  🇻🇳, server: 103.167.196.48, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 01, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 02, server: yzdx.relay01.fast001.buzz, port: 19222, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 隧道 | NF | 香港 01, server: yzdx.relay01.fast001.buzz, port: 19225, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -26,54 +119,73 @@ proxies:
   - {name: 🇩🇪 隧道 | NF | 德国 01, server: yzdx.relay01.fast001.buzz, port: 19246, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 01, server: yzdx.relay01.fast001.buzz, port: 19247, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 02, server: yzdx.relay01.fast001.buzz, port: 19248, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 距离下次重置剩余：17 天, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 *不能用时请更新订阅, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "*严禁测速，为了保证所有人的宽带公平", server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d37xr2wb5cxle7.cloudfront.net}}, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win}}, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win}}, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000003a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000007a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000008a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 【直连】德国西区 - 随机端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win, port: 26901, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 随机端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win, port: 10392, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 【直连】英国南区 - 随机端口 - 3, server: 00000000000000000000000000000000000000000000000000000000000013a.node-for-bigairport.win, port: 43566, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 【直连】法国北区 - 随机端口 - 4, server: 00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win, port: 12659, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇪 【直连】爱尔兰 - 随机端口 - 5, server: 00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win, port: 15092, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 1, server: 00000000000000000000000000000000000000000000000000000000000021a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 2, server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 1, server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 2, server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 1, server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 2, server: 00000000000000000000000000000000000000000000000000000000000026a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 1, server: 00000000000000000000000000000000000000000000000000000000000027a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 2, server: 00000000000000000000000000000000000000000000000000000000000028a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 1, server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 2, server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 3, server: 00000000000000000000000000000000000000000000000000000000000031a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 4, server: 00000000000000000000000000000000000000000000000000000000000032a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 3, server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 4, server: 00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 3, server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 4, server: 00000000000000000000000000000000000000000000000000000000000036a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 3, server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 4, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 3, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 4, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Frankfurt, server: 46.102.156.61, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-Novosibirsk, server: 194.38.9.6, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇹 GetAFreeNode-Vienna, server: 94.177.8.87, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 GetAFreeNode-Moscow, server: 79.137.207.202, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-LosAngeles, server: 88.210.37.18, port: 38758, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN2_Viettel, server: vn2.hello4g.pw, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
-  - {name: VN4_Viettel SSL, server: vn2.hello4g.pw, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
+  - {name: 距离下次重置剩余：17 天, server: 1.1.1.1, port: 65535, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 *不能用时请更新订阅, server: 1.1.1.1, port: 65535, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "*严禁测速，为了保证所有人的宽带公平", server: 1.1.1.1, port: 65535, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d37xr2wb5cxle7.cloudfront.net}}, udp: true}
+  - {name: 🇭🇰 【直连】香港 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win, port: 80, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win}}, udp: true}
+  - {name: 🇭🇰 【直连】香港 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win, port: 443, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win}}, udp: true}
+  - {name: 🇯🇵 【直连】东京 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000003a.node-for-bigairport.win, port: 80, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 【直连】东京 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win, port: 443, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 【直连】狮城 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win, port: 80, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 【直连】狮城 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win, port: 443, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 【直连】首尔 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000007a.node-for-bigairport.win, port: 80, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 【直连】首尔 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000008a.node-for-bigairport.win, port: 443, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 【直连】美国西区 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win, port: 80, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 【直连】美国西区 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win, port: 443, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 【直连】德国西区 - 随机端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win, port: 26901, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 【直连】美国西区 - 随机端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win, port: 10392, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 【直连】英国南区 - 随机端口 - 3, server: 00000000000000000000000000000000000000000000000000000000000013a.node-for-bigairport.win, port: 43566, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 【直连】法国北区 - 随机端口 - 4, server: 00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win, port: 12659, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇪 【直连】爱尔兰 - 随机端口 - 5, server: 00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win, port: 15092, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 【直连】香港 - 1, server: 00000000000000000000000000000000000000000000000000000000000021a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 【直连】香港 - 2, server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 【直连】东京 - 1, server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 【直连】东京 - 2, server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 【直连】狮城 - 1, server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 【直连】狮城 - 2, server: 00000000000000000000000000000000000000000000000000000000000026a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 【直连】首尔 - 1, server: 00000000000000000000000000000000000000000000000000000000000027a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 【直连】首尔 - 2, server: 00000000000000000000000000000000000000000000000000000000000028a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 【直连】美国西区 - 1, server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 【直连】美国西区 - 2, server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 【直连】香港 - 3, server: 00000000000000000000000000000000000000000000000000000000000031a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 【直连】香港 - 4, server: 00000000000000000000000000000000000000000000000000000000000032a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 【直连】东京 - 3, server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 【直连】东京 - 4, server: 00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 【直连】狮城 - 3, server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 【直连】狮城 - 4, server: 00000000000000000000000000000000000000000000000000000000000036a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 【直连】首尔 - 3, server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 【直连】首尔 - 4, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 【直连】美国西区 - 3, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 【直连】美国西区 - 4, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 无法使用记得更新订阅, server: 1.1.1.1, port: 1111, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇨🇳 台湾 01 2, server: 110.80.3.34, port: 10951, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇭🇰 香港 01 月抛, server: azure.hk.ddns.11111111111111111111.bpnet.club, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇸🇬 新加坡 01 2, server: 139.162.43.159, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇦🇺 澳大利亚, server: 172.105.171.41, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇺🇸 美国 01 月抛, server: 54.218.3.181, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇯🇵 日本 01 2, server: 185.160.24.45, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: telegram:t.me/bpcloud_chat, server: hk01.bp.ddns.1246x.jumaonet.com, port: 443, type: trojan, password: 54ac298f-7cbf-400c-8dc2-520b03f030f1, sni: hk01.bp.ddns.1246x.jumaonet.com, skip-cert-verify: true, udp: true}
+  - {name: 群组 t.me/nekoport, server: 82c7e5d7-eac9-4cfc-9415-2decc41aff37.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
+  - {name: 🇭🇰 香港咖喱三宝 01-IAPL, server: 82c7e5d7-eac9-4cfc-9415-2decc41aff37.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港咖喱三宝 01-IAPL-IP, server: 20.187.101.45, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港丝袜奶茶 02-IAPL, server: cc924ea1-4922-4cdf-a571-6cfb6ff8af5a.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港丝袜奶茶 02-IAPL-IP, server: 20.239.79.150, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港杨枝甘露 03-IAPL, server: 3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
+  - {name: 🇭🇰 香港杨枝甘露 03-IAPL-IP, server: 20.247.115.108, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
+  - {name: 🇭🇰 香港芒果凉粉 04-IAPL, server: 73bbd940-b4c8-4f33-9aaa-ad40bec91205.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
+  - {name: 🇭🇰 香港芒果凉粉 04-IAPL-IP, server: 20.255.24.24, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
+  - {name: 🇨🇳 台湾珍珠奶茶 01, server: 42.203.52.136, port: 10011, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯红菜汤 01, server: 42.203.52.136, port: 10018, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 土耳其布尔萨 01, server: 42.203.52.136, port: 10019, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国汉堡包 01, server: 42.203.52.136, port: 10021, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国炸薯条 02, server: 42.203.52.136, port: 10022, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国大龙虾 03, server: 42.203.52.136, port: 10023, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国苹果派 04, server: 42.203.52.136, port: 10024, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国洋葱圈 05, server: 42.203.52.136, port: 10025, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国香蕉船 06, server: 42.203.52.136, port: 10026, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国炸土豆 07, server: 42.203.52.136, port: 10027, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国华夫饼 08, server: 42.203.52.136, port: 10028, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 Lil 俄罗斯01 | IEPL | 倍率:1.3, server: sql.accessconnect.cc, port: 1104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244139:qvYkBW, obfs-param: 1d4e6244139.www.gov.hk, udp: true}
   - {name: 🇨🇦 Lil 加拿大1 | IEPL | 倍率:1.3, server: sql.accessconnect.cc, port: 1103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244139:qvYkBW, obfs-param: 1d4e6244139.www.gov.hk, udp: true}
   - {name: 🇮🇳 Lil 印度01 | IEPL | 倍率:1.3, server: sql.accessconnect.cc, port: 2701, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244139:qvYkBW, obfs-param: 1d4e6244139.www.gov.hk, udp: true}
@@ -139,84 +251,37 @@ proxies:
   - {name: 🇷🇺 【白嫖】俄罗斯2-直连-1x, server: ru2.xiaolongyun.xyz, port: 21902, type: vmess, uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vv, headers: {Host: ru2.xiaolongyun.xyz}}, udp: true}
   - {name: 🇺🇸 【白嫖】美国rn1-直连-1x, server: usrn1.xiaolongyun.xyz, port: 21903, type: vmess, uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vv, headers: {Host: usrn1.xiaolongyun.xyz}}, udp: true}
   - {name: 🇺🇸 【白嫖】美国rn2-直连-1x, server: usrn2.xiaolongyun.xyz, port: 21904, type: vmess, uuid: 7046ae69-3bb2-3fe8-afb6-a92e8e7987b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vv, headers: {Host: usrn2.xiaolongyun.xyz}}, udp: true}
-  - {name: 🇸🇬 CA 加拿大「用前更新订阅」, server: tun.ca.xlkjjs.top, port: 16274, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca.xlkjjs.top}}, udp: true}
-  - {name: 🇨🇳 CN 台湾「高速流媒体」, server: tun.tw.xlkjjs.top, port: 20763, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tun.tw.xlkjjs.top}}, udp: true}
-  - {name: 🇫🇷 FR 法国「免费福利」, server: frr.xlkjjs.top, port: 443, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frr.xlkjjs.top}}, udp: true}
-  - {name: 🇭🇰 HK 香港「镇站一号」, server: wuyuhk.xlkjjs.top, port: 10294, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wuyuhk.xlkjjs.top}}, udp: true}
-  - {name: 🇭🇰 HK 香港「镇站二号」, server: cmi.hk.xlkjjs.top, port: 27027, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cmi.hk.xlkjjs.top}}, udp: true}
-  - {name: 🇭🇰 HK 香港「高速流媒体」, server: hkd.xlkjjs.top, port: 10141, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkg.xlkjjs.top}}, udp: true}
-  - {name: 🇭🇰 UK 英国「高速港转」, server: tun.xlkjjs.top, port: 16375, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tun.xlkjjs.top}}, udp: true}
-  - {name: 🇺🇸 US 美国「独立线路」, server: usf.xlkjjs.top, port: 25614, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usf.xlkjjs.top}}, udp: true}
-  - {name: 🇺🇸 US 美国「高速流媒体」, server: pus.xlkjjs.top, port: 16274, type: vmess, uuid: 01bdcc8c-e2ca-36b4-a2f6-ed9e01336556, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pus.xlkjjs.top}}, udp: true}
-  - {name: 距离下次重置剩余：17 天 2, server: 1.1.1.1, port: 65535, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2, server: 1.1.1.1, port: 65535, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 *不能用时请更新订阅 2, server: 1.1.1.1, port: 65535, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "*严禁测速，为了保证所有人的宽带公平 2", server: 1.1.1.1, port: 65535, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d37xr2wb5cxle7.cloudfront.net}}, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win, port: 80, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win}}, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win, port: 443, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win}}, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000003a.node-for-bigairport.win, port: 80, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win, port: 443, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win, port: 80, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win, port: 443, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000007a.node-for-bigairport.win, port: 80, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000008a.node-for-bigairport.win, port: 443, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win, port: 80, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win, port: 443, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 【直连】德国西区 - 随机端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win, port: 26901, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 随机端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win, port: 10392, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 【直连】英国南区 - 随机端口 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000013a.node-for-bigairport.win, port: 43566, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 【直连】法国北区 - 随机端口 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win, port: 12659, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2, server: 00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win, port: 15092, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000021a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000026a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000027a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000028a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000031a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000032a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000036a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 73d0705e-083d-4ce5-b8da-fbec62f543e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳, server: 103.167.196.8, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: HÀ NỘI 3  🇻🇳, server: 103.167.196.48, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 群组 t.me/nekoport, server: 82c7e5d7-eac9-4cfc-9415-2decc41aff37.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
-  - {name: 🇭🇰 香港咖喱三宝 01-IAPL, server: 82c7e5d7-eac9-4cfc-9415-2decc41aff37.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇭🇰 香港咖喱三宝 01-IAPL-IP, server: 20.187.101.45, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇭🇰 香港丝袜奶茶 02-IAPL, server: cc924ea1-4922-4cdf-a571-6cfb6ff8af5a.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇭🇰 香港丝袜奶茶 02-IAPL-IP, server: 20.239.79.150, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇭🇰 香港杨枝甘露 03-IAPL, server: 3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
-  - {name: 🇭🇰 香港杨枝甘露 03-IAPL-IP, server: 20.247.115.108, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
-  - {name: 🇭🇰 香港芒果凉粉 04-IAPL, server: 73bbd940-b4c8-4f33-9aaa-ad40bec91205.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
-  - {name: 🇭🇰 香港芒果凉粉 04-IAPL-IP, server: 20.255.24.24, port: 80, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: puui.qpic.cn}}, udp: true}
-  - {name: 🇨🇳 台湾珍珠奶茶 01, server: 42.203.52.136, port: 10011, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯红菜汤 01, server: 42.203.52.136, port: 10018, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其布尔萨 01, server: 42.203.52.136, port: 10019, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国汉堡包 01, server: 42.203.52.136, port: 10021, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国炸薯条 02, server: 42.203.52.136, port: 10022, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国大龙虾 03, server: 42.203.52.136, port: 10023, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国苹果派 04, server: 42.203.52.136, port: 10024, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国洋葱圈 05, server: 42.203.52.136, port: 10025, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国香蕉船 06, server: 42.203.52.136, port: 10026, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国炸土豆 07, server: 42.203.52.136, port: 10027, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国华夫饼 08, server: 42.203.52.136, port: 10028, type: vmess, uuid: fe15052b-852f-4c7c-8bba-e85c628dbcb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 无法使用记得更新订阅, server: 1.1.1.1, port: 1111, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 🇨🇳 台湾 01, server: 110.80.3.34, port: 10951, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 🇭🇰 香港 01 月抛, server: azure.hk.ddns.11111111111111111111.bpnet.club, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 🇸🇬 新加坡 01, server: 139.162.43.159, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 🇦🇺 澳大利亚, server: 172.105.171.41, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 🇺🇸 美国 01 月抛, server: 54.218.3.181, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 🇯🇵 日本 01, server: 185.160.24.45, port: 80, type: vmess, uuid: 54ac298f-7cbf-400c-8dc2-520b03f030f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: telegram:t.me/bpcloud_chat, server: hk01.bp.ddns.1246x.jumaonet.com, port: 443, type: trojan, password: 54ac298f-7cbf-400c-8dc2-520b03f030f1, sni: hk01.bp.ddns.1246x.jumaonet.com, skip-cert-verify: true, udp: true}
+  - {name: 距离下次重置剩余：5 天, server: 127.0.0.1, port: 53, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 严禁挖矿回国 发现报警处理, server: 127.0.0.1, port: 53, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: ===--以下为国内区--===, server: 127.0.0.1, port: 53, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 济南联通 01 | ws, server: 8ceb7662-e548-0cbc-7fae-7c8ce247bc54.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 沈阳联通 01 | ws, server: 586af704-07b1-5dee-700c-ec7f6b9c568c.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 沈阳联通 02 | tcp, server: 6590100c-f877-3754-ead7-ff3636a12404.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 沈阳联通 03 | ipv6, server: 2408:8732:c001:2:0:1:6666:6666, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 海南电信 01 | ws, server: e0b6dd8c-4d51-d5fe-830e-5497509ef465.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 海南电信 02 | ws, server: b176319f-5a2f-6788-e651-69fca9135a38.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 海南电信 03 | tcp, server: 941babf7-c8f6-963b-2243-019d166c36c5.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 海南移动 01 | ws, server: 3970a216-8f90-a398-9036-5b2aabf41b70.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 杭州电信 01 | ws | 非80, server: 60.188.58.187, port: 46794, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: ===--以下为国际区--===, server: 127.0.0.1, port: 53, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 海港专线 01 | ws, server: 9a5ccc45-215e-3472-502c-1b1a055a609c.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港 01 | ws, server: 236ba16f-7989-71de-e510-1cad33923355.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港 02 | ws, server: c9f0fa11-e4d4-1c50-2fd2-1c41f7b2ff89.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 香港 03 | tcp, server: 96cfae9d-7c6c-0722-5eb8-a2b8e9d53aee.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 ipv6, server: 2407:cdc0:b005::9c, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 台湾 01 | ws, server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 台湾 02 | tcp, server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 01 | ws, server: 24a51f02-f25c-87fa-7acf-eea632e63c7c.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇸🇬 新加坡 02 | tcp, server: feb0dd5b-ac2e-5c33-d90a-fdb44025a67e.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 01 | ws, server: ca0831a7-9d9b-a828-144e-1cb47eae7ff9.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 日本 02 | tcp, server: be6b3392-ef31-a71d-c15a-0f6be789595d.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 01 | ws, server: 997946b4-2642-ea3f-7b88-bda61300c226.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 韩国 02 | tcp, server: 6f0ecd9b-7c0f-cbb9-d1b4-60b0d0fb3a3e.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 01 | ws, server: ed364088-4fbd-8d59-c972-208ef941db86.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇨🇦 加拿大 01 | ws, server: 148e9178-8681-05de-7498-518779dceb98.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇫🇷 法国 01 | ws, server: 9b8893e5-65c4-e996-bb01-a8859107c17c.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇩🇪 德国 01 | ws, server: a3894e87-ba58-3101-112c-01938c0af70f.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: ===--以下为校园网区--===, server: 127.0.0.1, port: 53, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
 proxy-groups:
   - name: 规则选择
     type: select
@@ -226,6 +291,24 @@ proxy-groups:
   - name: 中国节点
     type: select
     proxies:
+      - 🇭🇰 香港1 | 0.1x
+      - 🇭🇰 香港2 | 0.1x
+      - 🇭🇰 香港3 | 0.1x
+      - 🇭🇰 香港4 | 0.1x
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇭🇰 香港 06
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇨🇳 CN 台湾「高速流媒体」
+      - 🇭🇰 HK 香港「镇站一号」
+      - 🇭🇰 HK 香港「镇站二号」
+      - 🇭🇰 HK 香港「高速流媒体」
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -238,6 +321,17 @@ proxy-groups:
       - 🇭🇰 【直连】香港 - 2
       - 🇭🇰 【直连】香港 - 3
       - 🇭🇰 【直连】香港 - 4
+      - 🇨🇳 台湾 01 2
+      - 🇭🇰 香港 01 月抛
+      - 🇭🇰 香港咖喱三宝 01-IAPL
+      - 🇭🇰 香港咖喱三宝 01-IAPL-IP
+      - 🇭🇰 香港丝袜奶茶 02-IAPL
+      - 🇭🇰 香港丝袜奶茶 02-IAPL-IP
+      - 🇭🇰 香港杨枝甘露 03-IAPL
+      - 🇭🇰 香港杨枝甘露 03-IAPL-IP
+      - 🇭🇰 香港芒果凉粉 04-IAPL
+      - 🇭🇰 香港芒果凉粉 04-IAPL-IP
+      - 🇨🇳 台湾珍珠奶茶 01
       - 🇨🇳 Lil 台湾01 | IEPL | 倍率:1.5
       - 🇨🇳 Lil 台湾02 | IEPL| 倍率:1.3
       - 🇨🇳 Lil 台湾03 | IEPL | 倍率:1.3
@@ -256,44 +350,41 @@ proxy-groups:
       - 🇭🇰 Lil 香港10 | IEPL | 倍率:1.6
       - 🇭🇰 Lil 香港11 | IEPL | 倍率:3
       - 🇭🇰 Lil 香港12 | IEPL | 倍率:3
-      - 🇨🇳 CN 台湾「高速流媒体」
-      - 🇭🇰 HK 香港「镇站一号」
-      - 🇭🇰 HK 香港「镇站二号」
-      - 🇭🇰 HK 香港「高速流媒体」
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇭🇰 香港咖喱三宝 01-IAPL
-      - 🇭🇰 香港咖喱三宝 01-IAPL-IP
-      - 🇭🇰 香港丝袜奶茶 02-IAPL
-      - 🇭🇰 香港丝袜奶茶 02-IAPL-IP
-      - 🇭🇰 香港杨枝甘露 03-IAPL
-      - 🇭🇰 香港杨枝甘露 03-IAPL-IP
-      - 🇭🇰 香港芒果凉粉 04-IAPL
-      - 🇭🇰 香港芒果凉粉 04-IAPL-IP
-      - 🇨🇳 台湾珍珠奶茶 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 01 月抛
+      - 🇭🇰 香港 01 | ws
+      - 🇭🇰 香港 02 | ws
+      - 🇭🇰 香港 03 | tcp
+      - 🇭🇰 香港 ipv6
+      - 🇨🇳 台湾 01 | ws
+      - 🇨🇳 台湾 02 | tcp
   - name: 日本节点
     type: select
     proxies:
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
       - 🇯🇵 隧道 | NF | 日本 01
       - 🇯🇵 隧道 | NF | 日本 02
       - 🇯🇵 隧道 | NF | 日本 03
       - 🇯🇵 隧道 | NF | 日本 04
+      - 🇯🇵 日本 01 2
       - 🇯🇵 Lil 日本01 | IEPL | 倍率:1.5
       - 🇯🇵 Lil 日本02 | IEPL | 倍率:1.3
       - 🇯🇵 Lil 日本03 | IEPL | 倍率:1.3
       - 🇯🇵 Lil 日本04 | IEPL | 倍率:1.3
       - 🇯🇵 Lil 日本05 | IEPL | 倍率:1.3
       - 🇯🇵 Lil 日本06 | IEPL | 倍率:2
-      - 🇯🇵 日本 01
+      - 🇯🇵 日本 01 | ws
+      - 🇯🇵 日本 02 | tcp
   - name: 新加坡节点
     type: select
     proxies:
+      - 🇸🇬 新加坡1 | 0.1x
+      - 🇸🇬 新加坡2 | 0.1x
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇸🇬 新加坡 04
       - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 02
       - 🇸🇬 隧道 | NF | 新加坡 03
@@ -304,21 +395,23 @@ proxy-groups:
       - 🇸🇬 【直连】狮城 - 2
       - 🇸🇬 【直连】狮城 - 3
       - 🇸🇬 【直连】狮城 - 4
+      - 🇸🇬 新加坡 01 2
       - 🇸🇬 Lil 新加坡01 | IEPL | 倍率:1.5
       - 🇸🇬 Lil 新加坡02 | IEPL | 倍率:1.5
       - 🇸🇬 Lil 新加坡03 | IEPL | 倍率:1.5
       - 🇸🇬 Lil 新加坡04 | IEPL | 倍率:2
       - 🇸🇬 Lil 新加坡05 | IEPL | 倍率:2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 01 | ws
+      - 🇸🇬 新加坡 02 | tcp
   - name: 美国节点
     type: select
     proxies:
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇺🇸 US 美国「独立线路」
+      - 🇺🇸 US 美国「高速流媒体」
       - 🇺🇸 隧道 | NF | 美国 01
       - 🇺🇸 隧道 | NF | 美国 02
       - 🇺🇸 【直连】美国西区 - 80端口 - 1
@@ -328,6 +421,15 @@ proxy-groups:
       - 🇺🇸 【直连】美国西区 - 2
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 🇺🇸 美国 01 月抛
+      - 🇺🇸 美国汉堡包 01
+      - 🇺🇸 美国炸薯条 02
+      - 🇺🇸 美国大龙虾 03
+      - 🇺🇸 美国苹果派 04
+      - 🇺🇸 美国洋葱圈 05
+      - 🇺🇸 美国香蕉船 06
+      - 🇺🇸 美国炸土豆 07
+      - 🇺🇸 美国华夫饼 08
       - 🇺🇸 Lil 美国01 | IEPL | 倍率:1.3
       - 🇺🇸 Lil 美国02 | IEPL | 倍率:1.3
       - 🇺🇸 Lil 美国03 | IEPL | 倍率:1.3
@@ -341,27 +443,103 @@ proxy-groups:
       - 🇺🇸 Lil 美国11 | IEPL | 倍率:2
       - 🇺🇸 【白嫖】美国rn1-直连-1x
       - 🇺🇸 【白嫖】美国rn2-直连-1x
-      - 🇺🇸 US 美国「独立线路」
-      - 🇺🇸 US 美国「高速流媒体」
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
-      - 🇺🇸 美国汉堡包 01
-      - 🇺🇸 美国炸薯条 02
-      - 🇺🇸 美国大龙虾 03
-      - 🇺🇸 美国苹果派 04
-      - 🇺🇸 美国洋葱圈 05
-      - 🇺🇸 美国香蕉船 06
-      - 🇺🇸 美国炸土豆 07
-      - 🇺🇸 美国华夫饼 08
-      - 🇺🇸 美国 01 月抛
+      - 🇺🇸 美国 01 | ws
   - name: 手动切换
     type: select
     proxies:
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
+      - 距离下次重置剩余：30 天
+      - 🇭🇰 香港1 | 0.1x
+      - 🇭🇰 香港2 | 0.1x
+      - 🇭🇰 香港3 | 0.1x
+      - 🇭🇰 香港4 | 0.1x
+      - 🇸🇬 新加坡1 | 0.1x
+      - 🇸🇬 新加坡2 | 0.1x
+      - 🇸🇬 使用前请更新订阅获取最新节点信息
+      - "永久地址: 值得买机场.com"
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇭🇰 香港 06
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇰🇷 韩国 首尔
+      - 🇰🇷 韩国 春川
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇸🇬 新加坡 04
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇮🇳 印度 01
+      - 🇮🇳 印度 02
+      - 🇦🇺 澳大利亚 悉尼
+      - 🇦🇺 澳大利亚 墨尔本
+      - 🇦🇪 阿联酋 迪拜
+      - 🇦🇪 阿联酋 阿布扎比
+      - 🇸🇦 沙特 01
+      - 🇸🇦 沙特 02
+      - 🇮🇱 以色列 01
+      - 🇮🇱 以色列 02
+      - 🇿🇦 南非 01
+      - 🇿🇦 南非 02
+      - 🇩🇪 德国 01
+      - 🇩🇪 德国 02
+      - 🇫🇷 法国 01
+      - 🇫🇷 法国 02
+      - 🇬🇧 英国 伦敦
+      - 🇬🇧 英国 加的夫
+      - 🇮🇹 意大利 01
+      - 🇮🇹 意大利 02
+      - 🇪🇸 西班牙 01
+      - 🇪🇸 西班牙 02
+      - 🇨🇭 瑞士 01
+      - 🇨🇭 瑞士 02
+      - 🇳🇱 荷兰 01
+      - 🇳🇱 荷兰 02
+      - 🇸🇪 瑞典 01
+      - 🇸🇪 瑞典 02
+      - 🇹🇷 土耳其 01
+      - 🇹🇷 土耳其 02
+      - 🇷🇺 俄罗斯 01
+      - 🇷🇺 俄罗斯 02
+      - 🇨🇦 加拿大 多伦多
+      - 🇨🇦 加拿大 蒙特利尔
+      - 🇧🇷 巴西 01
+      - 🇧🇷 巴西 02
+      - 🇨🇱 智利 01
+      - 🇨🇱 智利 02
+      - 🇦🇷 阿根廷 01
+      - 🇦🇷 阿根廷 02
+      - 🇸🇬 CA 加拿大「用前更新订阅」
+      - 🇨🇳 CN 台湾「高速流媒体」
+      - 🇫🇷 FR 法国「免费福利」
+      - 🇭🇰 HK 香港「镇站一号」
+      - 🇭🇰 HK 香港「镇站二号」
+      - 🇭🇰 HK 香港「高速流媒体」
+      - 🇭🇰 UK 英国「高速港转」
+      - 🇺🇸 US 美国「独立线路」
+      - 🇺🇸 US 美国「高速流媒体」
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Novosibirsk
+      - 🇦🇹 GetAFreeNode-Vienna
+      - 🇷🇺 GetAFreeNode-Moscow
+      - GetAFreeNode-LosAngeles
+      - 🇻🇳
+      - HÀ NỘI 3  🇻🇳
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -422,15 +600,34 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Novosibirsk
-      - 🇦🇹 GetAFreeNode-Vienna
-      - 🇷🇺 GetAFreeNode-Moscow
-      - GetAFreeNode-LosAngeles
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
+      - 🇸🇬 无法使用记得更新订阅
+      - 🇨🇳 台湾 01 2
+      - 🇭🇰 香港 01 月抛
+      - 🇸🇬 新加坡 01 2
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国 01 月抛
+      - 🇯🇵 日本 01 2
+      - telegram:t.me/bpcloud_chat
+      - 群组 t.me/nekoport
+      - 🇭🇰 香港咖喱三宝 01-IAPL
+      - 🇭🇰 香港咖喱三宝 01-IAPL-IP
+      - 🇭🇰 香港丝袜奶茶 02-IAPL
+      - 🇭🇰 香港丝袜奶茶 02-IAPL-IP
+      - 🇭🇰 香港杨枝甘露 03-IAPL
+      - 🇭🇰 香港杨枝甘露 03-IAPL-IP
+      - 🇭🇰 香港芒果凉粉 04-IAPL
+      - 🇭🇰 香港芒果凉粉 04-IAPL-IP
+      - 🇨🇳 台湾珍珠奶茶 01
+      - 🇷🇺 俄罗斯红菜汤 01
+      - 🇹🇷 土耳其布尔萨 01
+      - 🇺🇸 美国汉堡包 01
+      - 🇺🇸 美国炸薯条 02
+      - 🇺🇸 美国大龙虾 03
+      - 🇺🇸 美国苹果派 04
+      - 🇺🇸 美国洋葱圈 05
+      - 🇺🇸 美国香蕉船 06
+      - 🇺🇸 美国炸土豆 07
+      - 🇺🇸 美国华夫饼 08
       - 🇷🇺 Lil 俄罗斯01 | IEPL | 倍率:1.3
       - 🇨🇦 Lil 加拿大1 | IEPL | 倍率:1.3
       - 🇮🇳 Lil 印度01 | IEPL | 倍率:1.3
@@ -496,90 +693,136 @@ proxy-groups:
       - 🇷🇺 【白嫖】俄罗斯2-直连-1x
       - 🇺🇸 【白嫖】美国rn1-直连-1x
       - 🇺🇸 【白嫖】美国rn2-直连-1x
-      - 🇸🇬 CA 加拿大「用前更新订阅」
-      - 🇨🇳 CN 台湾「高速流媒体」
-      - 🇫🇷 FR 法国「免费福利」
-      - 🇭🇰 HK 香港「镇站一号」
-      - 🇭🇰 HK 香港「镇站二号」
-      - 🇭🇰 HK 香港「高速流媒体」
-      - 🇭🇰 UK 英国「高速港转」
-      - 🇺🇸 US 美国「独立线路」
-      - 🇺🇸 US 美国「高速流媒体」
-      - 距离下次重置剩余：17 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
-      - 🇻🇳
-      - HÀ NỘI 3  🇻🇳
-      - 群组 t.me/nekoport
-      - 🇭🇰 香港咖喱三宝 01-IAPL
-      - 🇭🇰 香港咖喱三宝 01-IAPL-IP
-      - 🇭🇰 香港丝袜奶茶 02-IAPL
-      - 🇭🇰 香港丝袜奶茶 02-IAPL-IP
-      - 🇭🇰 香港杨枝甘露 03-IAPL
-      - 🇭🇰 香港杨枝甘露 03-IAPL-IP
-      - 🇭🇰 香港芒果凉粉 04-IAPL
-      - 🇭🇰 香港芒果凉粉 04-IAPL-IP
-      - 🇨🇳 台湾珍珠奶茶 01
-      - 🇷🇺 俄罗斯红菜汤 01
-      - 🇹🇷 土耳其布尔萨 01
-      - 🇺🇸 美国汉堡包 01
-      - 🇺🇸 美国炸薯条 02
-      - 🇺🇸 美国大龙虾 03
-      - 🇺🇸 美国苹果派 04
-      - 🇺🇸 美国洋葱圈 05
-      - 🇺🇸 美国香蕉船 06
-      - 🇺🇸 美国炸土豆 07
-      - 🇺🇸 美国华夫饼 08
-      - 🇸🇬 无法使用记得更新订阅
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 01 月抛
-      - 🇸🇬 新加坡 01
-      - 🇦🇺 澳大利亚
-      - 🇺🇸 美国 01 月抛
-      - 🇯🇵 日本 01
-      - telegram:t.me/bpcloud_chat
+      - 距离下次重置剩余：5 天
+      - 🇨🇳 严禁挖矿回国 发现报警处理
+      - ===--以下为国内区--===
+      - 济南联通 01 | ws
+      - 沈阳联通 01 | ws
+      - 沈阳联通 02 | tcp
+      - 沈阳联通 03 | ipv6
+      - 海南电信 01 | ws
+      - 海南电信 02 | ws
+      - 海南电信 03 | tcp
+      - 海南移动 01 | ws
+      - 🇨🇳 杭州电信 01 | ws | 非80
+      - ===--以下为国际区--===
+      - 🇭🇰 海港专线 01 | ws
+      - 🇭🇰 香港 01 | ws
+      - 🇭🇰 香港 02 | ws
+      - 🇭🇰 香港 03 | tcp
+      - 🇭🇰 香港 ipv6
+      - 🇨🇳 台湾 01 | ws
+      - 🇨🇳 台湾 02 | tcp
+      - 🇸🇬 新加坡 01 | ws
+      - 🇸🇬 新加坡 02 | tcp
+      - 🇯🇵 日本 01 | ws
+      - 🇯🇵 日本 02 | tcp
+      - 🇰🇷 韩国 01 | ws
+      - 🇰🇷 韩国 02 | tcp
+      - 🇺🇸 美国 01 | ws
+      - 🇨🇦 加拿大 01 | ws
+      - 🇫🇷 法国 01 | ws
+      - 🇩🇪 德国 01 | ws
+      - ===--以下为校园网区--===
   - name: 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
+      - 距离下次重置剩余：30 天
+      - 🇭🇰 香港1 | 0.1x
+      - 🇭🇰 香港2 | 0.1x
+      - 🇭🇰 香港3 | 0.1x
+      - 🇭🇰 香港4 | 0.1x
+      - 🇸🇬 新加坡1 | 0.1x
+      - 🇸🇬 新加坡2 | 0.1x
+      - 🇸🇬 使用前请更新订阅获取最新节点信息
+      - "永久地址: 值得买机场.com"
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇭🇰 香港 06
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇰🇷 韩国 首尔
+      - 🇰🇷 韩国 春川
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇸🇬 新加坡 04
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇮🇳 印度 01
+      - 🇮🇳 印度 02
+      - 🇦🇺 澳大利亚 悉尼
+      - 🇦🇺 澳大利亚 墨尔本
+      - 🇦🇪 阿联酋 迪拜
+      - 🇦🇪 阿联酋 阿布扎比
+      - 🇸🇦 沙特 01
+      - 🇸🇦 沙特 02
+      - 🇮🇱 以色列 01
+      - 🇮🇱 以色列 02
+      - 🇿🇦 南非 01
+      - 🇿🇦 南非 02
+      - 🇩🇪 德国 01
+      - 🇩🇪 德国 02
+      - 🇫🇷 法国 01
+      - 🇫🇷 法国 02
+      - 🇬🇧 英国 伦敦
+      - 🇬🇧 英国 加的夫
+      - 🇮🇹 意大利 01
+      - 🇮🇹 意大利 02
+      - 🇪🇸 西班牙 01
+      - 🇪🇸 西班牙 02
+      - 🇨🇭 瑞士 01
+      - 🇨🇭 瑞士 02
+      - 🇳🇱 荷兰 01
+      - 🇳🇱 荷兰 02
+      - 🇸🇪 瑞典 01
+      - 🇸🇪 瑞典 02
+      - 🇹🇷 土耳其 01
+      - 🇹🇷 土耳其 02
+      - 🇷🇺 俄罗斯 01
+      - 🇷🇺 俄罗斯 02
+      - 🇨🇦 加拿大 多伦多
+      - 🇨🇦 加拿大 蒙特利尔
+      - 🇧🇷 巴西 01
+      - 🇧🇷 巴西 02
+      - 🇨🇱 智利 01
+      - 🇨🇱 智利 02
+      - 🇦🇷 阿根廷 01
+      - 🇦🇷 阿根廷 02
+      - 🇸🇬 CA 加拿大「用前更新订阅」
+      - 🇨🇳 CN 台湾「高速流媒体」
+      - 🇫🇷 FR 法国「免费福利」
+      - 🇭🇰 HK 香港「镇站一号」
+      - 🇭🇰 HK 香港「镇站二号」
+      - 🇭🇰 HK 香港「高速流媒体」
+      - 🇭🇰 UK 英国「高速港转」
+      - 🇺🇸 US 美国「独立线路」
+      - 🇺🇸 US 美国「高速流媒体」
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Novosibirsk
+      - 🇦🇹 GetAFreeNode-Vienna
+      - 🇷🇺 GetAFreeNode-Moscow
+      - GetAFreeNode-LosAngeles
+      - 🇻🇳
+      - HÀ NỘI 3  🇻🇳
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -640,15 +883,34 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Novosibirsk
-      - 🇦🇹 GetAFreeNode-Vienna
-      - 🇷🇺 GetAFreeNode-Moscow
-      - GetAFreeNode-LosAngeles
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
+      - 🇸🇬 无法使用记得更新订阅
+      - 🇨🇳 台湾 01 2
+      - 🇭🇰 香港 01 月抛
+      - 🇸🇬 新加坡 01 2
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国 01 月抛
+      - 🇯🇵 日本 01 2
+      - telegram:t.me/bpcloud_chat
+      - 群组 t.me/nekoport
+      - 🇭🇰 香港咖喱三宝 01-IAPL
+      - 🇭🇰 香港咖喱三宝 01-IAPL-IP
+      - 🇭🇰 香港丝袜奶茶 02-IAPL
+      - 🇭🇰 香港丝袜奶茶 02-IAPL-IP
+      - 🇭🇰 香港杨枝甘露 03-IAPL
+      - 🇭🇰 香港杨枝甘露 03-IAPL-IP
+      - 🇭🇰 香港芒果凉粉 04-IAPL
+      - 🇭🇰 香港芒果凉粉 04-IAPL-IP
+      - 🇨🇳 台湾珍珠奶茶 01
+      - 🇷🇺 俄罗斯红菜汤 01
+      - 🇹🇷 土耳其布尔萨 01
+      - 🇺🇸 美国汉堡包 01
+      - 🇺🇸 美国炸薯条 02
+      - 🇺🇸 美国大龙虾 03
+      - 🇺🇸 美国苹果派 04
+      - 🇺🇸 美国洋葱圈 05
+      - 🇺🇸 美国香蕉船 06
+      - 🇺🇸 美国炸土豆 07
+      - 🇺🇸 美国华夫饼 08
       - 🇷🇺 Lil 俄罗斯01 | IEPL | 倍率:1.3
       - 🇨🇦 Lil 加拿大1 | IEPL | 倍率:1.3
       - 🇮🇳 Lil 印度01 | IEPL | 倍率:1.3
@@ -714,84 +976,37 @@ proxy-groups:
       - 🇷🇺 【白嫖】俄罗斯2-直连-1x
       - 🇺🇸 【白嫖】美国rn1-直连-1x
       - 🇺🇸 【白嫖】美国rn2-直连-1x
-      - 🇸🇬 CA 加拿大「用前更新订阅」
-      - 🇨🇳 CN 台湾「高速流媒体」
-      - 🇫🇷 FR 法国「免费福利」
-      - 🇭🇰 HK 香港「镇站一号」
-      - 🇭🇰 HK 香港「镇站二号」
-      - 🇭🇰 HK 香港「高速流媒体」
-      - 🇭🇰 UK 英国「高速港转」
-      - 🇺🇸 US 美国「独立线路」
-      - 🇺🇸 US 美国「高速流媒体」
-      - 距离下次重置剩余：17 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
-      - 🇻🇳
-      - HÀ NỘI 3  🇻🇳
-      - 群组 t.me/nekoport
-      - 🇭🇰 香港咖喱三宝 01-IAPL
-      - 🇭🇰 香港咖喱三宝 01-IAPL-IP
-      - 🇭🇰 香港丝袜奶茶 02-IAPL
-      - 🇭🇰 香港丝袜奶茶 02-IAPL-IP
-      - 🇭🇰 香港杨枝甘露 03-IAPL
-      - 🇭🇰 香港杨枝甘露 03-IAPL-IP
-      - 🇭🇰 香港芒果凉粉 04-IAPL
-      - 🇭🇰 香港芒果凉粉 04-IAPL-IP
-      - 🇨🇳 台湾珍珠奶茶 01
-      - 🇷🇺 俄罗斯红菜汤 01
-      - 🇹🇷 土耳其布尔萨 01
-      - 🇺🇸 美国汉堡包 01
-      - 🇺🇸 美国炸薯条 02
-      - 🇺🇸 美国大龙虾 03
-      - 🇺🇸 美国苹果派 04
-      - 🇺🇸 美国洋葱圈 05
-      - 🇺🇸 美国香蕉船 06
-      - 🇺🇸 美国炸土豆 07
-      - 🇺🇸 美国华夫饼 08
-      - 🇸🇬 无法使用记得更新订阅
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 01 月抛
-      - 🇸🇬 新加坡 01
-      - 🇦🇺 澳大利亚
-      - 🇺🇸 美国 01 月抛
-      - 🇯🇵 日本 01
-      - telegram:t.me/bpcloud_chat
+      - 距离下次重置剩余：5 天
+      - 🇨🇳 严禁挖矿回国 发现报警处理
+      - ===--以下为国内区--===
+      - 济南联通 01 | ws
+      - 沈阳联通 01 | ws
+      - 沈阳联通 02 | tcp
+      - 沈阳联通 03 | ipv6
+      - 海南电信 01 | ws
+      - 海南电信 02 | ws
+      - 海南电信 03 | tcp
+      - 海南移动 01 | ws
+      - 🇨🇳 杭州电信 01 | ws | 非80
+      - ===--以下为国际区--===
+      - 🇭🇰 海港专线 01 | ws
+      - 🇭🇰 香港 01 | ws
+      - 🇭🇰 香港 02 | ws
+      - 🇭🇰 香港 03 | tcp
+      - 🇭🇰 香港 ipv6
+      - 🇨🇳 台湾 01 | ws
+      - 🇨🇳 台湾 02 | tcp
+      - 🇸🇬 新加坡 01 | ws
+      - 🇸🇬 新加坡 02 | tcp
+      - 🇯🇵 日本 01 | ws
+      - 🇯🇵 日本 02 | tcp
+      - 🇰🇷 韩国 01 | ws
+      - 🇰🇷 韩国 02 | tcp
+      - 🇺🇸 美国 01 | ws
+      - 🇨🇦 加拿大 01 | ws
+      - 🇫🇷 法国 01 | ws
+      - 🇩🇪 德国 01 | ws
+      - ===--以下为校园网区--===
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -799,6 +1014,99 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
+      - 距离下次重置剩余：30 天
+      - 🇭🇰 香港1 | 0.1x
+      - 🇭🇰 香港2 | 0.1x
+      - 🇭🇰 香港3 | 0.1x
+      - 🇭🇰 香港4 | 0.1x
+      - 🇸🇬 新加坡1 | 0.1x
+      - 🇸🇬 新加坡2 | 0.1x
+      - 🇸🇬 使用前请更新订阅获取最新节点信息
+      - "永久地址: 值得买机场.com"
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇭🇰 香港 06
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇨🇳 台湾 03
+      - 🇨🇳 台湾 04
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇯🇵 日本 04
+      - 🇰🇷 韩国 首尔
+      - 🇰🇷 韩国 春川
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇸🇬 新加坡 04
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 04
+      - 🇮🇳 印度 01
+      - 🇮🇳 印度 02
+      - 🇦🇺 澳大利亚 悉尼
+      - 🇦🇺 澳大利亚 墨尔本
+      - 🇦🇪 阿联酋 迪拜
+      - 🇦🇪 阿联酋 阿布扎比
+      - 🇸🇦 沙特 01
+      - 🇸🇦 沙特 02
+      - 🇮🇱 以色列 01
+      - 🇮🇱 以色列 02
+      - 🇿🇦 南非 01
+      - 🇿🇦 南非 02
+      - 🇩🇪 德国 01
+      - 🇩🇪 德国 02
+      - 🇫🇷 法国 01
+      - 🇫🇷 法国 02
+      - 🇬🇧 英国 伦敦
+      - 🇬🇧 英国 加的夫
+      - 🇮🇹 意大利 01
+      - 🇮🇹 意大利 02
+      - 🇪🇸 西班牙 01
+      - 🇪🇸 西班牙 02
+      - 🇨🇭 瑞士 01
+      - 🇨🇭 瑞士 02
+      - 🇳🇱 荷兰 01
+      - 🇳🇱 荷兰 02
+      - 🇸🇪 瑞典 01
+      - 🇸🇪 瑞典 02
+      - 🇹🇷 土耳其 01
+      - 🇹🇷 土耳其 02
+      - 🇷🇺 俄罗斯 01
+      - 🇷🇺 俄罗斯 02
+      - 🇨🇦 加拿大 多伦多
+      - 🇨🇦 加拿大 蒙特利尔
+      - 🇧🇷 巴西 01
+      - 🇧🇷 巴西 02
+      - 🇨🇱 智利 01
+      - 🇨🇱 智利 02
+      - 🇦🇷 阿根廷 01
+      - 🇦🇷 阿根廷 02
+      - 🇸🇬 CA 加拿大「用前更新订阅」
+      - 🇨🇳 CN 台湾「高速流媒体」
+      - 🇫🇷 FR 法国「免费福利」
+      - 🇭🇰 HK 香港「镇站一号」
+      - 🇭🇰 HK 香港「镇站二号」
+      - 🇭🇰 HK 香港「高速流媒体」
+      - 🇭🇰 UK 英国「高速港转」
+      - 🇺🇸 US 美国「独立线路」
+      - 🇺🇸 US 美国「高速流媒体」
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Novosibirsk
+      - 🇦🇹 GetAFreeNode-Vienna
+      - 🇷🇺 GetAFreeNode-Moscow
+      - GetAFreeNode-LosAngeles
+      - 🇻🇳
+      - HÀ NỘI 3  🇻🇳
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -859,15 +1167,34 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Novosibirsk
-      - 🇦🇹 GetAFreeNode-Vienna
-      - 🇷🇺 GetAFreeNode-Moscow
-      - GetAFreeNode-LosAngeles
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
+      - 🇸🇬 无法使用记得更新订阅
+      - 🇨🇳 台湾 01 2
+      - 🇭🇰 香港 01 月抛
+      - 🇸🇬 新加坡 01 2
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国 01 月抛
+      - 🇯🇵 日本 01 2
+      - telegram:t.me/bpcloud_chat
+      - 群组 t.me/nekoport
+      - 🇭🇰 香港咖喱三宝 01-IAPL
+      - 🇭🇰 香港咖喱三宝 01-IAPL-IP
+      - 🇭🇰 香港丝袜奶茶 02-IAPL
+      - 🇭🇰 香港丝袜奶茶 02-IAPL-IP
+      - 🇭🇰 香港杨枝甘露 03-IAPL
+      - 🇭🇰 香港杨枝甘露 03-IAPL-IP
+      - 🇭🇰 香港芒果凉粉 04-IAPL
+      - 🇭🇰 香港芒果凉粉 04-IAPL-IP
+      - 🇨🇳 台湾珍珠奶茶 01
+      - 🇷🇺 俄罗斯红菜汤 01
+      - 🇹🇷 土耳其布尔萨 01
+      - 🇺🇸 美国汉堡包 01
+      - 🇺🇸 美国炸薯条 02
+      - 🇺🇸 美国大龙虾 03
+      - 🇺🇸 美国苹果派 04
+      - 🇺🇸 美国洋葱圈 05
+      - 🇺🇸 美国香蕉船 06
+      - 🇺🇸 美国炸土豆 07
+      - 🇺🇸 美国华夫饼 08
       - 🇷🇺 Lil 俄罗斯01 | IEPL | 倍率:1.3
       - 🇨🇦 Lil 加拿大1 | IEPL | 倍率:1.3
       - 🇮🇳 Lil 印度01 | IEPL | 倍率:1.3
@@ -933,83 +1260,36 @@ proxy-groups:
       - 🇷🇺 【白嫖】俄罗斯2-直连-1x
       - 🇺🇸 【白嫖】美国rn1-直连-1x
       - 🇺🇸 【白嫖】美国rn2-直连-1x
-      - 🇸🇬 CA 加拿大「用前更新订阅」
-      - 🇨🇳 CN 台湾「高速流媒体」
-      - 🇫🇷 FR 法国「免费福利」
-      - 🇭🇰 HK 香港「镇站一号」
-      - 🇭🇰 HK 香港「镇站二号」
-      - 🇭🇰 HK 香港「高速流媒体」
-      - 🇭🇰 UK 英国「高速港转」
-      - 🇺🇸 US 美国「独立线路」
-      - 🇺🇸 US 美国「高速流媒体」
-      - 距离下次重置剩余：17 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
-      - 🇻🇳
-      - HÀ NỘI 3  🇻🇳
-      - 群组 t.me/nekoport
-      - 🇭🇰 香港咖喱三宝 01-IAPL
-      - 🇭🇰 香港咖喱三宝 01-IAPL-IP
-      - 🇭🇰 香港丝袜奶茶 02-IAPL
-      - 🇭🇰 香港丝袜奶茶 02-IAPL-IP
-      - 🇭🇰 香港杨枝甘露 03-IAPL
-      - 🇭🇰 香港杨枝甘露 03-IAPL-IP
-      - 🇭🇰 香港芒果凉粉 04-IAPL
-      - 🇭🇰 香港芒果凉粉 04-IAPL-IP
-      - 🇨🇳 台湾珍珠奶茶 01
-      - 🇷🇺 俄罗斯红菜汤 01
-      - 🇹🇷 土耳其布尔萨 01
-      - 🇺🇸 美国汉堡包 01
-      - 🇺🇸 美国炸薯条 02
-      - 🇺🇸 美国大龙虾 03
-      - 🇺🇸 美国苹果派 04
-      - 🇺🇸 美国洋葱圈 05
-      - 🇺🇸 美国香蕉船 06
-      - 🇺🇸 美国炸土豆 07
-      - 🇺🇸 美国华夫饼 08
-      - 🇸🇬 无法使用记得更新订阅
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 01 月抛
-      - 🇸🇬 新加坡 01
-      - 🇦🇺 澳大利亚
-      - 🇺🇸 美国 01 月抛
-      - 🇯🇵 日本 01
-      - telegram:t.me/bpcloud_chat
+      - 距离下次重置剩余：5 天
+      - 🇨🇳 严禁挖矿回国 发现报警处理
+      - ===--以下为国内区--===
+      - 济南联通 01 | ws
+      - 沈阳联通 01 | ws
+      - 沈阳联通 02 | tcp
+      - 沈阳联通 03 | ipv6
+      - 海南电信 01 | ws
+      - 海南电信 02 | ws
+      - 海南电信 03 | tcp
+      - 海南移动 01 | ws
+      - 🇨🇳 杭州电信 01 | ws | 非80
+      - ===--以下为国际区--===
+      - 🇭🇰 海港专线 01 | ws
+      - 🇭🇰 香港 01 | ws
+      - 🇭🇰 香港 02 | ws
+      - 🇭🇰 香港 03 | tcp
+      - 🇭🇰 香港 ipv6
+      - 🇨🇳 台湾 01 | ws
+      - 🇨🇳 台湾 02 | tcp
+      - 🇸🇬 新加坡 01 | ws
+      - 🇸🇬 新加坡 02 | tcp
+      - 🇯🇵 日本 01 | ws
+      - 🇯🇵 日本 02 | tcp
+      - 🇰🇷 韩国 01 | ws
+      - 🇰🇷 韩国 02 | tcp
+      - 🇺🇸 美国 01 | ws
+      - 🇨🇦 加拿大 01 | ws
+      - 🇫🇷 法国 01 | ws
+      - 🇩🇪 德国 01 | ws
+      - ===--以下为校园网区--===
 rules:
  - MATCH,规则选择
