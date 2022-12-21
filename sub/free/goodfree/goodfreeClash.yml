@@ -5,17 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 如无法使用请更新订阅, server: azxg.iacgbt.com, port: 26010, type: trojan, password: 8384cf8b-2b00-3bca-8732-63e4a875434f, sni: a1.iacgbt.com, skip-cert-verify: true, udp: true}
-  - {name: 官方网站：iacgbt.com, server: azxg.iacgbt.com, port: 26010, type: trojan, password: 8384cf8b-2b00-3bca-8732-63e4a875434f, sni: a1.iacgbt.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | 103 | 杭港 | 1x, server: relay-us.bfstec.com, port: 31002, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 香港 | 105 | 海港 | 1x\t", server: relay-hk2.bfstec.com, port: 44275, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | 102 | 海港 | 1.5x, server: relay-hk4.bfstec.com, port: 33556, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 | 103 | 美区解锁 | 1x, server: relay-us.bfstec.com, port: 25119, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 | 101 | 流媒体优化 | 1x, server: relay-us2.bfstec.com, port: 51959, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 | 102 | 流媒体优化 | 1x, server: relay-jp.bfstec.com, port: 27152, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 | 101 | 杭州入口 | 1x, server: relay-sg1.bfstec.com, port: 11211, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇰🇷 韩国  | 101 | 江苏BGP | 1x\t", server: relay-sg.bfstec.com, port: 52791, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 香港 | 106 | 深港IPLC | 1x\t", server: relay-hk3.bfstec.com, port: 32123, type: vmess, uuid: 8384cf8b-2b00-3bca-8732-63e4a875434f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 如无法使用请更新订阅, server: azxg.iacgbt.com, port: 26010, type: trojan, password: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, sni: a1.iacgbt.com, skip-cert-verify: true, udp: true}
+  - {name: 官方网站：iacgbt.com, server: azxg.iacgbt.com, port: 26010, type: trojan, password: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, sni: a1.iacgbt.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | 103 | 杭港 | 1x, server: relay-us.bfstec.com, port: 31002, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 香港 | 105 | 海港 | 1x\t", server: relay-hk2.bfstec.com, port: 44275, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | 102 | 海港 | 1.5x, server: relay-hk4.bfstec.com, port: 33556, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | 103 | 美区解锁 | 1x, server: relay-us.bfstec.com, port: 25119, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | 101 | 流媒体优化 | 1x, server: relay-us2.bfstec.com, port: 51959, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 | 102 | 流媒体优化 | 1x, server: relay-jp.bfstec.com, port: 27152, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 | 101 | 杭州入口 | 1x, server: relay-sg1.bfstec.com, port: 11211, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇰🇷 韩国  | 101 | 江苏BGP | 1x\t", server: relay-sg.bfstec.com, port: 52791, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 香港 | 106 | 深港IPLC | 1x\t", server: relay-hk3.bfstec.com, port: 32123, type: vmess, uuid: 94c2431b-88a9-32cb-8f87-9b88bdb3e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 规则选择
     type: select
