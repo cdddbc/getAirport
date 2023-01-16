@@ -5,10 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN2_Viettel, server: vn2.hello4g.pw, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
-  - {name: VN4_Viettel SSL, server: vn2.hello4g.pw, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 01, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 02, server: yzdx.relay01.fast001.buzz, port: 19222, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 隧道 | NF | 香港 01, server: yzdx.relay01.fast001.buzz, port: 19225, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -146,6 +142,18 @@ proxies:
   - {name: 🇦🇷 专线|阿根廷01原生|x5.0x, server: ppy-moblev2.gatknqh.cn, port: 26122, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇪 专线|阿联酋01原生|x5.0x, server: ppy-moblev2.gatknqh.cn, port: 26078, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇲🇾 专线|马来西亚01原生|x5.0x, server: ppy-moblev2.gatknqh.cn, port: 26137, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-East-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-east.sharecentre.online}}, udp: true}
+  - {name: 🇯🇵 「SCP」JP 蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
+  - {name: 🇸🇬 「SCP」SG-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lvryzenkvm1gb.sharecentre.online}}, udp: true}
+  - {name: 「SCP」LU-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lu.sharecentre.online}}, udp: true}
+  - {name: 🇰🇷 「SCP」KR-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kr.sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-DP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}, udp: true}
   - {name: 距离下次重置剩余：14 天, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 *不能用时请更新订阅, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -189,67 +197,16 @@ proxies:
   - {name: Mei②, server: mei1.htvviru.top, port: 7631, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: mei1.htvviru.top}}, udp: true}
   - {name: Mei③, server: mei3.htvviru.top, port: 3632, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
   - {name: Mei④, server: mei3.htvviru.top, port: 1235, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: mei2.htvviru.top}}, udp: true}
-  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-East-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-east.sharecentre.online}}, udp: true}
-  - {name: 🇯🇵 「SCP」JP 蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
-  - {name: 🇸🇬 「SCP」SG-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lvryzenkvm1gb.sharecentre.online}}, udp: true}
-  - {name: 「SCP」LU-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lu.sharecentre.online}}, udp: true}
-  - {name: 🇰🇷 「SCP」KR-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kr.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}, udp: true}
-  - {name: 距离下次重置剩余：14 天 2, server: 1.1.1.1, port: 65535, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2, server: 1.1.1.1, port: 65535, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 *不能用时请更新订阅 2, server: 1.1.1.1, port: 65535, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "*严禁测速，为了保证所有人的宽带公平 2", server: 1.1.1.1, port: 65535, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: d37xr2wb5cxle7.cloudfront.net}}, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win, port: 80, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win}}, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win, port: 443, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win}}, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000003a.node-for-bigairport.win, port: 80, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win, port: 443, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win, port: 80, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win, port: 443, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000007a.node-for-bigairport.win, port: 80, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000008a.node-for-bigairport.win, port: 443, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 80端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win, port: 80, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 443端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win, port: 443, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 【直连】德国西区 - 随机端口 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win, port: 26901, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 随机端口 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win, port: 10392, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 【直连】英国南区 - 随机端口 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000013a.node-for-bigairport.win, port: 43566, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 【直连】法国北区 - 随机端口 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win, port: 12659, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2, server: 00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win, port: 15092, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000021a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000026a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000027a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000028a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 1 2, server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 2 2, server: 00000000000000000000000000000000000000000000000000000000000030a.node-for-bigairport.win, port: 52356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000031a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 【直连】香港 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000032a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 【直连】东京 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 【直连】狮城 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000036a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 【直连】首尔 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 3 2, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 【直连】美国西区 - 4 2, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN2_Viettel, server: vn2.hello4g.pw, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
+  - {name: VN4_Viettel SSL, server: vn2.hello4g.pw, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -387,6 +344,18 @@ proxy-groups:
       - 🇦🇷 专线|阿根廷01原生|x5.0x
       - 🇦🇪 专线|阿联酋01原生|x5.0x
       - 🇲🇾 专线|马来西亚01原生|x5.0x
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇺🇸 「SCP」US-East-CF
+      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 「SCP」LU-CF
+      - 🇰🇷 「SCP」KR-CF
+      - 🇺🇸 「SCP」US-DP
       - 距离下次重置剩余：14 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -430,66 +399,15 @@ proxy-groups:
       - Mei②
       - Mei③
       - Mei④
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
-      - 🇺🇸 「SCP」US-East-CF
-      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 「SCP」LU-CF
-      - 🇰🇷 「SCP」KR-CF
-      - 🇺🇸 「SCP」US-DP
-      - 距离下次重置剩余：14 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -627,6 +545,18 @@ proxy-groups:
       - 🇦🇷 专线|阿根廷01原生|x5.0x
       - 🇦🇪 专线|阿联酋01原生|x5.0x
       - 🇲🇾 专线|马来西亚01原生|x5.0x
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇺🇸 「SCP」US-East-CF
+      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 「SCP」LU-CF
+      - 🇰🇷 「SCP」KR-CF
+      - 🇺🇸 「SCP」US-DP
       - 距离下次重置剩余：14 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -670,67 +600,16 @@ proxy-groups:
       - Mei②
       - Mei③
       - Mei④
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
-      - 🇺🇸 「SCP」US-East-CF
-      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 「SCP」LU-CF
-      - 🇰🇷 「SCP」KR-CF
-      - 🇺🇸 「SCP」US-DP
-      - 距离下次重置剩余：14 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -868,6 +747,18 @@ proxy-groups:
       - 🇦🇷 专线|阿根廷01原生|x5.0x
       - 🇦🇪 专线|阿联酋01原生|x5.0x
       - 🇲🇾 专线|马来西亚01原生|x5.0x
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇺🇸 「SCP」US-East-CF
+      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 「SCP」LU-CF
+      - 🇰🇷 「SCP」KR-CF
+      - 🇺🇸 「SCP」US-DP
       - 距离下次重置剩余：14 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -911,57 +802,10 @@ proxy-groups:
       - Mei②
       - Mei③
       - Mei④
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
-      - 🇺🇸 「SCP」US-East-CF
-      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 「SCP」LU-CF
-      - 🇰🇷 「SCP」KR-CF
-      - 🇺🇸 「SCP」US-DP
-      - 距离下次重置剩余：14 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -980,10 +824,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -1121,6 +961,18 @@ proxy-groups:
       - 🇦🇷 专线|阿根廷01原生|x5.0x
       - 🇦🇪 专线|阿联酋01原生|x5.0x
       - 🇲🇾 专线|马来西亚01原生|x5.0x
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇺🇸 「SCP」US-East-CF
+      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 「SCP」LU-CF
+      - 🇰🇷 「SCP」KR-CF
+      - 🇺🇸 「SCP」US-DP
       - 距离下次重置剩余：14 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -1164,57 +1016,10 @@ proxy-groups:
       - Mei②
       - Mei③
       - Mei④
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
-      - 🇺🇸 「SCP」US-East-CF
-      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 「SCP」LU-CF
-      - 🇰🇷 「SCP」KR-CF
-      - 🇺🇸 「SCP」US-DP
-      - 距离下次重置剩余：14 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1267,22 +1072,12 @@ proxy-groups:
       - 🇭🇰 【直连】香港 - 2
       - 🇭🇰 【直连】香港 - 3
       - 🇭🇰 【直连】香港 - 4
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -1420,6 +1215,18 @@ proxy-groups:
       - 🇦🇷 专线|阿根廷01原生|x5.0x
       - 🇦🇪 专线|阿联酋01原生|x5.0x
       - 🇲🇾 专线|马来西亚01原生|x5.0x
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇺🇸 「SCP」US-East-CF
+      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 「SCP」LU-CF
+      - 🇰🇷 「SCP」KR-CF
+      - 🇺🇸 「SCP」US-DP
       - 距离下次重置剩余：14 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -1463,66 +1270,15 @@ proxy-groups:
       - Mei②
       - Mei③
       - Mei④
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
-      - 🇺🇸 「SCP」US-East-CF
-      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 「SCP」LU-CF
-      - 🇰🇷 「SCP」KR-CF
-      - 🇺🇸 「SCP」US-DP
-      - 距离下次重置剩余：14 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -1660,6 +1416,18 @@ proxy-groups:
       - 🇦🇷 专线|阿根廷01原生|x5.0x
       - 🇦🇪 专线|阿联酋01原生|x5.0x
       - 🇲🇾 专线|马来西亚01原生|x5.0x
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇺🇸 「SCP」US-East-CF
+      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 「SCP」LU-CF
+      - 🇰🇷 「SCP」KR-CF
+      - 🇺🇸 「SCP」US-DP
       - 距离下次重置剩余：14 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -1703,67 +1471,16 @@ proxy-groups:
       - Mei②
       - Mei③
       - Mei④
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
-      - 🇺🇸 「SCP」US-East-CF
-      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 「SCP」LU-CF
-      - 🇰🇷 「SCP」KR-CF
-      - 🇺🇸 「SCP」US-DP
-      - 距离下次重置剩余：14 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -1901,6 +1618,18 @@ proxy-groups:
       - 🇦🇷 专线|阿根廷01原生|x5.0x
       - 🇦🇪 专线|阿联酋01原生|x5.0x
       - 🇲🇾 专线|马来西亚01原生|x5.0x
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇺🇸 「SCP」US-East-CF
+      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 「SCP」LU-CF
+      - 🇰🇷 「SCP」KR-CF
+      - 🇺🇸 「SCP」US-DP
       - 距离下次重置剩余：14 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -1944,57 +1673,10 @@ proxy-groups:
       - Mei②
       - Mei③
       - Mei④
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
-      - 🇺🇸 「SCP」US-East-CF
-      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 「SCP」LU-CF
-      - 🇰🇷 「SCP」KR-CF
-      - 🇺🇸 「SCP」US-DP
-      - 距离下次重置剩余：14 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2010,10 +1692,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - VN4_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -2151,6 +1829,18 @@ proxy-groups:
       - 🇦🇷 专线|阿根廷01原生|x5.0x
       - 🇦🇪 专线|阿联酋01原生|x5.0x
       - 🇲🇾 专线|马来西亚01原生|x5.0x
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-LosAngeles
+      - 🇺🇸 「SCP」US-East-CF
+      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 「SCP」LU-CF
+      - 🇰🇷 「SCP」KR-CF
+      - 🇺🇸 「SCP」US-DP
       - 距离下次重置剩余：14 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -2194,57 +1884,10 @@ proxy-groups:
       - Mei②
       - Mei③
       - Mei④
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Frankfurt
-      - GetAFreeNode-LosAngeles
-      - 🇺🇸 「SCP」US-East-CF
-      - 🇯🇵 「SCP」JP 蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 「SCP」LU-CF
-      - 🇰🇷 「SCP」KR-CF
-      - 🇺🇸 「SCP」US-DP
-      - 距离下次重置剩余：14 天 2
-      - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group 2
-      - 🇸🇬 *不能用时请更新订阅 2
-      - "*严禁测速，为了保证所有人的宽带公平 2"
-      - 🇭🇰 【直连】香港 - 80端口 - 1 2
-      - 🇭🇰 【直连】香港 - 443端口 - 2 2
-      - 🇯🇵 【直连】东京 - 80端口 - 1 2
-      - 🇯🇵 【直连】东京 - 443端口 - 2 2
-      - 🇸🇬 【直连】狮城 - 80端口 - 1 2
-      - 🇸🇬 【直连】狮城 - 443端口 - 2 2
-      - 🇰🇷 【直连】首尔 - 80端口 - 1 2
-      - 🇰🇷 【直连】首尔 - 443端口 - 2 2
-      - 🇺🇸 【直连】美国西区 - 80端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 443端口 - 2 2
-      - 🇩🇪 【直连】德国西区 - 随机端口 - 1 2
-      - 🇺🇸 【直连】美国西区 - 随机端口 - 2 2
-      - 🇬🇧 【直连】英国南区 - 随机端口 - 3 2
-      - 🇫🇷 【直连】法国北区 - 随机端口 - 4 2
-      - 🇮🇪 【直连】爱尔兰 - 随机端口 - 5 2
-      - 🇭🇰 【直连】香港 - 1 2
-      - 🇭🇰 【直连】香港 - 2 2
-      - 🇯🇵 【直连】东京 - 1 2
-      - 🇯🇵 【直连】东京 - 2 2
-      - 🇸🇬 【直连】狮城 - 1 2
-      - 🇸🇬 【直连】狮城 - 2 2
-      - 🇰🇷 【直连】首尔 - 1 2
-      - 🇰🇷 【直连】首尔 - 2 2
-      - 🇺🇸 【直连】美国西区 - 1 2
-      - 🇺🇸 【直连】美国西区 - 2 2
-      - 🇭🇰 【直连】香港 - 3 2
-      - 🇭🇰 【直连】香港 - 4 2
-      - 🇯🇵 【直连】东京 - 3 2
-      - 🇯🇵 【直连】东京 - 4 2
-      - 🇸🇬 【直连】狮城 - 3 2
-      - 🇸🇬 【直连】狮城 - 4 2
-      - 🇰🇷 【直连】首尔 - 3 2
-      - 🇰🇷 【直连】首尔 - 4 2
-      - 🇺🇸 【直连】美国西区 - 3 2
-      - 🇺🇸 【直连】美国西区 - 4 2
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - VN4_Viettel SSL
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
