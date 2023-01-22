@@ -41,16 +41,16 @@ proxies:
   - {name: 🇰🇷 「SCP」KR-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kr.sharecentre.online}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM2, server: mncc.cf, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: mncc.cf}}, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
   - {name: Mei①, server: shadiao.htvviru.top, port: 1231, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
   - {name: Mei②, server: shadiao.htvviru.top, port: 7631, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: shadiao.htvviru.top}}, udp: true}
   - {name: M1, server: shabi.htvviru.top, port: 3632, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
   - {name: M, server: shabi.htvviru.top, port: 1235, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: shabi.htvviru.top}}, udp: true}
-  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
-  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
   - {name: 🇭🇰 标准|香港01解锁|x1.0x, server: ppy-moble.gatknqh.cn, port: 26010, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 标准|香港02解锁|x1.0x, server: ppy-moble.gatknqh.cn, port: 26011, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 标准|香港03解锁|x1.0x, server: ppy-moble.gatknqh.cn, port: 26012, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -217,16 +217,16 @@ proxy-groups:
       - 🇰🇷 「SCP」KR-CF
       - 🇺🇸 「SCP」US-DP
       - 🇺🇸 「SCP」US-BuyVM2
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - GetAFreeNode-Amsterdam
+      - 🇦🇹 GetAFreeNode-Vienna
       - Mei①
       - Mei②
       - M1
       - M
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
       - 🇭🇰 标准|香港01解锁|x1.0x
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 标准|香港03解锁|x1.0x
@@ -392,16 +392,16 @@ proxy-groups:
       - 🇰🇷 「SCP」KR-CF
       - 🇺🇸 「SCP」US-DP
       - 🇺🇸 「SCP」US-BuyVM2
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - GetAFreeNode-Amsterdam
+      - 🇦🇹 GetAFreeNode-Vienna
       - Mei①
       - Mei②
       - M1
       - M
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
       - 🇭🇰 标准|香港01解锁|x1.0x
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 标准|香港03解锁|x1.0x
@@ -568,16 +568,16 @@ proxy-groups:
       - 🇰🇷 「SCP」KR-CF
       - 🇺🇸 「SCP」US-DP
       - 🇺🇸 「SCP」US-BuyVM2
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - GetAFreeNode-Amsterdam
+      - 🇦🇹 GetAFreeNode-Vienna
       - Mei①
       - Mei②
       - M1
       - M
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
       - 🇭🇰 标准|香港01解锁|x1.0x
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 标准|香港03解锁|x1.0x
@@ -756,16 +756,16 @@ proxy-groups:
       - 🇰🇷 「SCP」KR-CF
       - 🇺🇸 「SCP」US-DP
       - 🇺🇸 「SCP」US-BuyVM2
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - GetAFreeNode-Amsterdam
+      - 🇦🇹 GetAFreeNode-Vienna
       - Mei①
       - Mei②
       - M1
       - M
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
       - 🇭🇰 标准|香港01解锁|x1.0x
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 标准|香港03解锁|x1.0x
@@ -968,16 +968,16 @@ proxy-groups:
       - 🇰🇷 「SCP」KR-CF
       - 🇺🇸 「SCP」US-DP
       - 🇺🇸 「SCP」US-BuyVM2
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - GetAFreeNode-Amsterdam
+      - 🇦🇹 GetAFreeNode-Vienna
       - Mei①
       - Mei②
       - M1
       - M
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
       - 🇭🇰 标准|香港01解锁|x1.0x
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 标准|香港03解锁|x1.0x
@@ -1143,16 +1143,16 @@ proxy-groups:
       - 🇰🇷 「SCP」KR-CF
       - 🇺🇸 「SCP」US-DP
       - 🇺🇸 「SCP」US-BuyVM2
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - GetAFreeNode-Amsterdam
+      - 🇦🇹 GetAFreeNode-Vienna
       - Mei①
       - Mei②
       - M1
       - M
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
       - 🇭🇰 标准|香港01解锁|x1.0x
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 标准|香港03解锁|x1.0x
@@ -1319,16 +1319,16 @@ proxy-groups:
       - 🇰🇷 「SCP」KR-CF
       - 🇺🇸 「SCP」US-DP
       - 🇺🇸 「SCP」US-BuyVM2
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - GetAFreeNode-Amsterdam
+      - 🇦🇹 GetAFreeNode-Vienna
       - Mei①
       - Mei②
       - M1
       - M
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
       - 🇭🇰 标准|香港01解锁|x1.0x
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 标准|香港03解锁|x1.0x
@@ -1504,16 +1504,16 @@ proxy-groups:
       - 🇰🇷 「SCP」KR-CF
       - 🇺🇸 「SCP」US-DP
       - 🇺🇸 「SCP」US-BuyVM2
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Frankfurt
+      - GetAFreeNode-Phoenix
+      - GetAFreeNode-Seattle
+      - GetAFreeNode-Amsterdam
+      - 🇦🇹 GetAFreeNode-Vienna
       - Mei①
       - Mei②
       - M1
       - M
-      - GetAFreeNode-Amsterdam
-      - GetAFreeNode-Phoenix
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-LosAngeles
-      - GetAFreeNode-Frankfurt
-      - 🇦🇹 GetAFreeNode-Vienna
       - 🇭🇰 标准|香港01解锁|x1.0x
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 标准|香港03解锁|x1.0x
