@@ -26,12 +26,6 @@ proxies:
   - {name: 🇩🇪 隧道 | NF | 德国 01, server: yzdx.relay01.fast001.buzz, port: 19246, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 01, server: yzdx.relay01.fast001.buzz, port: 19247, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 02, server: yzdx.relay01.fast001.buzz, port: 19248, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
-  - {name: 🇫🇮 GetAFreeNode-Helsinki, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Helsinki.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
   - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN2_Viettel, server: vn2.hello4g.pw, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
@@ -75,12 +69,6 @@ proxies:
   - {name: 🇰🇷 【直连】首尔 - 4, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 3, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 4, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Ri①, server: 2023.htvviru.top, port: 3241, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
-  - {name: Ri②, server: 2023.htvviru.top, port: 3674, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 2023.htvviru.top}}, udp: true}
-  - {name: Mei①, server: new.htvviru.top, port: 1231, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
-  - {name: Mei②, server: new.htvviru.top, port: 7631, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: new.htvviru.top}}, udp: true}
-  - {name: M1, server: year.htvviru.top, port: 3632, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
-  - {name: M, server: year.htvviru.top, port: 1235, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: shabi.htvviru.top}}, udp: true}
   - {name: 更多节点关注 @ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sharecentre.online}}, udp: true}
   - {name: 🇺🇸 「SCP」US-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-st-1.sharecentre.online}}, udp: true}
   - {name: 🇯🇵 「SCP」JP-蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
@@ -96,6 +84,18 @@ proxies:
   - {name: 🇩🇪 「SCP」DE-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de-2.sharecentre.online}}, udp: true}
   - {name: 🇬🇧 「SCP」UK-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-1.sharecentre.online}}, udp: true}
   - {name: 🇬🇧 「SCP」UK-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-2.sharecentre.online}}, udp: true}
+  - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: 🇫🇮 GetAFreeNode-Helsinki, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Helsinki.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
+  - {name: Ri①, server: 2023.htvviru.top, port: 3241, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
+  - {name: Ri②, server: 2023.htvviru.top, port: 3674, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 2023.htvviru.top}}, udp: true}
+  - {name: Mei①, server: new.htvviru.top, port: 1231, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
+  - {name: Mei②, server: new.htvviru.top, port: 7631, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: new.htvviru.top}}, udp: true}
+  - {name: M1, server: year.htvviru.top, port: 3632, type: ss, cipher: chacha20-ietf-poly1305, password: 3d81e6fb-c7f0-4791-af2e-82c93d149483, udp: true}
+  - {name: M, server: year.htvviru.top, port: 1235, type: vmess, uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: shabi.htvviru.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -123,12 +123,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode-LosAngeles
-      - 🇫🇮 GetAFreeNode-Helsinki
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -172,12 +166,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - Ri①
-      - Ri②
-      - Mei①
-      - Mei②
-      - M1
-      - M
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -193,6 +181,18 @@ proxy-groups:
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
       - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Phoenix
+      - 🇫🇮 GetAFreeNode-Helsinki
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Seattle
+      - Ri①
+      - Ri②
+      - Mei①
+      - Mei②
+      - M1
+      - M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -219,12 +219,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode-LosAngeles
-      - 🇫🇮 GetAFreeNode-Helsinki
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -268,12 +262,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - Ri①
-      - Ri②
-      - Mei①
-      - Mei②
-      - M1
-      - M
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -289,6 +277,18 @@ proxy-groups:
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
       - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Phoenix
+      - 🇫🇮 GetAFreeNode-Helsinki
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Seattle
+      - Ri①
+      - Ri②
+      - Mei①
+      - Mei②
+      - M1
+      - M
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -316,12 +316,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode-LosAngeles
-      - 🇫🇮 GetAFreeNode-Helsinki
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -365,12 +359,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - Ri①
-      - Ri②
-      - Mei①
-      - Mei②
-      - M1
-      - M
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -386,6 +374,18 @@ proxy-groups:
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
       - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Phoenix
+      - 🇫🇮 GetAFreeNode-Helsinki
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Seattle
+      - Ri①
+      - Ri②
+      - Mei①
+      - Mei②
+      - M1
+      - M
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -425,12 +425,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode-LosAngeles
-      - 🇫🇮 GetAFreeNode-Helsinki
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -474,12 +468,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - Ri①
-      - Ri②
-      - Mei①
-      - Mei②
-      - M1
-      - M
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -495,6 +483,18 @@ proxy-groups:
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
       - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Phoenix
+      - 🇫🇮 GetAFreeNode-Helsinki
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Seattle
+      - Ri①
+      - Ri②
+      - Mei①
+      - Mei②
+      - M1
+      - M
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -538,12 +538,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode-LosAngeles
-      - 🇫🇮 GetAFreeNode-Helsinki
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -587,12 +581,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - Ri①
-      - Ri②
-      - Mei①
-      - Mei②
-      - M1
-      - M
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -608,6 +596,18 @@ proxy-groups:
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
       - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Phoenix
+      - 🇫🇮 GetAFreeNode-Helsinki
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Seattle
+      - Ri①
+      - Ri②
+      - Mei①
+      - Mei②
+      - M1
+      - M
   - name: 📲 电报信息
     type: select
     proxies:
@@ -634,12 +634,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode-LosAngeles
-      - 🇫🇮 GetAFreeNode-Helsinki
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -683,12 +677,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - Ri①
-      - Ri②
-      - Mei①
-      - Mei②
-      - M1
-      - M
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -704,6 +692,18 @@ proxy-groups:
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
       - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Phoenix
+      - 🇫🇮 GetAFreeNode-Helsinki
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Seattle
+      - Ri①
+      - Ri②
+      - Mei①
+      - Mei②
+      - M1
+      - M
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -731,12 +731,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode-LosAngeles
-      - 🇫🇮 GetAFreeNode-Helsinki
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -780,12 +774,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - Ri①
-      - Ri②
-      - Mei①
-      - Mei②
-      - M1
-      - M
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -801,6 +789,18 @@ proxy-groups:
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
       - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Phoenix
+      - 🇫🇮 GetAFreeNode-Helsinki
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Seattle
+      - Ri①
+      - Ri②
+      - Mei①
+      - Mei②
+      - M1
+      - M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -837,12 +837,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode-LosAngeles
-      - 🇫🇮 GetAFreeNode-Helsinki
-      - GetAFreeNode-Seattle
-      - GetAFreeNode-Amsterdam
-      - 🇦🇹 GetAFreeNode-Vienna
-      - GetAFreeNode-Phoenix
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -886,12 +880,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - Ri①
-      - Ri②
-      - Mei①
-      - Mei②
-      - M1
-      - M
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -907,6 +895,18 @@ proxy-groups:
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
       - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode-LosAngeles
+      - 🇦🇹 GetAFreeNode-Vienna
+      - GetAFreeNode-Phoenix
+      - 🇫🇮 GetAFreeNode-Helsinki
+      - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Seattle
+      - Ri①
+      - Ri②
+      - Mei①
+      - Mei②
+      - M1
+      - M
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
