@@ -5,13 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇦🇹 GetAFreeNode.com-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
-  - {name: 🇫🇮 GetAFreeNode.com-Helsinki, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Helsinki.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Social-Media, server: 176.97.71.84, port: 38406, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 01, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 02, server: yzdx.relay01.fast001.buzz, port: 19222, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 隧道 | NF | 香港 01, server: yzdx.relay01.fast001.buzz, port: 19225, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -37,21 +30,13 @@ proxies:
   - {name: VN2_Viettel, server: vn2.hello4g.pw, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
   - {name: VN4_Viettel SSL, server: vn2.hello4g.pw, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
-  - {name: 更多节点关注 @ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-st-1.sharecentre.online}}, udp: true}
-  - {name: 🇯🇵 「SCP」JP-蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
-  - {name: 🇸🇬 「SCP」SG-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: buyvm-lv.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp2.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-st-2.sharecentre.online}}, udp: true}
-  - {name: 🇭🇰 「SCP」HK-CF-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-gcore.sharecentre.online}}, udp: true}
-  - {name: 「SCP」LU-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lu.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM2, server: mncc.cf, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: mncc.cf}}, udp: true}
-  - {name: 🇩🇪 「SCP」DE-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de-1.sharecentre.online}}, udp: true}
-  - {name: 🇩🇪 「SCP」DE-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de-2.sharecentre.online}}, udp: true}
-  - {name: 🇬🇧 「SCP」UK-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-1.sharecentre.online}}, udp: true}
-  - {name: 🇬🇧 「SCP」UK-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-2.sharecentre.online}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: 🇫🇮 GetAFreeNode.com-Helsinki, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Helsinki.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode.com-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Social-Media, server: 176.97.71.84, port: 38406, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
   - {name: 距离下次重置剩余：4 天, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 *不能用时请更新订阅, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -91,19 +76,27 @@ proxies:
   - {name: 🇰🇷 【直连】首尔 - 4, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 3, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 4, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 更多节点关注 @ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-st-1.sharecentre.online}}, udp: true}
+  - {name: 🇯🇵 「SCP」JP-蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
+  - {name: 🇸🇬 「SCP」SG-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: buyvm-lv.sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp2.sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-st-2.sharecentre.online}}, udp: true}
+  - {name: 🇭🇰 「SCP」HK-CF-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-gcore.sharecentre.online}}, udp: true}
+  - {name: 「SCP」LU-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lu.sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-DP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM2, server: mncc.cf, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: mncc.cf}}, udp: true}
+  - {name: 🇩🇪 「SCP」DE-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de-1.sharecentre.online}}, udp: true}
+  - {name: 🇩🇪 「SCP」DE-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de-2.sharecentre.online}}, udp: true}
+  - {name: 🇬🇧 「SCP」UK-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-1.sharecentre.online}}, udp: true}
+  - {name: 🇬🇧 「SCP」UK-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-2.sharecentre.online}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -129,21 +122,13 @@ proxy-groups:
       - VN2_Viettel
       - VN3_Viettel SSL
       - VN4_Viettel SSL
-      - 更多节点关注 @ShareCentrePro
-      - 🇺🇸 「SCP」US-CF1
-      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-CF2
-      - 🇭🇰 「SCP」HK-CF-Gcore
-      - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM2
-      - 🇩🇪 「SCP」DE-CF1
-      - 🇩🇪 「SCP」DE-CF2
-      - 🇬🇧 「SCP」UK-CF1
-      - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Phoenix
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Seattle
       - 距离下次重置剩余：4 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -183,18 +168,26 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 更多节点关注 @ShareCentrePro
+      - 🇺🇸 「SCP」US-CF1
+      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP2
+      - 🇺🇸 「SCP」US-CF2
+      - 🇭🇰 「SCP」HK-CF-Gcore
+      - 「SCP」LU-CF
+      - 🇺🇸 「SCP」US-DP
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇩🇪 「SCP」DE-CF1
+      - 🇩🇪 「SCP」DE-CF2
+      - 🇬🇧 「SCP」UK-CF1
+      - 🇬🇧 「SCP」UK-CF2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -220,21 +213,13 @@ proxy-groups:
       - VN2_Viettel
       - VN3_Viettel SSL
       - VN4_Viettel SSL
-      - 更多节点关注 @ShareCentrePro
-      - 🇺🇸 「SCP」US-CF1
-      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-CF2
-      - 🇭🇰 「SCP」HK-CF-Gcore
-      - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM2
-      - 🇩🇪 「SCP」DE-CF1
-      - 🇩🇪 「SCP」DE-CF2
-      - 🇬🇧 「SCP」UK-CF1
-      - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Phoenix
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Seattle
       - 距离下次重置剩余：4 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -274,19 +259,27 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 更多节点关注 @ShareCentrePro
+      - 🇺🇸 「SCP」US-CF1
+      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP2
+      - 🇺🇸 「SCP」US-CF2
+      - 🇭🇰 「SCP」HK-CF-Gcore
+      - 「SCP」LU-CF
+      - 🇺🇸 「SCP」US-DP
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇩🇪 「SCP」DE-CF1
+      - 🇩🇪 「SCP」DE-CF2
+      - 🇬🇧 「SCP」UK-CF1
+      - 🇬🇧 「SCP」UK-CF2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -312,21 +305,13 @@ proxy-groups:
       - VN2_Viettel
       - VN3_Viettel SSL
       - VN4_Viettel SSL
-      - 更多节点关注 @ShareCentrePro
-      - 🇺🇸 「SCP」US-CF1
-      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-CF2
-      - 🇭🇰 「SCP」HK-CF-Gcore
-      - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM2
-      - 🇩🇪 「SCP」DE-CF1
-      - 🇩🇪 「SCP」DE-CF2
-      - 🇬🇧 「SCP」UK-CF1
-      - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Phoenix
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Seattle
       - 距离下次重置剩余：4 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -366,6 +351,21 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 更多节点关注 @ShareCentrePro
+      - 🇺🇸 「SCP」US-CF1
+      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP2
+      - 🇺🇸 「SCP」US-CF2
+      - 🇭🇰 「SCP」HK-CF-Gcore
+      - 「SCP」LU-CF
+      - 🇺🇸 「SCP」US-DP
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇩🇪 「SCP」DE-CF1
+      - 🇩🇪 「SCP」DE-CF2
+      - 🇬🇧 「SCP」UK-CF1
+      - 🇬🇧 「SCP」UK-CF2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -384,13 +384,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -416,21 +409,13 @@ proxy-groups:
       - VN2_Viettel
       - VN3_Viettel SSL
       - VN4_Viettel SSL
-      - 更多节点关注 @ShareCentrePro
-      - 🇺🇸 「SCP」US-CF1
-      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-CF2
-      - 🇭🇰 「SCP」HK-CF-Gcore
-      - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM2
-      - 🇩🇪 「SCP」DE-CF1
-      - 🇩🇪 「SCP」DE-CF2
-      - 🇬🇧 「SCP」UK-CF1
-      - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Phoenix
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Seattle
       - 距离下次重置剩余：4 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -470,6 +455,21 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 更多节点关注 @ShareCentrePro
+      - 🇺🇸 「SCP」US-CF1
+      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP2
+      - 🇺🇸 「SCP」US-CF2
+      - 🇭🇰 「SCP」HK-CF-Gcore
+      - 「SCP」LU-CF
+      - 🇺🇸 「SCP」US-DP
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇩🇪 「SCP」DE-CF1
+      - 🇩🇪 「SCP」DE-CF2
+      - 🇬🇧 「SCP」UK-CF1
+      - 🇬🇧 「SCP」UK-CF2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -492,13 +492,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -524,21 +517,13 @@ proxy-groups:
       - VN2_Viettel
       - VN3_Viettel SSL
       - VN4_Viettel SSL
-      - 更多节点关注 @ShareCentrePro
-      - 🇺🇸 「SCP」US-CF1
-      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-CF2
-      - 🇭🇰 「SCP」HK-CF-Gcore
-      - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM2
-      - 🇩🇪 「SCP」DE-CF1
-      - 🇩🇪 「SCP」DE-CF2
-      - 🇬🇧 「SCP」UK-CF1
-      - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Phoenix
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Seattle
       - 距离下次重置剩余：4 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -578,18 +563,26 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 更多节点关注 @ShareCentrePro
+      - 🇺🇸 「SCP」US-CF1
+      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP2
+      - 🇺🇸 「SCP」US-CF2
+      - 🇭🇰 「SCP」HK-CF-Gcore
+      - 「SCP」LU-CF
+      - 🇺🇸 「SCP」US-DP
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇩🇪 「SCP」DE-CF1
+      - 🇩🇪 「SCP」DE-CF2
+      - 🇬🇧 「SCP」UK-CF1
+      - 🇬🇧 「SCP」UK-CF2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -615,21 +608,13 @@ proxy-groups:
       - VN2_Viettel
       - VN3_Viettel SSL
       - VN4_Viettel SSL
-      - 更多节点关注 @ShareCentrePro
-      - 🇺🇸 「SCP」US-CF1
-      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-CF2
-      - 🇭🇰 「SCP」HK-CF-Gcore
-      - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM2
-      - 🇩🇪 「SCP」DE-CF1
-      - 🇩🇪 「SCP」DE-CF2
-      - 🇬🇧 「SCP」UK-CF1
-      - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Phoenix
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Seattle
       - 距离下次重置剩余：4 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -669,19 +654,27 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 更多节点关注 @ShareCentrePro
+      - 🇺🇸 「SCP」US-CF1
+      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP2
+      - 🇺🇸 「SCP」US-CF2
+      - 🇭🇰 「SCP」HK-CF-Gcore
+      - 「SCP」LU-CF
+      - 🇺🇸 「SCP」US-DP
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇩🇪 「SCP」DE-CF1
+      - 🇩🇪 「SCP」DE-CF2
+      - 🇬🇧 「SCP」UK-CF1
+      - 🇬🇧 「SCP」UK-CF2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -707,21 +700,13 @@ proxy-groups:
       - VN2_Viettel
       - VN3_Viettel SSL
       - VN4_Viettel SSL
-      - 更多节点关注 @ShareCentrePro
-      - 🇺🇸 「SCP」US-CF1
-      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-CF2
-      - 🇭🇰 「SCP」HK-CF-Gcore
-      - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM2
-      - 🇩🇪 「SCP」DE-CF1
-      - 🇩🇪 「SCP」DE-CF2
-      - 🇬🇧 「SCP」UK-CF1
-      - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Phoenix
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Seattle
       - 距离下次重置剩余：4 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -761,6 +746,21 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 更多节点关注 @ShareCentrePro
+      - 🇺🇸 「SCP」US-CF1
+      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP2
+      - 🇺🇸 「SCP」US-CF2
+      - 🇭🇰 「SCP」HK-CF-Gcore
+      - 「SCP」LU-CF
+      - 🇺🇸 「SCP」US-DP
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇩🇪 「SCP」DE-CF1
+      - 🇩🇪 「SCP」DE-CF2
+      - 🇬🇧 「SCP」UK-CF1
+      - 🇬🇧 「SCP」UK-CF2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -776,13 +776,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -808,21 +801,13 @@ proxy-groups:
       - VN2_Viettel
       - VN3_Viettel SSL
       - VN4_Viettel SSL
-      - 更多节点关注 @ShareCentrePro
-      - 🇺🇸 「SCP」US-CF1
-      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
-      - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM
-      - 🇺🇸 「SCP」US-DP2
-      - 🇺🇸 「SCP」US-CF2
-      - 🇭🇰 「SCP」HK-CF-Gcore
-      - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM2
-      - 🇩🇪 「SCP」DE-CF1
-      - 🇩🇪 「SCP」DE-CF2
-      - 🇬🇧 「SCP」UK-CF1
-      - 🇬🇧 「SCP」UK-CF2
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Phoenix
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Seattle
       - 距离下次重置剩余：4 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -862,6 +847,21 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - 更多节点关注 @ShareCentrePro
+      - 🇺🇸 「SCP」US-CF1
+      - 🇯🇵 「SCP」JP-蛋糕并不是谎言
+      - 🇸🇬 「SCP」SG-Gcore
+      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP2
+      - 🇺🇸 「SCP」US-CF2
+      - 🇭🇰 「SCP」HK-CF-Gcore
+      - 「SCP」LU-CF
+      - 🇺🇸 「SCP」US-DP
+      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇩🇪 「SCP」DE-CF1
+      - 🇩🇪 「SCP」DE-CF2
+      - 🇬🇧 「SCP」UK-CF1
+      - 🇬🇧 「SCP」UK-CF2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
