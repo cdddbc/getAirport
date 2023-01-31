@@ -84,13 +84,13 @@ proxies:
   - {name: 🇬🇧 「SCP」UK-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-2.sharecentre.online}}, udp: true}
   - {name: 🇸🇬 「SCP」SG-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-1.sharecentre.online}}, udp: true}
   - {name: 🇰🇷 「SCP」KR-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kr.sharecentre.online}}, udp: true}
-  - {name: GetAFreeNode.com-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
   - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
   - {name: 🇦🇹 GetAFreeNode.com-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
   - {name: 🇫🇮 GetAFreeNode.com-Helsinki, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Helsinki.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -176,13 +176,13 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF2
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
       - 🇦🇹 GetAFreeNode.com-Vienna
       - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Phoenix
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -267,13 +267,13 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF2
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
       - 🇦🇹 GetAFreeNode.com-Vienna
       - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Phoenix
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -359,13 +359,13 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF2
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
       - 🇦🇹 GetAFreeNode.com-Vienna
       - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Phoenix
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -463,13 +463,13 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF2
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
       - 🇦🇹 GetAFreeNode.com-Vienna
       - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Phoenix
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -571,13 +571,13 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF2
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
       - 🇦🇹 GetAFreeNode.com-Vienna
       - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Phoenix
   - name: 📲 电报信息
     type: select
     proxies:
@@ -662,13 +662,13 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF2
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
       - 🇦🇹 GetAFreeNode.com-Vienna
       - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Phoenix
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -754,13 +754,13 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF2
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
       - 🇦🇹 GetAFreeNode.com-Vienna
       - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Phoenix
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -855,13 +855,13 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF2
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
       - 🇦🇹 GetAFreeNode.com-Vienna
       - 🇫🇮 GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Phoenix
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
