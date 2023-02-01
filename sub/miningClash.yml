@@ -5,6 +5,30 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN2_Viettel, server: 128.199.247.101, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
+  - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
+  - {name: 🇫🇮 GetAFreeNode.com-Helsinki, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Helsinki.v2ray.online}}, udp: true}
+  - {name: 🇦🇹 GetAFreeNode.com-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: 距离下次重置剩余：27 天, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 注册直接使用 无需购买, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 用完工单重置, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 电报群@helium_network_group, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-HK01, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-HK02, server: edge-china.themars.top, port: 41101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-JP01, server: edge02.themars.top, port: 31102, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-JP02, server: edge02.themars.top, port: 31103, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-US01, server: edge02.themars.top, port: 31104, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-US02, server: edge02.themars.top, port: 31105, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-SG01, server: edge02.themars.top, port: 31106, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-SG02, server: edge02.themars.top, port: 31107, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-TW01, server: edge02.themars.top, port: 31108, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-TW02, server: edge02.themars.top, port: 31109, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 01, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 02, server: yzdx.relay01.fast001.buzz, port: 19222, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 隧道 | NF | 香港 01, server: yzdx.relay01.fast001.buzz, port: 19225, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -26,52 +50,6 @@ proxies:
   - {name: 🇩🇪 隧道 | NF | 德国 01, server: yzdx.relay01.fast001.buzz, port: 19246, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 01, server: yzdx.relay01.fast001.buzz, port: 19247, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 02, server: yzdx.relay01.fast001.buzz, port: 19248, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN2_Viettel, server: 128.199.247.101, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
-  - {name: 🇫🇮 GetAFreeNode.com-Helsinki, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Helsinki.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: 🇦🇹 GetAFreeNode.com-Vienna, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Vienna.v2ray.online}}, udp: true}
-  - {name: 距离下次重置剩余：27 天, server: aog-ctel.iberyl.cyou, port: 10300, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2", server: aog-ctel.iberyl.cyou, port: 10300, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2", server: can-cmcc.iberyl.cyou, port: 10301, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA", server: aog-ctel.iberyl.cyou, port: 10303, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA", server: can-cmcc.iberyl.cyou, port: 10304, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND", server: aog-ctel.iberyl.cyou, port: 10321, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT", server: aog-ctel.iberyl.cyou, port: 10309, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·广日隧道·x1] 日本04-APT", server: can-cmcc.iberyl.cyou, port: 10310, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK", server: aog-ctel.iberyl.cyou, port: 10321, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK", server: can-cmcc.iberyl.cyou, port: 10322, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [Lv1·上海电信x1] 日本05-OSK", server: gzct.xn--dlq110j6ul.cc, port: 30591, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC", server: can-cmcc.iberyl.cyou, port: 10501, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Lv1·上海电信·x2] 香港01-HGC", server: gzct.xn--dlq110j6ul.cc, port: 27298, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC", server: xmct.xn--dlq110j6ul.cc, port: 42074, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC", server: whcm.xn--dlq110j6ul.cc, port: 49330, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Lv1·广州移动·x2] 香港01-HGC", server: gzcm.xn--dlq110j6ul.cc, port: 13366, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL", server: can-cmcc.iberyl.cyou, port: 10504, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL", server: aog-ctel.iberyl.cyou, port: 10314, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA", server: can-cmcc.iberyl.cyou, port: 10900, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA", server: aog-ctel.iberyl.cyou, port: 10315, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA", server: gzcm.xn--dlq110j6ul.cc, port: 52613, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA", server: whcm.xn--dlq110j6ul.cc, port: 35490, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA", server: gzct.xn--dlq110j6ul.cc, port: 32808, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1", server: aog-ctel.iberyl.cyou, port: 10316, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1", server: can-cmcc.iberyl.cyou, port: 10318, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2", server: aog-ctel.iberyl.cyou, port: 10317, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2", server: can-cmcc.iberyl.cyou, port: 10319, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL", server: can-cmcc.iberyl.cyou, port: 11100, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL", server: gzct.xn--dlq110j6ul.cc, port: 47798, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG", server: can-cmcc.iberyl.cyou, port: 10901, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG", server: can-cmcc.iberyl.cyou, port: 10902, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG", server: gzcm.xn--dlq110j6ul.cc, port: 20799, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA", server: can-cmcc.iberyl.cyou, port: 10903, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇬🇧 [Lv1·广州移动·x1] 英国01-UOA", server: gzcm.xn--dlq110j6ul.cc, port: 30832, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA", server: can-cmcc.iberyl.cyou, port: 10904, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
-  - {name: "🇩🇪 [Lv1·广州移动·x1] 德国01-DOA", server: gzcm.xn--dlq110j6ul.cc, port: 36004, type: trojan, password: bea543ff-6fd9-4e88-9916-1990c7b993b9, sni: iberyl.cyou, skip-cert-verify: true, udp: true}
   - {name: 更多节点关注 @ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sharecentre.online}}, udp: true}
   - {name: 🇺🇸 「SCP」US-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-st-1.sharecentre.online}}, udp: true}
   - {name: 🇯🇵 「SCP」JP-蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
@@ -129,26 +107,36 @@ proxies:
   - {name: 🇰🇷 【直连】首尔 - 4, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 3, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 4, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 距离下次重置剩余：27 天 3, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 注册直接使用 无需购买, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 用完工单重置, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 电报群@helium_network_group, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-HK01, server: edge02.themars.top, port: 31101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-HK02, server: edge-china.themars.top, port: 41101, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-JP01, server: edge02.themars.top, port: 31102, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-JP02, server: edge02.themars.top, port: 31103, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-US01, server: edge02.themars.top, port: 31104, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-US02, server: edge02.themars.top, port: 31105, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-SG01, server: edge02.themars.top, port: 31106, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-SG02, server: edge02.themars.top, port: 31107, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-TW01, server: edge02.themars.top, port: 31108, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-TW02, server: edge02.themars.top, port: 31109, type: trojan, password: be28dfd8-211a-4475-a078-813d30e22ad1, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - 距离下次重置剩余：27 天
+      - 注册直接使用 无需购买
+      - 用完工单重置
+      - 电报群@helium_network_group
+      - 免费节点-HK01
+      - 免费节点-HK02
+      - 免费节点-JP01
+      - 免费节点-JP02
+      - 免费节点-US01
+      - 免费节点-US02
+      - 免费节点-SG01
+      - 免费节点-SG02
+      - 免费节点-TW01
+      - 免费节点-TW02
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -170,52 +158,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Phoenix
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 距离下次重置剩余：27 天
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND
-      - 🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本04-APT
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·上海电信x1] 日本05-OSK
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2
-      - 🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL
-      - 🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL
-      - 🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG
-      - 🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA
-      - 🇬🇧 [Lv1·广州移动·x1] 英国01-UOA
-      - 🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA
-      - 🇩🇪 [Lv1·广州移动·x1] 德国01-DOA
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -273,25 +215,35 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - 距离下次重置剩余：27 天 3
-      - 注册直接使用 无需购买
-      - 用完工单重置
-      - 电报群@helium_network_group
-      - 免费节点-HK01
-      - 免费节点-HK02
-      - 免费节点-JP01
-      - 免费节点-JP02
-      - 免费节点-US01
-      - 免费节点-US02
-      - 免费节点-SG01
-      - 免费节点-SG02
-      - 免费节点-TW01
-      - 免费节点-TW02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - 距离下次重置剩余：27 天
+      - 注册直接使用 无需购买
+      - 用完工单重置
+      - 电报群@helium_network_group
+      - 免费节点-HK01
+      - 免费节点-HK02
+      - 免费节点-JP01
+      - 免费节点-JP02
+      - 免费节点-US01
+      - 免费节点-US02
+      - 免费节点-SG01
+      - 免费节点-SG02
+      - 免费节点-TW01
+      - 免费节点-TW02
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -313,52 +265,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Phoenix
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 距离下次重置剩余：27 天
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND
-      - 🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本04-APT
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·上海电信x1] 日本05-OSK
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2
-      - 🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL
-      - 🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL
-      - 🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG
-      - 🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA
-      - 🇬🇧 [Lv1·广州移动·x1] 英国01-UOA
-      - 🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA
-      - 🇩🇪 [Lv1·广州移动·x1] 德国01-DOA
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -416,26 +322,36 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - 距离下次重置剩余：27 天 3
-      - 注册直接使用 无需购买
-      - 用完工单重置
-      - 电报群@helium_network_group
-      - 免费节点-HK01
-      - 免费节点-HK02
-      - 免费节点-JP01
-      - 免费节点-JP02
-      - 免费节点-US01
-      - 免费节点-US02
-      - 免费节点-SG01
-      - 免费节点-SG02
-      - 免费节点-TW01
-      - 免费节点-TW02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - 距离下次重置剩余：27 天
+      - 注册直接使用 无需购买
+      - 用完工单重置
+      - 电报群@helium_network_group
+      - 免费节点-HK01
+      - 免费节点-HK02
+      - 免费节点-JP01
+      - 免费节点-JP02
+      - 免费节点-US01
+      - 免费节点-US02
+      - 免费节点-SG01
+      - 免费节点-SG02
+      - 免费节点-TW01
+      - 免费节点-TW02
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -457,52 +373,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Phoenix
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 距离下次重置剩余：27 天
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND
-      - 🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本04-APT
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·上海电信x1] 日本05-OSK
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2
-      - 🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL
-      - 🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL
-      - 🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG
-      - 🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA
-      - 🇬🇧 [Lv1·广州移动·x1] 英国01-UOA
-      - 🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA
-      - 🇩🇪 [Lv1·广州移动·x1] 德国01-DOA
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -560,20 +430,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - 距离下次重置剩余：27 天 3
-      - 注册直接使用 无需购买
-      - 用完工单重置
-      - 电报群@helium_network_group
-      - 免费节点-HK01
-      - 免费节点-HK02
-      - 免费节点-JP01
-      - 免费节点-JP02
-      - 免费节点-US01
-      - 免费节点-US02
-      - 免费节点-SG01
-      - 免费节点-SG02
-      - 免费节点-TW01
-      - 免费节点-TW02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -592,6 +448,30 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - 距离下次重置剩余：27 天
+      - 注册直接使用 无需购买
+      - 用完工单重置
+      - 电报群@helium_network_group
+      - 免费节点-HK01
+      - 免费节点-HK02
+      - 免费节点-JP01
+      - 免费节点-JP02
+      - 免费节点-US01
+      - 免费节点-US02
+      - 免费节点-SG01
+      - 免费节点-SG02
+      - 免费节点-TW01
+      - 免费节点-TW02
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -613,52 +493,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Phoenix
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 距离下次重置剩余：27 天
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND
-      - 🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本04-APT
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·上海电信x1] 日本05-OSK
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2
-      - 🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL
-      - 🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL
-      - 🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG
-      - 🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA
-      - 🇬🇧 [Lv1·广州移动·x1] 英国01-UOA
-      - 🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA
-      - 🇩🇪 [Lv1·广州移动·x1] 德国01-DOA
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -716,49 +550,53 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - 距离下次重置剩余：27 天 3
-      - 注册直接使用 无需购买
-      - 用完工单重置
-      - 电报群@helium_network_group
-      - 免费节点-HK01
-      - 免费节点-HK02
-      - 免费节点-JP01
-      - 免费节点-JP02
-      - 免费节点-US01
-      - 免费节点-US02
-      - 免费节点-SG01
-      - 免费节点-SG02
-      - 免费节点-TW01
-      - 免费节点-TW02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 电报群@helium_network_group
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
       - 🇭🇰 隧道 | NF | 香港 02
       - 🇭🇰 隧道 | NF | 香港 03
       - 🇭🇰 隧道 | NF | 香港 04
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
       - 🇭🇰 【直连】香港 - 1
       - 🇭🇰 【直连】香港 - 2
       - 🇭🇰 【直连】香港 - 3
       - 🇭🇰 【直连】香港 - 4
-      - 电报群@helium_network_group
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - 距离下次重置剩余：27 天
+      - 注册直接使用 无需购买
+      - 用完工单重置
+      - 电报群@helium_network_group
+      - 免费节点-HK01
+      - 免费节点-HK02
+      - 免费节点-JP01
+      - 免费节点-JP02
+      - 免费节点-US01
+      - 免费节点-US02
+      - 免费节点-SG01
+      - 免费节点-SG02
+      - 免费节点-TW01
+      - 免费节点-TW02
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -780,52 +618,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Phoenix
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 距离下次重置剩余：27 天
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND
-      - 🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本04-APT
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·上海电信x1] 日本05-OSK
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2
-      - 🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL
-      - 🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL
-      - 🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG
-      - 🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA
-      - 🇬🇧 [Lv1·广州移动·x1] 英国01-UOA
-      - 🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA
-      - 🇩🇪 [Lv1·广州移动·x1] 德国01-DOA
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -883,25 +675,35 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - 距离下次重置剩余：27 天 3
-      - 注册直接使用 无需购买
-      - 用完工单重置
-      - 电报群@helium_network_group
-      - 免费节点-HK01
-      - 免费节点-HK02
-      - 免费节点-JP01
-      - 免费节点-JP02
-      - 免费节点-US01
-      - 免费节点-US02
-      - 免费节点-SG01
-      - 免费节点-SG02
-      - 免费节点-TW01
-      - 免费节点-TW02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - 距离下次重置剩余：27 天
+      - 注册直接使用 无需购买
+      - 用完工单重置
+      - 电报群@helium_network_group
+      - 免费节点-HK01
+      - 免费节点-HK02
+      - 免费节点-JP01
+      - 免费节点-JP02
+      - 免费节点-US01
+      - 免费节点-US02
+      - 免费节点-SG01
+      - 免费节点-SG02
+      - 免费节点-TW01
+      - 免费节点-TW02
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -923,52 +725,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Phoenix
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 距离下次重置剩余：27 天
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND
-      - 🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本04-APT
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·上海电信x1] 日本05-OSK
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2
-      - 🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL
-      - 🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL
-      - 🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG
-      - 🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA
-      - 🇬🇧 [Lv1·广州移动·x1] 英国01-UOA
-      - 🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA
-      - 🇩🇪 [Lv1·广州移动·x1] 德国01-DOA
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -1026,26 +782,36 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - 距离下次重置剩余：27 天 3
-      - 注册直接使用 无需购买
-      - 用完工单重置
-      - 电报群@helium_network_group
-      - 免费节点-HK01
-      - 免费节点-HK02
-      - 免费节点-JP01
-      - 免费节点-JP02
-      - 免费节点-US01
-      - 免费节点-US02
-      - 免费节点-SG01
-      - 免费节点-SG02
-      - 免费节点-TW01
-      - 免费节点-TW02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - 距离下次重置剩余：27 天
+      - 注册直接使用 无需购买
+      - 用完工单重置
+      - 电报群@helium_network_group
+      - 免费节点-HK01
+      - 免费节点-HK02
+      - 免费节点-JP01
+      - 免费节点-JP02
+      - 免费节点-US01
+      - 免费节点-US02
+      - 免费节点-SG01
+      - 免费节点-SG02
+      - 免费节点-TW01
+      - 免费节点-TW02
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -1067,52 +833,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Phoenix
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 距离下次重置剩余：27 天
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND
-      - 🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本04-APT
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·上海电信x1] 日本05-OSK
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2
-      - 🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL
-      - 🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL
-      - 🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG
-      - 🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA
-      - 🇬🇧 [Lv1·广州移动·x1] 英国01-UOA
-      - 🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA
-      - 🇩🇪 [Lv1·广州移动·x1] 德国01-DOA
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -1170,20 +890,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - 距离下次重置剩余：27 天 3
-      - 注册直接使用 无需购买
-      - 用完工单重置
-      - 电报群@helium_network_group
-      - 免费节点-HK01
-      - 免费节点-HK02
-      - 免费节点-JP01
-      - 免费节点-JP02
-      - 免费节点-US01
-      - 免费节点-US02
-      - 免费节点-SG01
-      - 免费节点-SG02
-      - 免费节点-TW01
-      - 免费节点-TW02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1199,6 +905,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-LosAngeles
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇮 GetAFreeNode.com-Helsinki
+      - 🇦🇹 GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - 距离下次重置剩余：27 天
+      - 注册直接使用 无需购买
+      - 用完工单重置
+      - 电报群@helium_network_group
+      - 免费节点-HK01
+      - 免费节点-HK02
+      - 免费节点-JP01
+      - 免费节点-JP02
+      - 免费节点-US01
+      - 免费节点-US02
+      - 免费节点-SG01
+      - 免费节点-SG02
+      - 免费节点-TW01
+      - 免费节点-TW02
       - 🇨🇳 隧道 | NF | 台湾 01
       - 🇨🇳 隧道 | NF | 台湾 02
       - 🇭🇰 隧道 | NF | 香港 01
@@ -1220,52 +950,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Social-Media
-      - 🇫🇮 GetAFreeNode.com-Helsinki
-      - GetAFreeNode.com-Phoenix
-      - 🇦🇹 GetAFreeNode.com-Vienna
-      - 距离下次重置剩余：27 天
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本01-EJA2
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本02-EJA
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本03-HND
-      - 🇯🇵 [Lv2·辽宁CN2·x1] 日本04-APT
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本04-APT
-      - 🇯🇵 [Lv1·辽宁CN2·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·广日隧道·x1] 日本05-OSK
-      - 🇯🇵 [Lv1·上海电信x1] 日本05-OSK
-      - 🇭🇰 [Lv1·广港隧道·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·上海电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·南昌电信·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·扬州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广州移动·x2] 香港01-HGC
-      - 🇭🇰 [Lv1·广港隧道·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·辽宁CN2·x2] 新加坡01-SPL
-      - 🇸🇬 [Lv1·广新隧道·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·辽宁CN2·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·广州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·扬州移动·x1] 新加坡02-OCA
-      - 🇸🇬 [Lv1·上海电信·x1] 新加坡02-OCA
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国01-PHX1
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国01-PHX1
-      - 🇺🇸 [Lv1·辽宁CN2·x1] 美国02-PHX2
-      - 🇭🇰 [Lv1·广州CMI·x1] 美国02-PHX2
-      - 🇰🇷 [Lv1·广韩隧道·x1] 韩国02-SEL
-      - 🇰🇷 [Lv1·上海电信·x1] 韩国02-SEL
-      - 🇸🇬 [Lv1·广新隧道·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·亚欧链路·x1] 土耳其01-BOG
-      - 🇹🇷 [Lv1·广州移动·x1] 土耳其01-BOG
-      - 🇬🇧 [Lv1·亚欧链路·x1] 英国01-UOA
-      - 🇬🇧 [Lv1·广州移动·x1] 英国01-UOA
-      - 🇩🇪 [Lv1·亚欧链路·x1] 德国01-DOA
-      - 🇩🇪 [Lv1·广州移动·x1] 德国01-DOA
       - 更多节点关注 @ShareCentrePro
       - 🇺🇸 「SCP」US-CF1
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -1323,20 +1007,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - 距离下次重置剩余：27 天 3
-      - 注册直接使用 无需购买
-      - 用完工单重置
-      - 电报群@helium_network_group
-      - 免费节点-HK01
-      - 免费节点-HK02
-      - 免费节点-JP01
-      - 免费节点-JP02
-      - 免费节点-US01
-      - 免费节点-US02
-      - 免费节点-SG01
-      - 免费节点-SG02
-      - 免费节点-TW01
-      - 免费节点-TW02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
