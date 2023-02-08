@@ -26,51 +26,14 @@ proxies:
   - {name: 🇩🇪 隧道 | NF | 德国 01, server: yzdx.relay01.fast001.buzz, port: 19246, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 01, server: yzdx.relay01.fast001.buzz, port: 19247, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 02, server: yzdx.relay01.fast001.buzz, port: 19248, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
   - {name: GetAFreeNode.com-Atlanta, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Atlanta.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
   - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.v2ray.online}}, udp: true}
   - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
   - {name: GetAFreeNode.com-Riga, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.v2ray.online}}, udp: true}
-  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Kansas, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: 🇭🇰 香港 01, server: gb-service.bygcloud.xyz, port: 21101, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇭🇰 香港 02, server: gb-service.bygcloud.xyz, port: 21102, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇭🇰 香港 03, server: gb-service.bygcloud.xyz, port: 21103, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇭🇰 香港 04, server: gb-service.bygcloud.xyz, port: 21004, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇭🇰 香港 05, server: gb-service.bygcloud.xyz, port: 21005, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇨🇳 台湾 01, server: gb-service.bygcloud.xyz, port: 22001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇨🇳 台湾 02, server: gb-service.bygcloud.xyz, port: 22002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇯🇵 日本 01, server: gb-service.bygcloud.xyz, port: 24001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇯🇵 日本 02, server: gb-service.bygcloud.xyz, port: 24002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇯🇵 日本 03, server: gb-service.bygcloud.xyz, port: 24003, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇸🇬 新加坡 01, server: gb-service.bygcloud.xyz, port: 23001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: gb-service.bygcloud.xyz, port: 23002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇸🇬 新加坡 03, server: gb-service.bygcloud.xyz, port: 23003, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇺🇸 美国 01, server: gb-service.bygcloud.xyz, port: 26001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇺🇸 美国 02, server: gb-service.bygcloud.xyz, port: 26002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇺🇸 美国 03, server: gb-service.bygcloud.xyz, port: 26003, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇨🇦 加拿大, server: gb-service.bygcloud.xyz, port: 27014, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇰🇷 韩国, server: gb-service.bygcloud.xyz, port: 25001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇰🇭 柬埔寨, server: gb-service.bygcloud.xyz, port: 27017, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇲🇾 马来西亚, server: gb-service.bygcloud.xyz, port: 27018, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇵🇭 菲律宾, server: gb-service.bygcloud.xyz, port: 27001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇦🇺 澳大利亚, server: gb-service.bygcloud.xyz, port: 27008, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇩🇪 德国, server: gb-service.bygcloud.xyz, port: 27004, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇨🇭 瑞士, server: gb-service.bygcloud.xyz, port: 27007, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇬🇧 英国, server: gb-service.bygcloud.xyz, port: 27005, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇵🇱 波兰, server: gb-service.bygcloud.xyz, port: 27010, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇮🇹 意大利, server: gb-service.bygcloud.xyz, port: 27012, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇱🇺 卢森堡, server: gb-service.bygcloud.xyz, port: 27016, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇹🇷 土耳其, server: gb-service.bygcloud.xyz, port: 27003, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇲🇩 摩尔多瓦, server: gb-service.bygcloud.xyz, port: 27013, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 乌兹别克斯坦, server: gb-service.bygcloud.xyz, port: 27015, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇦🇷 阿根廷, server: gb-service.bygcloud.xyz, port: 27006, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇧🇷 巴西, server: gb-service.bygcloud.xyz, port: 27009, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇲🇽 墨西哥, server: gb-service.bygcloud.xyz, port: 27011, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: 🇨🇱 智利, server: gb-service.bygcloud.xyz, port: 27002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: "🇭🇰 防失联[广港]", server: gddx.fosi.hk, port: 51982, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
-  - {name: "🇯🇵 防失联[京日]", server: shcu2.1aba.cn, port: 17862, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
   - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN2_Viettel, server: 128.199.247.101, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
@@ -130,6 +93,43 @@ proxies:
   - {name: 🇸🇬 「SCP」SG-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-1.sharecentre.online}}, udp: true}
   - {name: 🇰🇷 「SCP」KR-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kr.sharecentre.online}}, udp: true}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh.sharecentre.online}}, udp: true}
+  - {name: 🇭🇰 香港 01, server: gb-service.bygcloud.xyz, port: 21101, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇭🇰 香港 02, server: gb-service.bygcloud.xyz, port: 21102, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇭🇰 香港 03, server: gb-service.bygcloud.xyz, port: 21103, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇭🇰 香港 04, server: gb-service.bygcloud.xyz, port: 21004, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇭🇰 香港 05, server: gb-service.bygcloud.xyz, port: 21005, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇨🇳 台湾 01, server: gb-service.bygcloud.xyz, port: 22001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇨🇳 台湾 02, server: gb-service.bygcloud.xyz, port: 22002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇯🇵 日本 01, server: gb-service.bygcloud.xyz, port: 24001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇯🇵 日本 02, server: gb-service.bygcloud.xyz, port: 24002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇯🇵 日本 03, server: gb-service.bygcloud.xyz, port: 24003, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇸🇬 新加坡 01, server: gb-service.bygcloud.xyz, port: 23001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: gb-service.bygcloud.xyz, port: 23002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇸🇬 新加坡 03, server: gb-service.bygcloud.xyz, port: 23003, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇺🇸 美国 01, server: gb-service.bygcloud.xyz, port: 26001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇺🇸 美国 02, server: gb-service.bygcloud.xyz, port: 26002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇺🇸 美国 03, server: gb-service.bygcloud.xyz, port: 26003, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇨🇦 加拿大, server: gb-service.bygcloud.xyz, port: 27014, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇰🇷 韩国, server: gb-service.bygcloud.xyz, port: 25001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇰🇭 柬埔寨, server: gb-service.bygcloud.xyz, port: 27017, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇲🇾 马来西亚, server: gb-service.bygcloud.xyz, port: 27018, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇵🇭 菲律宾, server: gb-service.bygcloud.xyz, port: 27001, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇦🇺 澳大利亚, server: gb-service.bygcloud.xyz, port: 27008, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇩🇪 德国, server: gb-service.bygcloud.xyz, port: 27004, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇨🇭 瑞士, server: gb-service.bygcloud.xyz, port: 27007, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇬🇧 英国, server: gb-service.bygcloud.xyz, port: 27005, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇵🇱 波兰, server: gb-service.bygcloud.xyz, port: 27010, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇮🇹 意大利, server: gb-service.bygcloud.xyz, port: 27012, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇱🇺 卢森堡, server: gb-service.bygcloud.xyz, port: 27016, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇹🇷 土耳其, server: gb-service.bygcloud.xyz, port: 27003, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇲🇩 摩尔多瓦, server: gb-service.bygcloud.xyz, port: 27013, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 乌兹别克斯坦, server: gb-service.bygcloud.xyz, port: 27015, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇦🇷 阿根廷, server: gb-service.bygcloud.xyz, port: 27006, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇧🇷 巴西, server: gb-service.bygcloud.xyz, port: 27009, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇲🇽 墨西哥, server: gb-service.bygcloud.xyz, port: 27011, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇨🇱 智利, server: gb-service.bygcloud.xyz, port: 27002, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: "🇭🇰 防失联[广港]", server: gddx.fosi.hk, port: 51982, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: "🇯🇵 防失联[京日]", server: shcu2.1aba.cn, port: 17862, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -157,51 +157,14 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
       - GetAFreeNode.com-Phoenix
       - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Kansas
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 美国 03
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
-      - 🇰🇭 柬埔寨
-      - 🇲🇾 马来西亚
-      - 🇵🇭 菲律宾
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 德国
-      - 🇨🇭 瑞士
-      - 🇬🇧 英国
-      - 🇵🇱 波兰
-      - 🇮🇹 意大利
-      - 🇱🇺 卢森堡
-      - 🇹🇷 土耳其
-      - 🇲🇩 摩尔多瓦
-      - 乌兹别克斯坦
-      - 🇦🇷 阿根廷
-      - 🇧🇷 巴西
-      - 🇲🇽 墨西哥
-      - 🇨🇱 智利
-      - 🇭🇰 防失联[广港]
-      - 🇯🇵 防失联[京日]
+      - GetAFreeNode.com-Social-Media
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -261,6 +224,43 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇨🇦 加拿大
+      - 🇰🇷 韩国
+      - 🇰🇭 柬埔寨
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇦🇺 澳大利亚
+      - 🇩🇪 德国
+      - 🇨🇭 瑞士
+      - 🇬🇧 英国
+      - 🇵🇱 波兰
+      - 🇮🇹 意大利
+      - 🇱🇺 卢森堡
+      - 🇹🇷 土耳其
+      - 🇲🇩 摩尔多瓦
+      - 乌兹别克斯坦
+      - 🇦🇷 阿根廷
+      - 🇧🇷 巴西
+      - 🇲🇽 墨西哥
+      - 🇨🇱 智利
+      - 🇭🇰 防失联[广港]
+      - 🇯🇵 防失联[京日]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -287,51 +287,14 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
       - GetAFreeNode.com-Phoenix
       - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Kansas
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 美国 03
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
-      - 🇰🇭 柬埔寨
-      - 🇲🇾 马来西亚
-      - 🇵🇭 菲律宾
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 德国
-      - 🇨🇭 瑞士
-      - 🇬🇧 英国
-      - 🇵🇱 波兰
-      - 🇮🇹 意大利
-      - 🇱🇺 卢森堡
-      - 🇹🇷 土耳其
-      - 🇲🇩 摩尔多瓦
-      - 乌兹别克斯坦
-      - 🇦🇷 阿根廷
-      - 🇧🇷 巴西
-      - 🇲🇽 墨西哥
-      - 🇨🇱 智利
-      - 🇭🇰 防失联[广港]
-      - 🇯🇵 防失联[京日]
+      - GetAFreeNode.com-Social-Media
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -391,6 +354,43 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇨🇦 加拿大
+      - 🇰🇷 韩国
+      - 🇰🇭 柬埔寨
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇦🇺 澳大利亚
+      - 🇩🇪 德国
+      - 🇨🇭 瑞士
+      - 🇬🇧 英国
+      - 🇵🇱 波兰
+      - 🇮🇹 意大利
+      - 🇱🇺 卢森堡
+      - 🇹🇷 土耳其
+      - 🇲🇩 摩尔多瓦
+      - 乌兹别克斯坦
+      - 🇦🇷 阿根廷
+      - 🇧🇷 巴西
+      - 🇲🇽 墨西哥
+      - 🇨🇱 智利
+      - 🇭🇰 防失联[广港]
+      - 🇯🇵 防失联[京日]
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -418,51 +418,14 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
       - GetAFreeNode.com-Phoenix
       - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Kansas
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 美国 03
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
-      - 🇰🇭 柬埔寨
-      - 🇲🇾 马来西亚
-      - 🇵🇭 菲律宾
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 德国
-      - 🇨🇭 瑞士
-      - 🇬🇧 英国
-      - 🇵🇱 波兰
-      - 🇮🇹 意大利
-      - 🇱🇺 卢森堡
-      - 🇹🇷 土耳其
-      - 🇲🇩 摩尔多瓦
-      - 乌兹别克斯坦
-      - 🇦🇷 阿根廷
-      - 🇧🇷 巴西
-      - 🇲🇽 墨西哥
-      - 🇨🇱 智利
-      - 🇭🇰 防失联[广港]
-      - 🇯🇵 防失联[京日]
+      - GetAFreeNode.com-Social-Media
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -522,6 +485,43 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇨🇦 加拿大
+      - 🇰🇷 韩国
+      - 🇰🇭 柬埔寨
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇦🇺 澳大利亚
+      - 🇩🇪 德国
+      - 🇨🇭 瑞士
+      - 🇬🇧 英国
+      - 🇵🇱 波兰
+      - 🇮🇹 意大利
+      - 🇱🇺 卢森堡
+      - 🇹🇷 土耳其
+      - 🇲🇩 摩尔多瓦
+      - 乌兹别克斯坦
+      - 🇦🇷 阿根廷
+      - 🇧🇷 巴西
+      - 🇲🇽 墨西哥
+      - 🇨🇱 智利
+      - 🇭🇰 防失联[广港]
+      - 🇯🇵 防失联[京日]
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -561,51 +561,14 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
       - GetAFreeNode.com-Phoenix
       - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Kansas
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 美国 03
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
-      - 🇰🇭 柬埔寨
-      - 🇲🇾 马来西亚
-      - 🇵🇭 菲律宾
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 德国
-      - 🇨🇭 瑞士
-      - 🇬🇧 英国
-      - 🇵🇱 波兰
-      - 🇮🇹 意大利
-      - 🇱🇺 卢森堡
-      - 🇹🇷 土耳其
-      - 🇲🇩 摩尔多瓦
-      - 乌兹别克斯坦
-      - 🇦🇷 阿根廷
-      - 🇧🇷 巴西
-      - 🇲🇽 墨西哥
-      - 🇨🇱 智利
-      - 🇭🇰 防失联[广港]
-      - 🇯🇵 防失联[京日]
+      - GetAFreeNode.com-Social-Media
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -665,6 +628,43 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇨🇦 加拿大
+      - 🇰🇷 韩国
+      - 🇰🇭 柬埔寨
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇦🇺 澳大利亚
+      - 🇩🇪 德国
+      - 🇨🇭 瑞士
+      - 🇬🇧 英国
+      - 🇵🇱 波兰
+      - 🇮🇹 意大利
+      - 🇱🇺 卢森堡
+      - 🇹🇷 土耳其
+      - 🇲🇩 摩尔多瓦
+      - 乌兹别克斯坦
+      - 🇦🇷 阿根廷
+      - 🇧🇷 巴西
+      - 🇲🇽 墨西哥
+      - 🇨🇱 智利
+      - 🇭🇰 防失联[广港]
+      - 🇯🇵 防失联[京日]
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -675,6 +675,12 @@ proxy-groups:
       - 🇭🇰 隧道 | NF | 香港 02  流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 03 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 04 流媒体解锁
+      - 🇭🇰 【直连】香港 - 80端口 - 1
+      - 🇭🇰 【直连】香港 - 443端口 - 2
+      - 🇭🇰 【直连】香港 - 1
+      - 🇭🇰 【直连】香港 - 2
+      - 🇭🇰 【直连】香港 - 3
+      - 🇭🇰 【直连】香港 - 4
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
@@ -683,12 +689,6 @@ proxy-groups:
       - 🇨🇳 台湾 01
       - 🇨🇳 台湾 02
       - 🇭🇰 防失联[广港]
-      - 🇭🇰 【直连】香港 - 80端口 - 1
-      - 🇭🇰 【直连】香港 - 443端口 - 2
-      - 🇭🇰 【直连】香港 - 1
-      - 🇭🇰 【直连】香港 - 2
-      - 🇭🇰 【直连】香港 - 3
-      - 🇭🇰 【直连】香港 - 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -716,51 +716,14 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
       - GetAFreeNode.com-Phoenix
       - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Kansas
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 美国 03
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
-      - 🇰🇭 柬埔寨
-      - 🇲🇾 马来西亚
-      - 🇵🇭 菲律宾
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 德国
-      - 🇨🇭 瑞士
-      - 🇬🇧 英国
-      - 🇵🇱 波兰
-      - 🇮🇹 意大利
-      - 🇱🇺 卢森堡
-      - 🇹🇷 土耳其
-      - 🇲🇩 摩尔多瓦
-      - 乌兹别克斯坦
-      - 🇦🇷 阿根廷
-      - 🇧🇷 巴西
-      - 🇲🇽 墨西哥
-      - 🇨🇱 智利
-      - 🇭🇰 防失联[广港]
-      - 🇯🇵 防失联[京日]
+      - GetAFreeNode.com-Social-Media
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -820,6 +783,43 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇨🇦 加拿大
+      - 🇰🇷 韩国
+      - 🇰🇭 柬埔寨
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇦🇺 澳大利亚
+      - 🇩🇪 德国
+      - 🇨🇭 瑞士
+      - 🇬🇧 英国
+      - 🇵🇱 波兰
+      - 🇮🇹 意大利
+      - 🇱🇺 卢森堡
+      - 🇹🇷 土耳其
+      - 🇲🇩 摩尔多瓦
+      - 乌兹别克斯坦
+      - 🇦🇷 阿根廷
+      - 🇧🇷 巴西
+      - 🇲🇽 墨西哥
+      - 🇨🇱 智利
+      - 🇭🇰 防失联[广港]
+      - 🇯🇵 防失联[京日]
   - name: 📲 电报信息
     type: select
     proxies:
@@ -846,51 +846,14 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
       - GetAFreeNode.com-Phoenix
       - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Kansas
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 美国 03
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
-      - 🇰🇭 柬埔寨
-      - 🇲🇾 马来西亚
-      - 🇵🇭 菲律宾
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 德国
-      - 🇨🇭 瑞士
-      - 🇬🇧 英国
-      - 🇵🇱 波兰
-      - 🇮🇹 意大利
-      - 🇱🇺 卢森堡
-      - 🇹🇷 土耳其
-      - 🇲🇩 摩尔多瓦
-      - 乌兹别克斯坦
-      - 🇦🇷 阿根廷
-      - 🇧🇷 巴西
-      - 🇲🇽 墨西哥
-      - 🇨🇱 智利
-      - 🇭🇰 防失联[广港]
-      - 🇯🇵 防失联[京日]
+      - GetAFreeNode.com-Social-Media
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -950,6 +913,43 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇨🇦 加拿大
+      - 🇰🇷 韩国
+      - 🇰🇭 柬埔寨
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇦🇺 澳大利亚
+      - 🇩🇪 德国
+      - 🇨🇭 瑞士
+      - 🇬🇧 英国
+      - 🇵🇱 波兰
+      - 🇮🇹 意大利
+      - 🇱🇺 卢森堡
+      - 🇹🇷 土耳其
+      - 🇲🇩 摩尔多瓦
+      - 乌兹别克斯坦
+      - 🇦🇷 阿根廷
+      - 🇧🇷 巴西
+      - 🇲🇽 墨西哥
+      - 🇨🇱 智利
+      - 🇭🇰 防失联[广港]
+      - 🇯🇵 防失联[京日]
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -977,51 +977,14 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
       - GetAFreeNode.com-Phoenix
       - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Kansas
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 美国 03
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
-      - 🇰🇭 柬埔寨
-      - 🇲🇾 马来西亚
-      - 🇵🇭 菲律宾
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 德国
-      - 🇨🇭 瑞士
-      - 🇬🇧 英国
-      - 🇵🇱 波兰
-      - 🇮🇹 意大利
-      - 🇱🇺 卢森堡
-      - 🇹🇷 土耳其
-      - 🇲🇩 摩尔多瓦
-      - 乌兹别克斯坦
-      - 🇦🇷 阿根廷
-      - 🇧🇷 巴西
-      - 🇲🇽 墨西哥
-      - 🇨🇱 智利
-      - 🇭🇰 防失联[广港]
-      - 🇯🇵 防失联[京日]
+      - GetAFreeNode.com-Social-Media
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -1081,6 +1044,43 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇨🇦 加拿大
+      - 🇰🇷 韩国
+      - 🇰🇭 柬埔寨
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇦🇺 澳大利亚
+      - 🇩🇪 德国
+      - 🇨🇭 瑞士
+      - 🇬🇧 英国
+      - 🇵🇱 波兰
+      - 🇮🇹 意大利
+      - 🇱🇺 卢森堡
+      - 🇹🇷 土耳其
+      - 🇲🇩 摩尔多瓦
+      - 乌兹别克斯坦
+      - 🇦🇷 阿根廷
+      - 🇧🇷 巴西
+      - 🇲🇽 墨西哥
+      - 🇨🇱 智利
+      - 🇭🇰 防失联[广港]
+      - 🇯🇵 防失联[京日]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1117,51 +1117,14 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
       - GetAFreeNode.com-Phoenix
       - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Kansas
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 05
-      - 🇨🇳 台湾 01
-      - 🇨🇳 台湾 02
-      - 🇯🇵 日本 01
-      - 🇯🇵 日本 02
-      - 🇯🇵 日本 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 新加坡 03
-      - 🇺🇸 美国 01
-      - 🇺🇸 美国 02
-      - 🇺🇸 美国 03
-      - 🇨🇦 加拿大
-      - 🇰🇷 韩国
-      - 🇰🇭 柬埔寨
-      - 🇲🇾 马来西亚
-      - 🇵🇭 菲律宾
-      - 🇦🇺 澳大利亚
-      - 🇩🇪 德国
-      - 🇨🇭 瑞士
-      - 🇬🇧 英国
-      - 🇵🇱 波兰
-      - 🇮🇹 意大利
-      - 🇱🇺 卢森堡
-      - 🇹🇷 土耳其
-      - 🇲🇩 摩尔多瓦
-      - 乌兹别克斯坦
-      - 🇦🇷 阿根廷
-      - 🇧🇷 巴西
-      - 🇲🇽 墨西哥
-      - 🇨🇱 智利
-      - 🇭🇰 防失联[广港]
-      - 🇯🇵 防失联[京日]
+      - GetAFreeNode.com-Social-Media
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
@@ -1221,6 +1184,43 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港 03
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 05
+      - 🇨🇳 台湾 01
+      - 🇨🇳 台湾 02
+      - 🇯🇵 日本 01
+      - 🇯🇵 日本 02
+      - 🇯🇵 日本 03
+      - 🇸🇬 新加坡 01
+      - 🇸🇬 新加坡 02
+      - 🇸🇬 新加坡 03
+      - 🇺🇸 美国 01
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 03
+      - 🇨🇦 加拿大
+      - 🇰🇷 韩国
+      - 🇰🇭 柬埔寨
+      - 🇲🇾 马来西亚
+      - 🇵🇭 菲律宾
+      - 🇦🇺 澳大利亚
+      - 🇩🇪 德国
+      - 🇨🇭 瑞士
+      - 🇬🇧 英国
+      - 🇵🇱 波兰
+      - 🇮🇹 意大利
+      - 🇱🇺 卢森堡
+      - 🇹🇷 土耳其
+      - 🇲🇩 摩尔多瓦
+      - 乌兹别克斯坦
+      - 🇦🇷 阿根廷
+      - 🇧🇷 巴西
+      - 🇲🇽 墨西哥
+      - 🇨🇱 智利
+      - 🇭🇰 防失联[广港]
+      - 🇯🇵 防失联[京日]
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
