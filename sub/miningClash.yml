@@ -8,6 +8,14 @@ proxies:
   - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN2_Viettel, server: 128.199.247.101, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
+  - {name: GetAFreeNode.com-Atlanta, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Atlanta.v2ray.online}}, udp: true}
+  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Riga, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
   - {name: 距离下次重置剩余：19 天, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 *不能用时请更新订阅, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -85,14 +93,6 @@ proxies:
   - {name: 🇸🇬 「SCP」SG-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-1.sharecentre.online}}, udp: true}
   - {name: 🇰🇷 「SCP」KR-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kr.sharecentre.online}}, udp: true}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh.sharecentre.online}}, udp: true}
-  - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Atlanta, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Atlanta.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Riga, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Kansas, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.v2ray.online}}, udp: true}
   - {name: 🇭🇰 香港 01, server: gb-service.bygcloud.xyz, port: 21101, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
   - {name: 🇭🇰 香港 02, server: gb-service.bygcloud.xyz, port: 21102, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
   - {name: 🇭🇰 香港 03, server: gb-service.bygcloud.xyz, port: 21103, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
@@ -139,6 +139,14 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
+      - GetAFreeNode.com-Atlanta
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
       - 距离下次重置剩余：19 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -216,14 +224,6 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Riga
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Kansas
-      - 🇫🇷 GetAFreeNode.com-Paris
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
@@ -269,6 +269,14 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
+      - GetAFreeNode.com-Atlanta
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
       - 距离下次重置剩余：19 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -346,14 +354,6 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Riga
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Kansas
-      - 🇫🇷 GetAFreeNode.com-Paris
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
@@ -400,6 +400,14 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
+      - GetAFreeNode.com-Atlanta
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
       - 距离下次重置剩余：19 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -477,14 +485,6 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Riga
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Kansas
-      - 🇫🇷 GetAFreeNode.com-Paris
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
@@ -543,6 +543,14 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
+      - GetAFreeNode.com-Atlanta
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
       - 距离下次重置剩余：19 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -620,14 +628,6 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Riga
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Kansas
-      - 🇫🇷 GetAFreeNode.com-Paris
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
@@ -698,6 +698,14 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
+      - GetAFreeNode.com-Atlanta
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
       - 距离下次重置剩余：19 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -775,14 +783,6 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Riga
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Kansas
-      - 🇫🇷 GetAFreeNode.com-Paris
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
@@ -828,6 +828,14 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
+      - GetAFreeNode.com-Atlanta
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
       - 距离下次重置剩余：19 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -905,14 +913,6 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Riga
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Kansas
-      - 🇫🇷 GetAFreeNode.com-Paris
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
@@ -959,6 +959,14 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
+      - GetAFreeNode.com-Atlanta
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
       - 距离下次重置剩余：19 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -1036,14 +1044,6 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Riga
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Kansas
-      - 🇫🇷 GetAFreeNode.com-Paris
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
@@ -1099,6 +1099,14 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
+      - GetAFreeNode.com-Atlanta
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
       - 距离下次重置剩余：19 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -1176,14 +1184,6 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Riga
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Kansas
-      - 🇫🇷 GetAFreeNode.com-Paris
       - 🇭🇰 香港 01
       - 🇭🇰 香港 02
       - 🇭🇰 香港 03
