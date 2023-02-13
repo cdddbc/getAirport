@@ -5,9 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN2_Viettel, server: 128.199.247.101, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁, server: yzdx.relay01.fast001.buzz, port: 19222, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 隧道 | NF | 香港 01 流媒体解锁, server: yzdx.relay01.fast001.buzz, port: 19225, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -29,6 +26,9 @@ proxies:
   - {name: 🇩🇪 隧道 | NF | 德国 01, server: yzdx.relay01.fast001.buzz, port: 19246, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 01, server: yzdx.relay01.fast001.buzz, port: 19247, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 02, server: yzdx.relay01.fast001.buzz, port: 19248, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN2_Viettel, server: 128.199.247.101, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sharecentre.online}}, udp: true}
   - {name: 🇯🇵 「SCP」JP-蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
   - {name: 🇸🇬 「SCP」SG-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
@@ -91,9 +91,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -115,6 +112,9 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -176,9 +176,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -200,6 +197,9 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -262,9 +262,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -286,6 +283,9 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -360,9 +360,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -384,6 +381,9 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -462,9 +462,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -486,6 +483,9 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -547,9 +547,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -571,6 +568,9 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -633,9 +633,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -657,6 +654,9 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -728,9 +728,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - VN1_Viettel
-      - VN2_Viettel
-      - VN3_Viettel SSL
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -752,6 +749,9 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
+      - VN1_Viettel
+      - VN2_Viettel
+      - VN3_Viettel SSL
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
