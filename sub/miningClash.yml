@@ -29,15 +29,15 @@ proxies:
   - {name: VN1_Viettel, server: 103.124.92.48, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN2_Viettel, server: 128.199.247.101, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: VN3_Viettel SSL, server: 103.124.92.48, port: 443, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
-  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Dusseldorf, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Atlanta, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Atlanta.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
   - {name: GetAFreeNode.com-Riga, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.v2ray.online}}, udp: true}
   - {name: GetAFreeNode.com-Kansas, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Atlanta, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Atlanta.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Dusseldorf, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.v2ray.online}}, udp: true}
   - {name: GetAFreeNode.com-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Phoenix, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Phoenix.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
+  - {name: GetAFreeNode.com-Social-Media, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.v2ray.online}}, udp: true}
+  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.v2ray.online}}, udp: true}
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sharecentre.online}}, udp: true}
   - {name: 🇯🇵 「SCP」JP-蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
   - {name: 🇸🇬 「SCP」SG-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
@@ -124,15 +124,15 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Atlanta
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Riga
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇷 GetAFreeNode.com-Paris
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -218,15 +218,15 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Atlanta
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Riga
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇷 GetAFreeNode.com-Paris
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -313,15 +313,15 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Atlanta
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Riga
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇷 GetAFreeNode.com-Paris
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -420,15 +420,15 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Atlanta
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Riga
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇷 GetAFreeNode.com-Paris
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -531,15 +531,15 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Atlanta
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Riga
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇷 GetAFreeNode.com-Paris
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -625,15 +625,15 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Atlanta
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Riga
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇷 GetAFreeNode.com-Paris
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -720,15 +720,15 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Atlanta
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Riga
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇷 GetAFreeNode.com-Paris
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
@@ -824,15 +824,15 @@ proxy-groups:
       - VN1_Viettel
       - VN2_Viettel
       - VN3_Viettel SSL
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Phoenix
+      - GetAFreeNode.com-Atlanta
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Riga
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Atlanta
-      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Social-Media
+      - 🇫🇷 GetAFreeNode.com-Paris
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
