@@ -26,7 +26,6 @@ proxies:
   - {name: 🇩🇪 隧道 | NF | 德国 01, server: yzdx.relay01.fast001.buzz, port: 19246, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 01, server: yzdx.relay01.fast001.buzz, port: 19247, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 02, server: yzdx.relay01.fast001.buzz, port: 19248, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: VN1_Viettel, server: 103.101.162.147, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 距离下次重置剩余：8 天, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 *不能用时请更新订阅, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -66,6 +65,7 @@ proxies:
   - {name: 🇰🇷 【直连】首尔 - 4, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 3, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 4, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: VN1_Viettel, server: 103.101.162.147, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sharecentre.online}}, udp: true}
   - {name: 🇯🇵 「SCP」JP-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentre.online}}, udp: true}
   - {name: 🇯🇵 「SCP」JP-蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
@@ -110,7 +110,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
       - 距离下次重置剩余：8 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -150,6 +149,7 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - VN1_Viettel
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -193,7 +193,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
       - 距离下次重置剩余：8 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -233,6 +232,7 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - VN1_Viettel
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -277,7 +277,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
       - 距离下次重置剩余：8 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -317,6 +316,7 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - VN1_Viettel
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -373,7 +373,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
       - 距离下次重置剩余：8 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -413,6 +412,7 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - VN1_Viettel
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -473,7 +473,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
       - 距离下次重置剩余：8 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -513,6 +512,7 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - VN1_Viettel
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -556,7 +556,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
       - 距离下次重置剩余：8 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -596,6 +595,7 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - VN1_Viettel
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -640,7 +640,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
       - 距离下次重置剩余：8 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -680,6 +679,7 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - VN1_Viettel
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
@@ -733,7 +733,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - VN1_Viettel
       - 距离下次重置剩余：8 天
       - 国内入口：大机场.cc 固定入口：大机场.com  电报：BigAirport_Group
       - 🇸🇬 *不能用时请更新订阅
@@ -773,6 +772,7 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - VN1_Viettel
       - 更多节点关注@ShareCentrePro
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
