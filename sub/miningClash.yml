@@ -33,12 +33,12 @@ proxies:
   - {name: 🇯🇵 「SCP」JP-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp1.sharecentre.online}}, udp: true}
   - {name: 🇯🇵 「SCP」JP-蛋糕并不是谎言, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}, udp: true}
   - {name: 🇸🇬 「SCP」SG-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: buyvm.sharecentre.online}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: buyvm.sharecentre.online}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp2.sharecentre.online}}, udp: true}
+  - {name: 🇭🇰 「SCP」HK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-2.sharecentre.online}}, udp: true}
   - {name: 🇭🇰 「SCP」HK-CF-Gcore, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-gcore.sharecentre.online}}, udp: true}
   - {name: 「SCP」LU-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lu.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM, server: mncc.cf, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: mncc.cf}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us-dp.sharecentre.online}}, udp: true}
   - {name: 🇩🇪 「SCP」DE-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de-1.sharecentre.online}}, udp: true}
   - {name: 🇩🇪 「SCP」DE-CF2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de-2.sharecentre.online}}, udp: true}
   - {name: 🇬🇧 「SCP」UK-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk-1.sharecentre.online}}, udp: true}
@@ -119,12 +119,12 @@ proxy-groups:
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇺🇸 「SCP」US-BuyVM
       - 🇺🇸 「SCP」US-DP2
+      - 🇭🇰 「SCP」HK-CF
       - 🇭🇰 「SCP」HK-CF-Gcore
       - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP1
       - 🇩🇪 「SCP」DE-CF1
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
@@ -204,12 +204,12 @@ proxy-groups:
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇺🇸 「SCP」US-BuyVM
       - 🇺🇸 「SCP」US-DP2
+      - 🇭🇰 「SCP」HK-CF
       - 🇭🇰 「SCP」HK-CF-Gcore
       - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP1
       - 🇩🇪 「SCP」DE-CF1
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
@@ -290,12 +290,12 @@ proxy-groups:
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇺🇸 「SCP」US-BuyVM
       - 🇺🇸 「SCP」US-DP2
+      - 🇭🇰 「SCP」HK-CF
       - 🇭🇰 「SCP」HK-CF-Gcore
       - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP1
       - 🇩🇪 「SCP」DE-CF1
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
@@ -388,12 +388,12 @@ proxy-groups:
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇺🇸 「SCP」US-BuyVM
       - 🇺🇸 「SCP」US-DP2
+      - 🇭🇰 「SCP」HK-CF
       - 🇭🇰 「SCP」HK-CF-Gcore
       - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP1
       - 🇩🇪 「SCP」DE-CF1
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
@@ -490,12 +490,12 @@ proxy-groups:
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇺🇸 「SCP」US-BuyVM
       - 🇺🇸 「SCP」US-DP2
+      - 🇭🇰 「SCP」HK-CF
       - 🇭🇰 「SCP」HK-CF-Gcore
       - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP1
       - 🇩🇪 「SCP」DE-CF1
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
@@ -575,12 +575,12 @@ proxy-groups:
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇺🇸 「SCP」US-BuyVM
       - 🇺🇸 「SCP」US-DP2
+      - 🇭🇰 「SCP」HK-CF
       - 🇭🇰 「SCP」HK-CF-Gcore
       - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP1
       - 🇩🇪 「SCP」DE-CF1
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
@@ -661,12 +661,12 @@ proxy-groups:
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇺🇸 「SCP」US-BuyVM
       - 🇺🇸 「SCP」US-DP2
+      - 🇭🇰 「SCP」HK-CF
       - 🇭🇰 「SCP」HK-CF-Gcore
       - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP1
       - 🇩🇪 「SCP」DE-CF1
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
@@ -756,12 +756,12 @@ proxy-groups:
       - 🇯🇵 「SCP」JP-CF
       - 🇯🇵 「SCP」JP-蛋糕并不是谎言
       - 🇸🇬 「SCP」SG-Gcore
-      - 🇺🇸 「SCP」US-BuyVM2
+      - 🇺🇸 「SCP」US-BuyVM
       - 🇺🇸 「SCP」US-DP2
+      - 🇭🇰 「SCP」HK-CF
       - 🇭🇰 「SCP」HK-CF-Gcore
       - 「SCP」LU-CF
-      - 🇺🇸 「SCP」US-DP
-      - 🇺🇸 「SCP」US-BuyVM
+      - 🇺🇸 「SCP」US-DP1
       - 🇩🇪 「SCP」DE-CF1
       - 🇩🇪 「SCP」DE-CF2
       - 🇬🇧 「SCP」UK-CF1
