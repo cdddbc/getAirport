@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: VN1_Viettel, server: 103.101.162.147, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁, server: yzdx.relay01.fast001.buzz, port: 19222, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 隧道 | NF | 香港 01 流媒体解锁, server: yzdx.relay01.fast001.buzz, port: 19225, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -83,13 +82,13 @@ proxies:
   - {name: 🇸🇬 「SCP」SG-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-1.sharecentre.online}}, udp: true}
   - {name: 🇰🇷 「SCP」KR-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kr.sharecentre.online}}, udp: true}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh.sharecentre.online}}, udp: true}
+  - {name: VN1_Viettel, server: 103.101.162.147, port: 80, type: vmess, uuid: 62f2d3ba-abc6-4858-82ef-219f62f8e070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -167,12 +166,12 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - VN1_Viettel
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - VN1_Viettel
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -250,13 +249,13 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - VN1_Viettel
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -334,6 +333,7 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - VN1_Viettel
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -352,7 +352,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - VN1_Viettel
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -430,6 +429,7 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - VN1_Viettel
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -452,7 +452,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - VN1_Viettel
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -530,12 +529,12 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - VN1_Viettel
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - VN1_Viettel
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -613,13 +612,13 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - VN1_Viettel
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - VN1_Viettel
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -697,6 +696,7 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - VN1_Viettel
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -712,7 +712,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - VN1_Viettel
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -790,6 +789,7 @@ proxy-groups:
       - 🇸🇬 「SCP」SG-CF
       - 🇰🇷 「SCP」KR-CF
       - 「SCP」KH-CF
+      - VN1_Viettel
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
