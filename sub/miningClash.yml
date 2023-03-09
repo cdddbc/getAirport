@@ -63,6 +63,14 @@ proxies:
   - {name: 🇰🇷 【直连】首尔 - 4, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 3, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 4, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Riga, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Seattle, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Social-Media, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.kotick.site}}, udp: true}
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 「SCP」UK-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
   - {name: 🇳🇱 「SCP」NL-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl1.scproxy.top}}, udp: true}
@@ -76,14 +84,6 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
-  - {name: GetAFreeNode.com-Riga, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.kotick.site}}, udp: true}
-  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Seattle, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Social-Media, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -148,6 +148,14 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「SCP」UK-CF
       - 🇳🇱 「SCP」NL-CF
@@ -161,14 +169,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Kansas
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -232,6 +232,14 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「SCP」UK-CF
       - 🇳🇱 「SCP」NL-CF
@@ -245,14 +253,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Kansas
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -317,6 +317,14 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「SCP」UK-CF
       - 🇳🇱 「SCP」NL-CF
@@ -330,14 +338,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Kansas
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -414,6 +414,14 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「SCP」UK-CF
       - 🇳🇱 「SCP」NL-CF
@@ -427,14 +435,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Kansas
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -515,6 +515,14 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「SCP」UK-CF
       - 🇳🇱 「SCP」NL-CF
@@ -528,14 +536,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Kansas
   - name: 📲 电报信息
     type: select
     proxies:
@@ -599,6 +599,14 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「SCP」UK-CF
       - 🇳🇱 「SCP」NL-CF
@@ -612,14 +620,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Kansas
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -684,6 +684,14 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「SCP」UK-CF
       - 🇳🇱 「SCP」NL-CF
@@ -697,14 +705,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Kansas
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -778,6 +778,14 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「SCP」UK-CF
       - 🇳🇱 「SCP」NL-CF
@@ -791,14 +799,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Kansas
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
