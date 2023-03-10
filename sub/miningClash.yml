@@ -26,14 +26,6 @@ proxies:
   - {name: 🇩🇪 隧道 | NF | 德国 01, server: gdcm.relay01.fast001.buzz, port: 19246, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 01, server: gdcm.relay01.fast001.buzz, port: 19247, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 隧道 | NF | 英国 02, server: gdcm.relay01.fast001.buzz, port: 19248, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Riga, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.kotick.site}}, udp: true}
-  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Seattle, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Social-Media, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
   - {name: 距离下次重置剩余：21 天, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 【直连】香港 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win}}, udp: true}
@@ -84,6 +76,14 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: GetAFreeNode.com-Riga, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Seattle, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Social-Media, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -111,14 +111,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
       - 距离下次重置剩余：21 天
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
@@ -169,6 +161,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Amsterdam
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -195,14 +195,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
       - 距离下次重置剩余：21 天
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
@@ -253,6 +245,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Amsterdam
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -280,14 +280,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
       - 距离下次重置剩余：21 天
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
@@ -338,6 +330,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Amsterdam
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -377,14 +377,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
       - 距离下次重置剩余：21 天
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
@@ -435,6 +427,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Amsterdam
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -478,14 +478,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
       - 距离下次重置剩余：21 天
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
@@ -536,6 +528,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Amsterdam
   - name: 📲 电报信息
     type: select
     proxies:
@@ -562,14 +562,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
       - 距离下次重置剩余：21 天
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
@@ -620,6 +612,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Amsterdam
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -647,14 +647,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
       - 距离下次重置剩余：21 天
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
@@ -705,6 +697,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Amsterdam
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -741,14 +741,6 @@ proxy-groups:
       - 🇩🇪 隧道 | NF | 德国 01
       - 🇬🇧 隧道 | NF | 英国 01
       - 🇬🇧 隧道 | NF | 英国 02
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Riga
-      - 🇫🇷 GetAFreeNode.com-Paris
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Social-Media
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
       - 距离下次重置剩余：21 天
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
@@ -799,6 +791,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Amsterdam
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
