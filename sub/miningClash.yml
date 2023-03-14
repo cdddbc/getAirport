@@ -18,6 +18,14 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
+  - {name: GetAFreeNode.com-Seattle, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Social-Media, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Tokyo.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: 🇫🇷 GetAFreeNode.com-Paris, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Paris.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Riga, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Riga.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁, server: gdcm.relay01.fast001.buzz, port: 19221, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁, server: gdcm.relay01.fast001.buzz, port: 19222, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 隧道 | NF | 香港 01 流媒体解锁, server: gdcm.relay01.fast001.buzz, port: 19225, type: vmess, uuid: d5a44e19-2248-3df8-bfac-7bfbe292d74a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -95,6 +103,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Lille
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -171,6 +187,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Lille
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -248,6 +272,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Lille
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -337,6 +369,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Lille
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -430,6 +470,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Lille
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -506,6 +554,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Lille
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -583,6 +639,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Lille
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
@@ -669,6 +733,14 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1
       - 🇺🇸 「SCP」US-DP2
       - 「SCP」KH-CF
+      - GetAFreeNode.com-Seattle
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Social-Media
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - 🇫🇷 GetAFreeNode.com-Paris
+      - GetAFreeNode.com-Riga
+      - GetAFreeNode.com-Lille
       - 🇨🇳 隧道 | NF | 台湾 01 流媒体/chatgpt解锁
       - 🇨🇳 隧道 | NF | 台湾 02 流媒体/chatgpt解锁
       - 🇭🇰 隧道 | NF | 香港 01 流媒体解锁
