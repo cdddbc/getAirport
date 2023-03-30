@@ -20,7 +20,10 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP2, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP3, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
   - {name: 「SCP」KH-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: kh1.scproxy.top}}, udp: true}
-  - {name: 距离下次重置剩余：1 天, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
   - {name: 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 【直连】香港 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win}}, udp: true}
   - {name: 🇭🇰 【直连】香港 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win}}, udp: true}
@@ -78,7 +81,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP2
       - 🇺🇸 「SCP」US-DP3
       - 「SCP」KH-CF
-      - 距离下次重置剩余：1 天
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -135,7 +141,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP2
       - 🇺🇸 「SCP」US-DP3
       - 「SCP」KH-CF
-      - 距离下次重置剩余：1 天
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -193,7 +202,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP2
       - 🇺🇸 「SCP」US-DP3
       - 「SCP」KH-CF
-      - 距离下次重置剩余：1 天
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -263,7 +275,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP2
       - 🇺🇸 「SCP」US-DP3
       - 「SCP」KH-CF
-      - 距离下次重置剩余：1 天
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -331,7 +346,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP2
       - 🇺🇸 「SCP」US-DP3
       - 「SCP」KH-CF
-      - 距离下次重置剩余：1 天
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -388,7 +406,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP2
       - 🇺🇸 「SCP」US-DP3
       - 「SCP」KH-CF
-      - 距离下次重置剩余：1 天
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -446,7 +467,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP2
       - 🇺🇸 「SCP」US-DP3
       - 「SCP」KH-CF
-      - 距离下次重置剩余：1 天
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -513,7 +537,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP2
       - 🇺🇸 「SCP」US-DP3
       - 「SCP」KH-CF
-      - 距离下次重置剩余：1 天
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
