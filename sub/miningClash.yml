@@ -5,6 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
   - {name: 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group, server: 1.1.1.1, port: 65535, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 【直连】香港 - 80端口 - 1, server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win, port: 80, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win}}, udp: true}
   - {name: 🇭🇰 【直连】香港 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win}}, udp: true}
@@ -41,10 +45,6 @@ proxies:
   - {name: 🇰🇷 【直连】首尔 - 4, server: 00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 3, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 【直连】美国西区 - 4, server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 「SCP」SG-CF1, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg1.sharecentrepro.com}}, udp: true}
   - {name: 🇩🇪 「SCP」DE-CF, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}, udp: true}
@@ -64,6 +64,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -100,10 +104,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇸🇬 「SCP」SG-CF1
       - 🇩🇪 「SCP」DE-CF
@@ -122,6 +122,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -158,10 +162,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇸🇬 「SCP」SG-CF1
       - 🇩🇪 「SCP」DE-CF
@@ -181,6 +181,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -217,10 +221,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇸🇬 「SCP」SG-CF1
       - 🇩🇪 「SCP」DE-CF
@@ -252,6 +252,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -288,10 +292,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇸🇬 「SCP」SG-CF1
       - 🇩🇪 「SCP」DE-CF
@@ -321,6 +321,10 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -357,10 +361,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇸🇬 「SCP」SG-CF1
       - 🇩🇪 「SCP」DE-CF
@@ -379,6 +379,10 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -415,10 +419,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇸🇬 「SCP」SG-CF1
       - 🇩🇪 「SCP」DE-CF
@@ -438,6 +438,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -474,10 +478,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇸🇬 「SCP」SG-CF1
       - 🇩🇪 「SCP」DE-CF
@@ -506,6 +506,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Kansas
       - 国内入口：大机场.art 固定入口：大机场.com  电报：BigAirport_Group
       - 🇭🇰 【直连】香港 - 80端口 - 1
       - 🇭🇰 【直连】香港 - 443端口 - 2
@@ -542,10 +546,6 @@ proxy-groups:
       - 🇰🇷 【直连】首尔 - 4
       - 🇺🇸 【直连】美国西区 - 3
       - 🇺🇸 【直连】美国西区 - 4
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇸🇬 「SCP」SG-CF1
       - 🇩🇪 「SCP」DE-CF
