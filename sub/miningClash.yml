@@ -8,6 +8,7 @@ proxies:
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 「SCP」NL-CF, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: 🇭🇰 「SCP」HK-CF2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk2.ilovescp.com}}, udp: true}
+  - {name: 🇸🇬 「SCP」SG-OVH-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg.ilovescp.com}}, udp: true}
   - {name: 🇸🇬 「SCP」SG-CF1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg1.sharecentrepro.com}}, udp: true}
   - {name: 🇸🇬 「SCP」SG-CF2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg2.sharecentrepro.com}}, udp: true}
   - {name: 🇩🇪 「SCP」DE-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}, udp: true}
@@ -31,6 +32,7 @@ proxy-groups:
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF
       - 🇭🇰 「SCP」HK-CF2-HTTP
+      - 🇸🇬 「SCP」SG-OVH-HTTP
       - 🇸🇬 「SCP」SG-CF1-HTTP
       - 🇸🇬 「SCP」SG-CF2-HTTP
       - 🇩🇪 「SCP」DE-CF-HTTP
@@ -53,6 +55,7 @@ proxy-groups:
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF
       - 🇭🇰 「SCP」HK-CF2-HTTP
+      - 🇸🇬 「SCP」SG-OVH-HTTP
       - 🇸🇬 「SCP」SG-CF1-HTTP
       - 🇸🇬 「SCP」SG-CF2-HTTP
       - 🇩🇪 「SCP」DE-CF-HTTP
@@ -76,6 +79,7 @@ proxy-groups:
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF
       - 🇭🇰 「SCP」HK-CF2-HTTP
+      - 🇸🇬 「SCP」SG-OVH-HTTP
       - 🇸🇬 「SCP」SG-CF1-HTTP
       - 🇸🇬 「SCP」SG-CF2-HTTP
       - 🇩🇪 「SCP」DE-CF-HTTP
@@ -111,6 +115,7 @@ proxy-groups:
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF
       - 🇭🇰 「SCP」HK-CF2-HTTP
+      - 🇸🇬 「SCP」SG-OVH-HTTP
       - 🇸🇬 「SCP」SG-CF1-HTTP
       - 🇸🇬 「SCP」SG-CF2-HTTP
       - 🇩🇪 「SCP」DE-CF-HTTP
@@ -138,6 +143,7 @@ proxy-groups:
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF
       - 🇭🇰 「SCP」HK-CF2-HTTP
+      - 🇸🇬 「SCP」SG-OVH-HTTP
       - 🇸🇬 「SCP」SG-CF1-HTTP
       - 🇸🇬 「SCP」SG-CF2-HTTP
       - 🇩🇪 「SCP」DE-CF-HTTP
@@ -160,6 +166,7 @@ proxy-groups:
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF
       - 🇭🇰 「SCP」HK-CF2-HTTP
+      - 🇸🇬 「SCP」SG-OVH-HTTP
       - 🇸🇬 「SCP」SG-CF1-HTTP
       - 🇸🇬 「SCP」SG-CF2-HTTP
       - 🇩🇪 「SCP」DE-CF-HTTP
@@ -183,6 +190,7 @@ proxy-groups:
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF
       - 🇭🇰 「SCP」HK-CF2-HTTP
+      - 🇸🇬 「SCP」SG-OVH-HTTP
       - 🇸🇬 「SCP」SG-CF1-HTTP
       - 🇸🇬 「SCP」SG-CF2-HTTP
       - 🇩🇪 「SCP」DE-CF-HTTP
@@ -215,6 +223,7 @@ proxy-groups:
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF
       - 🇭🇰 「SCP」HK-CF2-HTTP
+      - 🇸🇬 「SCP」SG-OVH-HTTP
       - 🇸🇬 「SCP」SG-CF1-HTTP
       - 🇸🇬 「SCP」SG-CF2-HTTP
       - 🇩🇪 「SCP」DE-CF-HTTP
