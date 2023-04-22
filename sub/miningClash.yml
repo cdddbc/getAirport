@@ -14,6 +14,7 @@ proxies:
   - {name: 🇬🇧 「SCP」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
   - {name: 🇭🇰 「SCP」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
   - {name: 🇨🇦 「SCP」CA-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
@@ -36,6 +37,7 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
       - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -57,6 +59,7 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
       - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -79,6 +82,7 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
       - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -113,6 +117,7 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
       - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -139,6 +144,7 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
       - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -160,6 +166,7 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
       - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -182,6 +189,7 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
       - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -213,6 +221,7 @@ proxy-groups:
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
       - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇫🇷 「SCP」FR-Ferdinand-HTTP|赞助商 @KinhChannel
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
