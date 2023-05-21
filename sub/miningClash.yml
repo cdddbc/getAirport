@@ -9,6 +9,7 @@ proxies:
   - {name: 🇳🇱 「SCP」NL-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: 「SCP」SE-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sw.sharecentrepro.com}}, udp: true}
   - {name: 🇮🇳 「SCP」IN-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-Gcore-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}, udp: true}
   - {name: 🇸🇬 「SCP」SG-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
   - {name: 🇬🇧 「SCP」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
   - {name: 🇭🇰 「SCP」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
@@ -32,6 +33,7 @@ proxy-groups:
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
       - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
@@ -54,6 +56,7 @@ proxy-groups:
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
       - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
@@ -77,6 +80,7 @@ proxy-groups:
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
       - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
@@ -112,6 +116,7 @@ proxy-groups:
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
       - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
@@ -139,6 +144,7 @@ proxy-groups:
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
       - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
@@ -161,6 +167,7 @@ proxy-groups:
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
       - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
@@ -184,6 +191,7 @@ proxy-groups:
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
       - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
@@ -216,6 +224,7 @@ proxy-groups:
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
       - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇭🇰 「SCP」HK-CF-HTTP
