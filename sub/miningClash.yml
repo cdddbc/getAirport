@@ -5,10 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
   - {name: 🇭🇰 香港1, server: v01.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 🇭🇰 香港2, server: v02.jiedian.stream, port: 10000, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 🇭🇰 香港3, server: v03.jiedian.stream, port: 10000, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
@@ -59,10 +55,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -112,10 +104,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -166,10 +154,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -232,10 +216,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -297,10 +277,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -350,10 +326,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -404,10 +376,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -467,10 +435,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Kansas
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
