@@ -6,9 +6,26 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
   - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
+  - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 「SCP」NL-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: 「SCP」SE-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sw.sharecentrepro.com}}, udp: true}
+  - {name: 🇮🇳 「SCP」IN-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-Gcore-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}, udp: true}
+  - {name: 🇸🇬 「SCP」SG-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
+  - {name: 🇬🇧 「SCP」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: 🇭🇰 「SCP」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 🇨🇦 「SCP」CA-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-DP2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
   - {name: 🇭🇰 香港1, server: v01.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 🇭🇰 香港2, server: v02.jiedian.stream, port: 10000, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 🇭🇰 香港3, server: v03.jiedian.stream, port: 10000, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
@@ -36,23 +53,6 @@ proxies:
   - {name: 防污染3, server: 165.232.136.227, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 防污染4, server: 192.9.241.40, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 防污染5, server: 130.61.242.14, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
-  - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 「SCP」NL-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 「SCP」SE-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sw.sharecentrepro.com}}, udp: true}
-  - {name: 🇮🇳 「SCP」IN-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-Gcore-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}, udp: true}
-  - {name: 🇸🇬 「SCP」SG-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: 🇬🇧 「SCP」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 🇭🇰 「SCP」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 🇨🇦 「SCP」CA-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -60,9 +60,26 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - 更多节点关注@ShareCentrePro
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」SE-CF-HTTP
+      - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
+      - 🇸🇬 「SCP」SG-DO-HTTP
+      - 🇬🇧 「SCP」UK-CF-HTTP
+      - 🇭🇰 「SCP」HK-CF-HTTP
+      - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇺🇸 「SCP」US-BuyVM1-HTTP
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 「SCP」US-BuyVM3-HTTP
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - 🇺🇸 「SCP」US-DP1-HTTP
+      - 🇺🇸 「SCP」US-DP2-HTTP
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -90,32 +107,32 @@ proxy-groups:
       - 防污染3
       - 防污染4
       - 防污染5
-      - 更多节点关注@ShareCentrePro
-      - 🇳🇱 「SCP」NL-CF-HTTP
-      - 「SCP」SE-CF-HTTP
-      - 🇮🇳 「SCP」IN-DO-HTTP
-      - 🇺🇸 「SCP」US-Gcore-HTTP
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
-      - 🇨🇦 「SCP」CA-CF-HTTP
-      - 🇺🇸 「SCP」US-BuyVM1-HTTP
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP2-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - 更多节点关注@ShareCentrePro
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」SE-CF-HTTP
+      - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
+      - 🇸🇬 「SCP」SG-DO-HTTP
+      - 🇬🇧 「SCP」UK-CF-HTTP
+      - 🇭🇰 「SCP」HK-CF-HTTP
+      - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇺🇸 「SCP」US-BuyVM1-HTTP
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 「SCP」US-BuyVM3-HTTP
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - 🇺🇸 「SCP」US-DP1-HTTP
+      - 🇺🇸 「SCP」US-DP2-HTTP
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -143,23 +160,6 @@ proxy-groups:
       - 防污染3
       - 防污染4
       - 防污染5
-      - 更多节点关注@ShareCentrePro
-      - 🇳🇱 「SCP」NL-CF-HTTP
-      - 「SCP」SE-CF-HTTP
-      - 🇮🇳 「SCP」IN-DO-HTTP
-      - 🇺🇸 「SCP」US-Gcore-HTTP
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
-      - 🇨🇦 「SCP」CA-CF-HTTP
-      - 🇺🇸 「SCP」US-BuyVM1-HTTP
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP2-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -167,9 +167,26 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - 更多节点关注@ShareCentrePro
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」SE-CF-HTTP
+      - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
+      - 🇸🇬 「SCP」SG-DO-HTTP
+      - 🇬🇧 「SCP」UK-CF-HTTP
+      - 🇭🇰 「SCP」HK-CF-HTTP
+      - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇺🇸 「SCP」US-BuyVM1-HTTP
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 「SCP」US-BuyVM3-HTTP
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - 🇺🇸 「SCP」US-DP1-HTTP
+      - 🇺🇸 「SCP」US-DP2-HTTP
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -197,23 +214,6 @@ proxy-groups:
       - 防污染3
       - 防污染4
       - 防污染5
-      - 更多节点关注@ShareCentrePro
-      - 🇳🇱 「SCP」NL-CF-HTTP
-      - 「SCP」SE-CF-HTTP
-      - 🇮🇳 「SCP」IN-DO-HTTP
-      - 🇺🇸 「SCP」US-Gcore-HTTP
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
-      - 🇨🇦 「SCP」CA-CF-HTTP
-      - 🇺🇸 「SCP」US-BuyVM1-HTTP
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP2-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -233,9 +233,26 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - 更多节点关注@ShareCentrePro
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」SE-CF-HTTP
+      - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
+      - 🇸🇬 「SCP」SG-DO-HTTP
+      - 🇬🇧 「SCP」UK-CF-HTTP
+      - 🇭🇰 「SCP」HK-CF-HTTP
+      - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇺🇸 「SCP」US-BuyVM1-HTTP
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 「SCP」US-BuyVM3-HTTP
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - 🇺🇸 「SCP」US-DP1-HTTP
+      - 🇺🇸 「SCP」US-DP2-HTTP
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -263,23 +280,6 @@ proxy-groups:
       - 防污染3
       - 防污染4
       - 防污染5
-      - 更多节点关注@ShareCentrePro
-      - 🇳🇱 「SCP」NL-CF-HTTP
-      - 「SCP」SE-CF-HTTP
-      - 🇮🇳 「SCP」IN-DO-HTTP
-      - 🇺🇸 「SCP」US-Gcore-HTTP
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
-      - 🇨🇦 「SCP」CA-CF-HTTP
-      - 🇺🇸 「SCP」US-BuyVM1-HTTP
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP2-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -298,9 +298,26 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - 更多节点关注@ShareCentrePro
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」SE-CF-HTTP
+      - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
+      - 🇸🇬 「SCP」SG-DO-HTTP
+      - 🇬🇧 「SCP」UK-CF-HTTP
+      - 🇭🇰 「SCP」HK-CF-HTTP
+      - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇺🇸 「SCP」US-BuyVM1-HTTP
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 「SCP」US-BuyVM3-HTTP
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - 🇺🇸 「SCP」US-DP1-HTTP
+      - 🇺🇸 「SCP」US-DP2-HTTP
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -328,32 +345,32 @@ proxy-groups:
       - 防污染3
       - 防污染4
       - 防污染5
-      - 更多节点关注@ShareCentrePro
-      - 🇳🇱 「SCP」NL-CF-HTTP
-      - 「SCP」SE-CF-HTTP
-      - 🇮🇳 「SCP」IN-DO-HTTP
-      - 🇺🇸 「SCP」US-Gcore-HTTP
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
-      - 🇨🇦 「SCP」CA-CF-HTTP
-      - 🇺🇸 「SCP」US-BuyVM1-HTTP
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP2-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - 更多节点关注@ShareCentrePro
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」SE-CF-HTTP
+      - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
+      - 🇸🇬 「SCP」SG-DO-HTTP
+      - 🇬🇧 「SCP」UK-CF-HTTP
+      - 🇭🇰 「SCP」HK-CF-HTTP
+      - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇺🇸 「SCP」US-BuyVM1-HTTP
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 「SCP」US-BuyVM3-HTTP
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - 🇺🇸 「SCP」US-DP1-HTTP
+      - 🇺🇸 「SCP」US-DP2-HTTP
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -381,23 +398,6 @@ proxy-groups:
       - 防污染3
       - 防污染4
       - 防污染5
-      - 更多节点关注@ShareCentrePro
-      - 🇳🇱 「SCP」NL-CF-HTTP
-      - 「SCP」SE-CF-HTTP
-      - 🇮🇳 「SCP」IN-DO-HTTP
-      - 🇺🇸 「SCP」US-Gcore-HTTP
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
-      - 🇨🇦 「SCP」CA-CF-HTTP
-      - 🇺🇸 「SCP」US-BuyVM1-HTTP
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP2-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -405,9 +405,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - 更多节点关注@ShareCentrePro
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」SE-CF-HTTP
+      - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
+      - 🇸🇬 「SCP」SG-DO-HTTP
+      - 🇬🇧 「SCP」UK-CF-HTTP
+      - 🇭🇰 「SCP」HK-CF-HTTP
+      - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇺🇸 「SCP」US-BuyVM1-HTTP
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 「SCP」US-BuyVM3-HTTP
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - 🇺🇸 「SCP」US-DP1-HTTP
+      - 🇺🇸 「SCP」US-DP2-HTTP
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -435,23 +452,6 @@ proxy-groups:
       - 防污染3
       - 防污染4
       - 防污染5
-      - 更多节点关注@ShareCentrePro
-      - 🇳🇱 「SCP」NL-CF-HTTP
-      - 「SCP」SE-CF-HTTP
-      - 🇮🇳 「SCP」IN-DO-HTTP
-      - 🇺🇸 「SCP」US-Gcore-HTTP
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
-      - 🇨🇦 「SCP」CA-CF-HTTP
-      - 🇺🇸 「SCP」US-BuyVM1-HTTP
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP2-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -468,9 +468,26 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - 更多节点关注@ShareCentrePro
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」SE-CF-HTTP
+      - 🇮🇳 「SCP」IN-DO-HTTP
+      - 🇺🇸 「SCP」US-Gcore-HTTP
+      - 🇸🇬 「SCP」SG-DO-HTTP
+      - 🇬🇧 「SCP」UK-CF-HTTP
+      - 🇭🇰 「SCP」HK-CF-HTTP
+      - 🇨🇦 「SCP」CA-CF-HTTP
+      - 🇺🇸 「SCP」US-BuyVM1-HTTP
+      - 🇺🇸 「SCP」US-BuyVM2-HTTP
+      - 🇺🇸 「SCP」US-BuyVM3-HTTP
+      - 🇺🇸 「SCP」US-BuyVM4-HTTP
+      - 🇺🇸 「SCP」US-DP1-HTTP
+      - 🇺🇸 「SCP」US-DP2-HTTP
+      - 🇺🇸 「SCP」US-DP3-HTTP
+      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇭🇰 香港3
@@ -498,23 +515,6 @@ proxy-groups:
       - 防污染3
       - 防污染4
       - 防污染5
-      - 更多节点关注@ShareCentrePro
-      - 🇳🇱 「SCP」NL-CF-HTTP
-      - 「SCP」SE-CF-HTTP
-      - 🇮🇳 「SCP」IN-DO-HTTP
-      - 🇺🇸 「SCP」US-Gcore-HTTP
-      - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
-      - 🇨🇦 「SCP」CA-CF-HTTP
-      - 🇺🇸 「SCP」US-BuyVM1-HTTP
-      - 🇺🇸 「SCP」US-BuyVM2-HTTP
-      - 🇺🇸 「SCP」US-BuyVM3-HTTP
-      - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP2-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
