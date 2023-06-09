@@ -55,6 +55,7 @@ proxies:
   - {name: 🇵🇱 波兰, server: newstab.bygcloud.xyz, port: 27010, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
   - {name: 🇮🇹 意大利, server: newstab.bygcloud.xyz, port: 27012, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
   - {name: 🇪🇸 西班牙, server: newstab.bygcloud.xyz, port: 27026, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
+  - {name: 🇳🇱 荷兰, server: newstab.bygcloud.xyz, port: 27027, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
   - {name: 乌克兰, server: newstab.bygcloud.xyz, port: 27022, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
   - {name: 🇪🇬 埃及, server: newstab.bygcloud.xyz, port: 27021, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
   - {name: 🇲🇩 摩尔多瓦, server: newstab.bygcloud.xyz, port: 27013, type: ss, cipher: aes-128-gcm, password: ccdfd077-4903-44da-8ed8-f4fb9b29896a, udp: true}
@@ -121,6 +122,7 @@ proxy-groups:
       - 🇵🇱 波兰
       - 🇮🇹 意大利
       - 🇪🇸 西班牙
+      - 🇳🇱 荷兰
       - 乌克兰
       - 🇪🇬 埃及
       - 🇲🇩 摩尔多瓦
@@ -186,6 +188,7 @@ proxy-groups:
       - 🇵🇱 波兰
       - 🇮🇹 意大利
       - 🇪🇸 西班牙
+      - 🇳🇱 荷兰
       - 乌克兰
       - 🇪🇬 埃及
       - 🇲🇩 摩尔多瓦
@@ -252,6 +255,7 @@ proxy-groups:
       - 🇵🇱 波兰
       - 🇮🇹 意大利
       - 🇪🇸 西班牙
+      - 🇳🇱 荷兰
       - 乌克兰
       - 🇪🇬 埃及
       - 🇲🇩 摩尔多瓦
@@ -330,6 +334,7 @@ proxy-groups:
       - 🇵🇱 波兰
       - 🇮🇹 意大利
       - 🇪🇸 西班牙
+      - 🇳🇱 荷兰
       - 乌克兰
       - 🇪🇬 埃及
       - 🇲🇩 摩尔多瓦
@@ -406,6 +411,7 @@ proxy-groups:
       - 🇵🇱 波兰
       - 🇮🇹 意大利
       - 🇪🇸 西班牙
+      - 🇳🇱 荷兰
       - 乌克兰
       - 🇪🇬 埃及
       - 🇲🇩 摩尔多瓦
@@ -471,6 +477,7 @@ proxy-groups:
       - 🇵🇱 波兰
       - 🇮🇹 意大利
       - 🇪🇸 西班牙
+      - 🇳🇱 荷兰
       - 乌克兰
       - 🇪🇬 埃及
       - 🇲🇩 摩尔多瓦
@@ -537,6 +544,7 @@ proxy-groups:
       - 🇵🇱 波兰
       - 🇮🇹 意大利
       - 🇪🇸 西班牙
+      - 🇳🇱 荷兰
       - 乌克兰
       - 🇪🇬 埃及
       - 🇲🇩 摩尔多瓦
@@ -612,6 +620,7 @@ proxy-groups:
       - 🇵🇱 波兰
       - 🇮🇹 意大利
       - 🇪🇸 西班牙
+      - 🇳🇱 荷兰
       - 乌克兰
       - 🇪🇬 埃及
       - 🇲🇩 摩尔多瓦
