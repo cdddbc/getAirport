@@ -6,9 +6,9 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
   - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
   - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 「SCP」NL-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: 「SCP」SE-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sw.sharecentrepro.com}}, udp: true}
@@ -28,9 +28,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
@@ -49,9 +49,9 @@ proxy-groups:
     interval: 300
     proxies:
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
@@ -71,9 +71,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
@@ -105,9 +105,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
@@ -131,9 +131,9 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
@@ -152,9 +152,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
@@ -174,9 +174,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
@@ -205,9 +205,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Amsterdam
       - 更多节点关注@ShareCentrePro
       - 🇳🇱 「SCP」NL-CF-HTTP
       - 「SCP」SE-CF-HTTP
