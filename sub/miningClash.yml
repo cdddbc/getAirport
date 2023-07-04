@@ -5,6 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港1, server: v01.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇭🇰 香港2, server: v02.jiedian.stream, port: 10000, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇭🇰 香港3, server: v03.jiedian.stream, port: 10000, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇭🇰 香港5, server: v05.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇨🇳 台湾1 晚高峰拥挤, server: v06.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇨🇳 台湾2 晚高峰拥挤, server: v07.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇨🇳 台湾3 晚高峰拥挤, server: v08.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇯🇵 日本1, server: v11.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇯🇵 日本2, server: v12.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇯🇵 日本3, server: v13.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇸🇬 新加坡1, server: v16.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇸🇬 新加坡2, server: v17.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇸🇬 新加坡3, server: v18.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇸🇬 新加坡4, server: v19.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇺🇸 美国1, server: v21.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇺🇸 美国2, server: v22.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇺🇸 美国3, server: v23.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇺🇸 美国4, server: v24.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇩🇪 德国1, server: v26.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇩🇪 德国2, server: v27.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇩🇪 德国3, server: v28.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 🇩🇪 德国4, server: v29.jiedian.stream, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 防污染1, server: 154.40.50.224, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 防污染2, server: 185.199.224.156, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 防污染3, server: 192.9.241.40, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 防污染4, server: 129.153.126.128, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 防污染5, server: 130.61.242.14, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 防污染6, server: 137.184.116.32, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
+  - {name: 防污染7, server: 165.232.136.227, port: 80, type: vmess, uuid: 59e004fd-959f-4844-9354-1125c9c67333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gw.alicdn.com}}, udp: true}
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 「节点冠名招商中」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: 🇬🇧 「SCP」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
@@ -24,6 +53,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇩🇪 德国3
+      - 🇩🇪 德国4
+      - 防污染1
+      - 防污染2
+      - 防污染3
+      - 防污染4
+      - 防污染5
+      - 防污染6
+      - 防污染7
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
@@ -42,6 +100,35 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇩🇪 德国3
+      - 🇩🇪 德国4
+      - 防污染1
+      - 防污染2
+      - 防污染3
+      - 防污染4
+      - 防污染5
+      - 防污染6
+      - 防污染7
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
@@ -61,6 +148,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇩🇪 德国3
+      - 🇩🇪 德国4
+      - 防污染1
+      - 防污染2
+      - 防污染3
+      - 防污染4
+      - 防污染5
+      - 防污染6
+      - 防污染7
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
@@ -92,6 +208,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇩🇪 德国3
+      - 🇩🇪 德国4
+      - 防污染1
+      - 防污染2
+      - 防污染3
+      - 防污染4
+      - 防污染5
+      - 防污染6
+      - 防污染7
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
@@ -109,12 +254,48 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇩🇪 德国3
+      - 🇩🇪 德国4
+      - 防污染1
+      - 防污染2
+      - 防污染3
+      - 防污染4
+      - 防污染5
+      - 防污染6
+      - 防污染7
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
@@ -133,6 +314,35 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇩🇪 德国3
+      - 🇩🇪 德国4
+      - 防污染1
+      - 防污染2
+      - 防污染3
+      - 防污染4
+      - 防污染5
+      - 防污染6
+      - 防污染7
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
@@ -152,6 +362,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇩🇪 德国3
+      - 🇩🇪 德国4
+      - 防污染1
+      - 防污染2
+      - 防污染3
+      - 防污染4
+      - 防污染5
+      - 防污染6
+      - 防污染7
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
@@ -180,6 +419,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港5
+      - 🇨🇳 台湾1 晚高峰拥挤
+      - 🇨🇳 台湾2 晚高峰拥挤
+      - 🇨🇳 台湾3 晚高峰拥挤
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇯🇵 日本3
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
+      - 🇺🇸 美国1
+      - 🇺🇸 美国2
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
+      - 🇩🇪 德国1
+      - 🇩🇪 德国2
+      - 🇩🇪 德国3
+      - 🇩🇪 德国4
+      - 防污染1
+      - 防污染2
+      - 防污染3
+      - 防污染4
+      - 防污染5
+      - 防污染6
+      - 防污染7
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇬🇧 「SCP」UK-CF-HTTP
