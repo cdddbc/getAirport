@@ -7,8 +7,8 @@ external-controller: :9090
 proxies:
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 「节点冠名招商中」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 🇬🇧 「SCP」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
   - {name: 「SCP」SGAWS1-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sgaws1.scproxy.top}}, udp: true}
   - {name: 「SCP」SGAWS2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sgaws2.scproxy.top}}, udp: true}
   - {name: 「SCP」SGAWS3-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sgaws3.scproxy.top}}, udp: true}
@@ -17,7 +17,6 @@ proxies:
   - {name: 「SCP」JPAWS3-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jpaws3.scproxy.top}}, udp: true}
   - {name: 「SCP」JPAWS4-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jpaws4.scproxy.top}}, udp: true}
   - {name: 🇸🇬 「SCP」SG-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: 🇭🇰 「SCP」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
   - {name: 「SCP」NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
@@ -25,8 +24,8 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
   - {name: GetAFreeNode.com-Dusseldorf, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: GetAFreeNode.com-Lille, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}, udp: true}
   - {name: GetAFreeNode.com-Amsterdam, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
   - {name: GetAFreeNode.com-Kansas, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
 proxy-groups:
@@ -37,8 +36,8 @@ proxy-groups:
       - 🎯 全球直连
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 「SCP」SGAWS1-CF-HTTP
       - 「SCP」SGAWS2-CF-HTTP
       - 「SCP」SGAWS3-CF-HTTP
@@ -47,7 +46,6 @@ proxy-groups:
       - 「SCP」JPAWS3-CF-HTTP
       - 「SCP」JPAWS4-CF-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
       - 「SCP」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -55,8 +53,8 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
-      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
   - name: ♻️ 自动选择
@@ -66,8 +64,8 @@ proxy-groups:
     proxies:
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 「SCP」SGAWS1-CF-HTTP
       - 「SCP」SGAWS2-CF-HTTP
       - 「SCP」SGAWS3-CF-HTTP
@@ -76,7 +74,6 @@ proxy-groups:
       - 「SCP」JPAWS3-CF-HTTP
       - 「SCP」JPAWS4-CF-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
       - 「SCP」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -84,8 +81,8 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
-      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
   - name: 🎥 NETFLIX
@@ -96,8 +93,8 @@ proxy-groups:
       - 🎯 全球直连
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 「SCP」SGAWS1-CF-HTTP
       - 「SCP」SGAWS2-CF-HTTP
       - 「SCP」SGAWS3-CF-HTTP
@@ -106,7 +103,6 @@ proxy-groups:
       - 「SCP」JPAWS3-CF-HTTP
       - 「SCP」JPAWS4-CF-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
       - 「SCP」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -114,8 +110,8 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
-      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
   - name: ⛔️ 广告拦截
@@ -138,8 +134,8 @@ proxy-groups:
       - 🎯 全球直连
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 「SCP」SGAWS1-CF-HTTP
       - 「SCP」SGAWS2-CF-HTTP
       - 「SCP」SGAWS3-CF-HTTP
@@ -148,7 +144,6 @@ proxy-groups:
       - 「SCP」JPAWS3-CF-HTTP
       - 「SCP」JPAWS4-CF-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
       - 「SCP」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -156,8 +151,8 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
-      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
   - name: 🌏 国内媒体
@@ -172,8 +167,8 @@ proxy-groups:
       - 🔰 节点选择
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 「SCP」SGAWS1-CF-HTTP
       - 「SCP」SGAWS2-CF-HTTP
       - 「SCP」SGAWS3-CF-HTTP
@@ -182,7 +177,6 @@ proxy-groups:
       - 「SCP」JPAWS3-CF-HTTP
       - 「SCP」JPAWS4-CF-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
       - 「SCP」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -190,8 +184,8 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
-      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
   - name: 📲 电报信息
@@ -201,8 +195,8 @@ proxy-groups:
       - 🎯 全球直连
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 「SCP」SGAWS1-CF-HTTP
       - 「SCP」SGAWS2-CF-HTTP
       - 「SCP」SGAWS3-CF-HTTP
@@ -211,7 +205,6 @@ proxy-groups:
       - 「SCP」JPAWS3-CF-HTTP
       - 「SCP」JPAWS4-CF-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
       - 「SCP」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -219,8 +212,8 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
-      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
   - name: 🍎 苹果服务
@@ -231,8 +224,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 「SCP」SGAWS1-CF-HTTP
       - 「SCP」SGAWS2-CF-HTTP
       - 「SCP」SGAWS3-CF-HTTP
@@ -241,7 +234,6 @@ proxy-groups:
       - 「SCP」JPAWS3-CF-HTTP
       - 「SCP」JPAWS4-CF-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
       - 「SCP」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -249,8 +241,8 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
-      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
   - name: 🎯 全球直连
@@ -270,8 +262,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
-      - 🇬🇧 「SCP」UK-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+      - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 「SCP」SGAWS1-CF-HTTP
       - 「SCP」SGAWS2-CF-HTTP
       - 「SCP」SGAWS3-CF-HTTP
@@ -280,7 +272,6 @@ proxy-groups:
       - 「SCP」JPAWS3-CF-HTTP
       - 「SCP」JPAWS4-CF-HTTP
       - 🇸🇬 「SCP」SG-DO-HTTP
-      - 🇭🇰 「SCP」HK-CF-HTTP
       - 「SCP」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
@@ -288,8 +279,8 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
-      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
 rules:
