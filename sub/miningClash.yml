@@ -10,8 +10,9 @@ proxies:
   - {name: 「SCP」UK2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
   - {name: 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: do.sharecentrepro.com}}, udp: true}
-  - {name: 「SCP」NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 🇳🇱 「SCP」NL-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: 「SCP」NL2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl2.sharecentrepro.com}}, udp: true}
+  - {name: 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
@@ -29,8 +30,9 @@ proxy-groups:
       - 「SCP」UK2-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
-      - 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
-      - 「SCP」NNC-CF-HTTP
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」NL2-CF-HTTP
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
@@ -47,8 +49,9 @@ proxy-groups:
       - 「SCP」UK2-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
-      - 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
-      - 「SCP」NNC-CF-HTTP
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」NL2-CF-HTTP
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
@@ -66,8 +69,9 @@ proxy-groups:
       - 「SCP」UK2-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
-      - 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
-      - 「SCP」NNC-CF-HTTP
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」NL2-CF-HTTP
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
@@ -97,8 +101,9 @@ proxy-groups:
       - 「SCP」UK2-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
-      - 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
-      - 「SCP」NNC-CF-HTTP
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」NL2-CF-HTTP
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
@@ -120,8 +125,9 @@ proxy-groups:
       - 「SCP」UK2-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
-      - 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
-      - 「SCP」NNC-CF-HTTP
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」NL2-CF-HTTP
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
@@ -138,8 +144,9 @@ proxy-groups:
       - 「SCP」UK2-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
-      - 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
-      - 「SCP」NNC-CF-HTTP
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」NL2-CF-HTTP
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
@@ -157,8 +164,9 @@ proxy-groups:
       - 「SCP」UK2-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
-      - 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
-      - 「SCP」NNC-CF-HTTP
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」NL2-CF-HTTP
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
@@ -185,8 +193,9 @@ proxy-groups:
       - 「SCP」UK2-CF-HTTP
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
-      - 🇸🇬 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
-      - 「SCP」NNC-CF-HTTP
+      - 🇳🇱 「SCP」NL-CF-HTTP
+      - 「SCP」NL2-CF-HTTP
+      - 「三年老牌机场： 棉花云.com 」NNC-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
