@@ -5,10 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GetAFreeNode.com-Lille, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Kansas, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Dusseldorf, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.bobbykotick.rip}}, udp: true}
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 「节点冠名招商中」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: 「SCP」UK2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}, udp: true}
@@ -23,16 +19,16 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: GetAFreeNode.com-Dusseldorf, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.bobbykotick.rip}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.bobbykotick.rip}}, udp: true}
+  - {name: GetAFreeNode.com-Lille, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.bobbykotick.rip}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -47,15 +43,15 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -70,16 +66,16 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -94,6 +90,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,10 +112,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -130,6 +126,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -140,10 +140,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -158,15 +154,15 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -181,16 +177,16 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -205,6 +201,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,10 +220,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Dusseldorf
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -238,6 +234,10 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP1-HTTP
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
+      - GetAFreeNode.com-Dusseldorf
+      - GetAFreeNode.com-Amsterdam
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Kansas
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
