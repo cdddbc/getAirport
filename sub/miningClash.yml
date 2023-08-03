@@ -11,7 +11,7 @@ proxies:
   - {name: 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
   - {name: 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
   - {name: "🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 「SCP」NL2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl2.sharecentrepro.com}}, udp: true}
+  - {name: 「www.dafei.xyz中转机场」NL2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl2.sharecentrepro.com}}, udp: true}
   - {name: 「SCP」NL3-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl3.sharecentrepro.org}}, udp: true}
   - {name: 「SCP」UStest-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us.ilovescp.com}}, udp: true}
   - {name: 🇺🇸 「SCP」US-OVH-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: USOVH.sharecentrepro.org}}, udp: true}
@@ -34,7 +34,7 @@ proxy-groups:
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
-      - 「SCP」NL2-CF-HTTP
+      - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP」NL3-CF-HTTP
       - 「SCP」UStest-HTTP
       - 🇺🇸 「SCP」US-OVH-HTTP
@@ -56,7 +56,7 @@ proxy-groups:
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
-      - 「SCP」NL2-CF-HTTP
+      - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP」NL3-CF-HTTP
       - 「SCP」UStest-HTTP
       - 🇺🇸 「SCP」US-OVH-HTTP
@@ -79,7 +79,7 @@ proxy-groups:
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
-      - 「SCP」NL2-CF-HTTP
+      - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP」NL3-CF-HTTP
       - 「SCP」UStest-HTTP
       - 🇺🇸 「SCP」US-OVH-HTTP
@@ -114,7 +114,7 @@ proxy-groups:
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
-      - 「SCP」NL2-CF-HTTP
+      - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP」NL3-CF-HTTP
       - 「SCP」UStest-HTTP
       - 🇺🇸 「SCP」US-OVH-HTTP
@@ -141,7 +141,7 @@ proxy-groups:
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
-      - 「SCP」NL2-CF-HTTP
+      - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP」NL3-CF-HTTP
       - 「SCP」UStest-HTTP
       - 🇺🇸 「SCP」US-OVH-HTTP
@@ -163,7 +163,7 @@ proxy-groups:
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
-      - 「SCP」NL2-CF-HTTP
+      - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP」NL3-CF-HTTP
       - 「SCP」UStest-HTTP
       - 🇺🇸 「SCP」US-OVH-HTTP
@@ -186,7 +186,7 @@ proxy-groups:
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
-      - 「SCP」NL2-CF-HTTP
+      - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP」NL3-CF-HTTP
       - 「SCP」UStest-HTTP
       - 🇺🇸 「SCP」US-OVH-HTTP
@@ -218,7 +218,7 @@ proxy-groups:
       - 🇺🇸 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
       - 🇭🇰 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
-      - 「SCP」NL2-CF-HTTP
+      - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP」NL3-CF-HTTP
       - 「SCP」UStest-HTTP
       - 🇺🇸 「SCP」US-OVH-HTTP
