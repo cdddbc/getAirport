@@ -7,6 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 更多节点关注@ShareCentrePro, server: 127.0.0.1, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 「节点冠名招商中」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
+  - {name: 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.ilovescp.com}}, udp: true}
   - {name: "🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: 「www.dafei.xyz中转机场」NL2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl2.sharecentrepro.com}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
@@ -20,7 +21,6 @@ proxies:
   - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
   - {name: 🇭🇰 「SCP」HK-vv-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.ilovescp.com}}, udp: true}
-  - {name: 🇫🇷 「SCP」FR-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.ilovescp.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -29,6 +29,7 @@ proxy-groups:
       - 🎯 全球直连
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
@@ -42,7 +43,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
-      - 🇫🇷 「SCP」FR-CF-HTTP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -50,6 +50,7 @@ proxy-groups:
     proxies:
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
@@ -63,7 +64,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
-      - 🇫🇷 「SCP」FR-CF-HTTP
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -72,6 +72,7 @@ proxy-groups:
       - 🎯 全球直连
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
@@ -85,7 +86,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
-      - 🇫🇷 「SCP」FR-CF-HTTP
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -106,6 +106,7 @@ proxy-groups:
       - 🎯 全球直连
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
@@ -119,7 +120,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
-      - 🇫🇷 「SCP」FR-CF-HTTP
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -132,6 +132,7 @@ proxy-groups:
       - 🔰 节点选择
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
@@ -145,7 +146,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
-      - 🇫🇷 「SCP」FR-CF-HTTP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -153,6 +153,7 @@ proxy-groups:
       - 🎯 全球直连
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
@@ -166,7 +167,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
-      - 🇫🇷 「SCP」FR-CF-HTTP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -175,6 +175,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
@@ -188,7 +189,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
-      - 🇫🇷 「SCP」FR-CF-HTTP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -206,6 +206,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 更多节点关注@ShareCentrePro
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
+      - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
       - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 🇺🇸 「SCP」US-BuyVM1-HTTP
@@ -219,7 +220,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-DP3-HTTP
       - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
-      - 🇫🇷 「SCP」FR-CF-HTTP
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
