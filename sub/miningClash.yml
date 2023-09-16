@@ -9,7 +9,6 @@ proxies:
   - {name: 🇬🇧 「节点冠名招商中」UK-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
   - {name: 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: fr.ilovescp.com}}, udp: true}
-  - {name: "🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP", server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
   - {name: 「www.dafei.xyz中转机场」NL2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl2.sharecentrepro.com}}, udp: true}
   - {name: 「SCP 」NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: 「SCP」UK2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk2.scproxy.top}}, udp: true}
@@ -31,7 +30,6 @@ proxy-groups:
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP
       - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
-      - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP 」NNC-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -52,7 +50,6 @@ proxy-groups:
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP
       - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
-      - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP 」NNC-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -74,7 +71,6 @@ proxy-groups:
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP
       - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
-      - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP 」NNC-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -108,7 +104,6 @@ proxy-groups:
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP
       - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
-      - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP 」NNC-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -134,7 +129,6 @@ proxy-groups:
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP
       - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
-      - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP 」NNC-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -155,7 +149,6 @@ proxy-groups:
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP
       - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
-      - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP 」NNC-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -177,7 +170,6 @@ proxy-groups:
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP
       - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
-      - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP 」NNC-CF-HTTP
       - 「SCP」UK2-CF-HTTP
@@ -208,7 +200,6 @@ proxy-groups:
       - 🇬🇧 「节点冠名招商中」UK-CF-HTTP
       - 🇺🇸 「3元600G skrspc.com」US-BuyVM1-HTTP
       - 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP
-      - 🇳🇱 「狗狗加速,15天免费,专线hy协议」NL-CF-HTTP
       - 「www.dafei.xyz中转机场」NL2-CF-HTTP
       - 「SCP 」NNC-CF-HTTP
       - 「SCP」UK2-CF-HTTP
