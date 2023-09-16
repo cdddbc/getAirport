@@ -16,9 +16,6 @@ proxies:
   - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
   - {name: 🇭🇰 「SCP」HK-vv-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.ilovescp.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -37,9 +34,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
   - name: ♻️ 自动选择
     type: url-test
@@ -57,9 +51,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
   - name: 🎥 NETFLIX
     type: select
@@ -78,9 +69,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
   - name: ⛔️ 广告拦截
     type: select
@@ -111,9 +99,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
   - name: 🌏 国内媒体
     type: select
@@ -136,9 +121,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
   - name: 📲 电报信息
     type: select
@@ -156,9 +138,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
   - name: 🍎 苹果服务
     type: select
@@ -177,9 +156,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
   - name: 🎯 全球直连
     type: select
@@ -207,9 +183,6 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM2-HTTP
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
-      - 🇺🇸 「SCP」US-DP1-HTTP
-      - 🇺🇸 「SCP」US-DP3-HTTP
-      - 🇺🇸 「SCP」US-DP4-HTTP
       - 🇭🇰 「SCP」HK-vv-HTTP
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
