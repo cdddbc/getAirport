@@ -16,6 +16,7 @@ proxies:
   - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: buyvm3.ilovescp.com}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
   - {name: 🇺🇸 「SCP」US-BuyVM5-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: buyvm5.ilovescp.com}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-GT-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: usgt.sharecentrepro.org}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -33,6 +34,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
+      - 🇺🇸 「SCP」US-GT-HTTP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -49,6 +51,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
+      - 🇺🇸 「SCP」US-GT-HTTP
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -66,6 +69,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
+      - 🇺🇸 「SCP」US-GT-HTTP
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -95,6 +99,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
+      - 🇺🇸 「SCP」US-GT-HTTP
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -116,6 +121,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
+      - 🇺🇸 「SCP」US-GT-HTTP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -132,6 +138,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
+      - 🇺🇸 「SCP」US-GT-HTTP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -149,6 +156,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
+      - 🇺🇸 「SCP」US-GT-HTTP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -175,6 +183,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM3-HTTP
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
+      - 🇺🇸 「SCP」US-GT-HTTP
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
