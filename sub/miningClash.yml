@@ -11,12 +11,13 @@ proxies:
   - {name: 🇫🇷 「宇宙机场.com 低价套餐」FR-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: fr.ilovescp.com}}, udp: true}
   - {name: 「www.dafei.xyz中转机场 」NNC-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: 「SCP」UK2-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: uk2.scproxy.top}}, udp: true}
-  - {name: 🇩🇪 「SCP」DE-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: de.ilovescp.com}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: lv2.scproxy.top}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: buyvm3.ilovescp.com}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-BuyVM5-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: buyvm5.ilovescp.com}}, udp: true}
-  - {name: 🇺🇸 「SCP」US-GT-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: usgt.sharecentrepro.org}}, udp: true}
+  - {name: 🇩🇪 「SCP」DE-CF-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: de.ilovescp.com}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM2-HTTP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: lv2.scproxy.top}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: buyvm3.ilovescp.com}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM4-HTTP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-BuyVM5-HTTP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: buyvm5.ilovescp.com}}, udp: true}
+  - {name: 🇺🇸 「SCP」US-GT-HTTP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: usgt.sharecentrepro.org}}, udp: true}
+  - {name: 🇺🇸 「wuban」US-BuyVM-HTTP, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /scp, headers: {Host: buyvmwuban.scproxy.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -35,6 +36,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
       - 🇺🇸 「SCP」US-GT-HTTP
+      - 🇺🇸 「wuban」US-BuyVM-HTTP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -52,6 +54,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
       - 🇺🇸 「SCP」US-GT-HTTP
+      - 🇺🇸 「wuban」US-BuyVM-HTTP
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -70,6 +73,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
       - 🇺🇸 「SCP」US-GT-HTTP
+      - 🇺🇸 「wuban」US-BuyVM-HTTP
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,6 +104,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
       - 🇺🇸 「SCP」US-GT-HTTP
+      - 🇺🇸 「wuban」US-BuyVM-HTTP
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -122,6 +127,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
       - 🇺🇸 「SCP」US-GT-HTTP
+      - 🇺🇸 「wuban」US-BuyVM-HTTP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -139,6 +145,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
       - 🇺🇸 「SCP」US-GT-HTTP
+      - 🇺🇸 「wuban」US-BuyVM-HTTP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -157,6 +164,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
       - 🇺🇸 「SCP」US-GT-HTTP
+      - 🇺🇸 「wuban」US-BuyVM-HTTP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -184,6 +192,7 @@ proxy-groups:
       - 🇺🇸 「SCP」US-BuyVM4-HTTP
       - 🇺🇸 「SCP」US-BuyVM5-HTTP
       - 🇺🇸 「SCP」US-GT-HTTP
+      - 🇺🇸 「wuban」US-BuyVM-HTTP
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
