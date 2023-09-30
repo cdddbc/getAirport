@@ -5,39 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: GetAFreeNode.com-Amsterdam, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.bobbykotick.rip}}, udp: true}
   - {name: GetAFreeNode.com-Lille, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}, udp: true}
   - {name: GetAFreeNode.com-Kansas, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.bobbykotick.rip}}, udp: true}
   - {name: GetAFreeNode.com-Dusseldorf, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.bobbykotick.rip}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,10 +56,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -70,29 +70,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,10 +108,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Lille
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
