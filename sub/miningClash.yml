@@ -11,7 +11,7 @@ proxies:
   - {name: 🇸🇬 V1 | 新加坡 02, server: cfzzb.starnetcn.top, port: 30092, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: 127.0.0.1}}, udp: true}
   - {name: 🇰🇷 V1 | 韩国 01, server: cfzzo.starnetcn.top, port: 30090, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: cfzzs.starnetcn.top}}, udp: true}
   - {name: 🇰🇷 V1 | 韩国 02, server: cfzzb.starnetcn.top, port: 30090, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: cfzzs.starnetcn.top}}, udp: true}
-  - {name: 🇺🇸 V1C | 美国 01, server: hcaptcha.com, port: 80, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: napan.starnetcn.top}}, udp: true}
+  - {name: 🇺🇸 V1C | 美国 01, server: kr-cdn-6273819.starnetcn.top, port: 31235, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: napan.starnetcn.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
