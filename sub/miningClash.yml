@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 🇺🇸 V1C | 美国 01, server: www.visa.com, port: 80, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: napan.starnetcn.top}}, udp: true}
   - {name: 🇫🇷 V1C | 法国 01, server: www.visa.com, port: 80, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /315d825893fc34aca0231ab967157986.m3u8, headers: {Host: down231ab993fc34aca0231ab9.buildafantasticworld.cyou}}, udp: true}
-  - {name: 🇩🇪 V1C | 德国 01, server: www.visa.com, port: 80, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: desjd.starnetcn.top}}, udp: true}
+  - {name: 🇩🇪 V1C | 德国 01, server: www.visa.com, port: 80, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /315d825893fc34aca0231ab967157986, headers: {Host: 4fcf4c6f085c6825b25eff985f9bcb8e.buildafantasticworld.cyou}}, udp: true}
   - {name: V1C | 乌克兰 01, server: www.visa.com, port: 80, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: ruspan.starnetcn.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
