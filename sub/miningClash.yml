@@ -5,10 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GetAFreeNode.com-Kansas, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Lille, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Dusseldorf, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.bobbykotick.rip}}, udp: true}
   - {name: 🇺🇸 V1C | 美国 01, server: kr-cdn-6273819.starnetcn.top, port: 31235, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /315d825893fc34aca0231ab967157986, headers: {Host: jxhoisldy718922.starnetcn.top}}, udp: true}
   - {name: 🇫🇷 V1C | 法国 01, server: kr-cdn-6273819.starnetcn.top, port: 51236, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /315d825893fc34aca0231ab967157986.m3u8, headers: {Host: fd98201dijmasadj.starnetcn.top}}, udp: true}
   - {name: 🇩🇪 V1C | 德国 01, server: kr-cdn-6273819.starnetcn.top, port: 43213, type: vmess, uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /315d825893fc34aca0231ab967157986, headers: {Host: desd2yn3ioa4smla.starnetcn.top}}, udp: true}
@@ -19,10 +15,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 🇺🇸 V1C | 美国 01
       - 🇫🇷 V1C | 法国 01
       - 🇩🇪 V1C | 德国 01
@@ -32,10 +24,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 🇺🇸 V1C | 美国 01
       - 🇫🇷 V1C | 法国 01
       - 🇩🇪 V1C | 德国 01
@@ -46,10 +34,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 🇺🇸 V1C | 美国 01
       - 🇫🇷 V1C | 法国 01
       - 🇩🇪 V1C | 德国 01
@@ -72,10 +56,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 🇺🇸 V1C | 美国 01
       - 🇫🇷 V1C | 法国 01
       - 🇩🇪 V1C | 德国 01
@@ -90,10 +70,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 🇺🇸 V1C | 美国 01
       - 🇫🇷 V1C | 法国 01
       - 🇩🇪 V1C | 德国 01
@@ -103,10 +79,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 🇺🇸 V1C | 美国 01
       - 🇫🇷 V1C | 法国 01
       - 🇩🇪 V1C | 德国 01
@@ -117,10 +89,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 🇺🇸 V1C | 美国 01
       - 🇫🇷 V1C | 法国 01
       - 🇩🇪 V1C | 德国 01
@@ -140,10 +108,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
-      - GetAFreeNode.com-Dusseldorf
       - 🇺🇸 V1C | 美国 01
       - 🇫🇷 V1C | 法国 01
       - 🇩🇪 V1C | 德国 01
