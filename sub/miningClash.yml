@@ -5,159 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 距离下次重置剩余：17 天, server: ss-hk01.bigdong.link, port: 35152, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇭🇰 HK-A-01, server: ss-hk01.bigdong.link, port: 35152, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇭🇰 HK-A-02, server: ss-hk02.bigdong.link, port: 17753, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇭🇰 HK-A-03, server: ss-hk03.bigdong.link, port: 52183, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇭🇰 HK-A-04, server: ss-hk04.bigdong.link, port: 23071, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇭🇰 HK-A-05, server: ss-hk05.bigdong.link, port: 44219, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇭🇰 HK-A-06, server: ss-hk06.bigdong.link, port: 22787, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇭🇰 HK-A-07, server: ss-hk07.bigdong.link, port: 32827, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇨🇳 TW-A-01, server: ss-tw-01.bigdong.link, port: 57985, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇨🇳 TW-A-02, server: ss-tw-02.bigdong.link, port: 55709, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇨🇳 TW-A-03, server: ss-tw03.bigdong.link, port: 40940, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇨🇳 TW-A-04, server: ss-tw04.bigdong.link, port: 37877, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇯🇵 JP-A-01, server: ss-jp01.bigdong.link, port: 29467, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇯🇵 JP-A-02, server: ss-jp02.bigdong.link, port: 42570, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇯🇵 JP-A-03, server: ss-jp03.bigdong.link, port: 50471, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇯🇵 JP-A-04, server: ss-jp04.bigdong.link, port: 53244, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇺🇸 US-A-01, server: ss-us01.bigdong.link, port: 12890, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇺🇸 US-A-02, server: ss-us02.bigdong.link, port: 12316, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇺🇸 US-A-03, server: ss-us03.bigdong.link, port: 37707, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇺🇸 US-A-04, server: ss-us04.bigdong.link, port: 33163, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇺🇸 US-B-01, server: ss-us05.bigdong.link, port: 25072, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇺🇸 US-B-02, server: ss-us06.bigdong.link, port: 21192, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇺🇸 US-B-03, server: ss-us07.bigdong.link, port: 55305, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇺🇸 US-B-04, server: ss-us08.bigdong.link, port: 57375, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇸🇬 SG-A-01, server: ss-sg01.bigdong.link, port: 57588, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇸🇬 SG-A-02, server: ss-sg02.bigdong.link, port: 54757, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇸🇬 SG-A-03, server: ss-sg03.bigdong.link, port: 16678, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: 🇸🇬 SG-A-04, server: ss-sg04.bigdong.link, port: 57736, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: AQ-A-01, server: ss-nanji03.bigdong.link, port: 27740, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
-  - {name: AQ-A-02, server: ss-nanji04.bigdong.link, port: 59803, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
+  - {name: GetAFreeNode.com-Lille, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}, udp: true}
+  - {name: GetAFreeNode.com-Amsterdam, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.bobbykotick.rip}}, udp: true}
   - {name: GetAFreeNode.com-Kansas, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.bobbykotick.rip}}, udp: true}
   - {name: GetAFreeNode.com-Dusseldorf, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Amsterdam, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Lille, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：17 天
-      - 🇭🇰 HK-A-01
-      - 🇭🇰 HK-A-02
-      - 🇭🇰 HK-A-03
-      - 🇭🇰 HK-A-04
-      - 🇭🇰 HK-A-05
-      - 🇭🇰 HK-A-06
-      - 🇭🇰 HK-A-07
-      - 🇨🇳 TW-A-01
-      - 🇨🇳 TW-A-02
-      - 🇨🇳 TW-A-03
-      - 🇨🇳 TW-A-04
-      - 🇯🇵 JP-A-01
-      - 🇯🇵 JP-A-02
-      - 🇯🇵 JP-A-03
-      - 🇯🇵 JP-A-04
-      - 🇺🇸 US-A-01
-      - 🇺🇸 US-A-02
-      - 🇺🇸 US-A-03
-      - 🇺🇸 US-A-04
-      - 🇺🇸 US-B-01
-      - 🇺🇸 US-B-02
-      - 🇺🇸 US-B-03
-      - 🇺🇸 US-B-04
-      - 🇸🇬 SG-A-01
-      - 🇸🇬 SG-A-02
-      - 🇸🇬 SG-A-03
-      - 🇸🇬 SG-A-04
-      - AQ-A-01
-      - AQ-A-02
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 距离下次重置剩余：17 天
-      - 🇭🇰 HK-A-01
-      - 🇭🇰 HK-A-02
-      - 🇭🇰 HK-A-03
-      - 🇭🇰 HK-A-04
-      - 🇭🇰 HK-A-05
-      - 🇭🇰 HK-A-06
-      - 🇭🇰 HK-A-07
-      - 🇨🇳 TW-A-01
-      - 🇨🇳 TW-A-02
-      - 🇨🇳 TW-A-03
-      - 🇨🇳 TW-A-04
-      - 🇯🇵 JP-A-01
-      - 🇯🇵 JP-A-02
-      - 🇯🇵 JP-A-03
-      - 🇯🇵 JP-A-04
-      - 🇺🇸 US-A-01
-      - 🇺🇸 US-A-02
-      - 🇺🇸 US-A-03
-      - 🇺🇸 US-A-04
-      - 🇺🇸 US-B-01
-      - 🇺🇸 US-B-02
-      - 🇺🇸 US-B-03
-      - 🇺🇸 US-B-04
-      - 🇸🇬 SG-A-01
-      - 🇸🇬 SG-A-02
-      - 🇸🇬 SG-A-03
-      - 🇸🇬 SG-A-04
-      - AQ-A-01
-      - AQ-A-02
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：17 天
-      - 🇭🇰 HK-A-01
-      - 🇭🇰 HK-A-02
-      - 🇭🇰 HK-A-03
-      - 🇭🇰 HK-A-04
-      - 🇭🇰 HK-A-05
-      - 🇭🇰 HK-A-06
-      - 🇭🇰 HK-A-07
-      - 🇨🇳 TW-A-01
-      - 🇨🇳 TW-A-02
-      - 🇨🇳 TW-A-03
-      - 🇨🇳 TW-A-04
-      - 🇯🇵 JP-A-01
-      - 🇯🇵 JP-A-02
-      - 🇯🇵 JP-A-03
-      - 🇯🇵 JP-A-04
-      - 🇺🇸 US-A-01
-      - 🇺🇸 US-A-02
-      - 🇺🇸 US-A-03
-      - 🇺🇸 US-A-04
-      - 🇺🇸 US-B-01
-      - 🇺🇸 US-B-02
-      - 🇺🇸 US-B-03
-      - 🇺🇸 US-B-04
-      - 🇸🇬 SG-A-01
-      - 🇸🇬 SG-A-02
-      - 🇸🇬 SG-A-03
-      - 🇸🇬 SG-A-04
-      - AQ-A-01
-      - AQ-A-02
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -176,40 +56,10 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：17 天
-      - 🇭🇰 HK-A-01
-      - 🇭🇰 HK-A-02
-      - 🇭🇰 HK-A-03
-      - 🇭🇰 HK-A-04
-      - 🇭🇰 HK-A-05
-      - 🇭🇰 HK-A-06
-      - 🇭🇰 HK-A-07
-      - 🇨🇳 TW-A-01
-      - 🇨🇳 TW-A-02
-      - 🇨🇳 TW-A-03
-      - 🇨🇳 TW-A-04
-      - 🇯🇵 JP-A-01
-      - 🇯🇵 JP-A-02
-      - 🇯🇵 JP-A-03
-      - 🇯🇵 JP-A-04
-      - 🇺🇸 US-A-01
-      - 🇺🇸 US-A-02
-      - 🇺🇸 US-A-03
-      - 🇺🇸 US-A-04
-      - 🇺🇸 US-B-01
-      - 🇺🇸 US-B-02
-      - 🇺🇸 US-B-03
-      - 🇺🇸 US-B-04
-      - 🇸🇬 SG-A-01
-      - 🇸🇬 SG-A-02
-      - 🇸🇬 SG-A-03
-      - 🇸🇬 SG-A-04
-      - AQ-A-01
-      - AQ-A-02
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -220,119 +70,29 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 距离下次重置剩余：17 天
-      - 🇭🇰 HK-A-01
-      - 🇭🇰 HK-A-02
-      - 🇭🇰 HK-A-03
-      - 🇭🇰 HK-A-04
-      - 🇭🇰 HK-A-05
-      - 🇭🇰 HK-A-06
-      - 🇭🇰 HK-A-07
-      - 🇨🇳 TW-A-01
-      - 🇨🇳 TW-A-02
-      - 🇨🇳 TW-A-03
-      - 🇨🇳 TW-A-04
-      - 🇯🇵 JP-A-01
-      - 🇯🇵 JP-A-02
-      - 🇯🇵 JP-A-03
-      - 🇯🇵 JP-A-04
-      - 🇺🇸 US-A-01
-      - 🇺🇸 US-A-02
-      - 🇺🇸 US-A-03
-      - 🇺🇸 US-A-04
-      - 🇺🇸 US-B-01
-      - 🇺🇸 US-B-02
-      - 🇺🇸 US-B-03
-      - 🇺🇸 US-B-04
-      - 🇸🇬 SG-A-01
-      - 🇸🇬 SG-A-02
-      - 🇸🇬 SG-A-03
-      - 🇸🇬 SG-A-04
-      - AQ-A-01
-      - AQ-A-02
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 距离下次重置剩余：17 天
-      - 🇭🇰 HK-A-01
-      - 🇭🇰 HK-A-02
-      - 🇭🇰 HK-A-03
-      - 🇭🇰 HK-A-04
-      - 🇭🇰 HK-A-05
-      - 🇭🇰 HK-A-06
-      - 🇭🇰 HK-A-07
-      - 🇨🇳 TW-A-01
-      - 🇨🇳 TW-A-02
-      - 🇨🇳 TW-A-03
-      - 🇨🇳 TW-A-04
-      - 🇯🇵 JP-A-01
-      - 🇯🇵 JP-A-02
-      - 🇯🇵 JP-A-03
-      - 🇯🇵 JP-A-04
-      - 🇺🇸 US-A-01
-      - 🇺🇸 US-A-02
-      - 🇺🇸 US-A-03
-      - 🇺🇸 US-A-04
-      - 🇺🇸 US-B-01
-      - 🇺🇸 US-B-02
-      - 🇺🇸 US-B-03
-      - 🇺🇸 US-B-04
-      - 🇸🇬 SG-A-01
-      - 🇸🇬 SG-A-02
-      - 🇸🇬 SG-A-03
-      - 🇸🇬 SG-A-04
-      - AQ-A-01
-      - AQ-A-02
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 距离下次重置剩余：17 天
-      - 🇭🇰 HK-A-01
-      - 🇭🇰 HK-A-02
-      - 🇭🇰 HK-A-03
-      - 🇭🇰 HK-A-04
-      - 🇭🇰 HK-A-05
-      - 🇭🇰 HK-A-06
-      - 🇭🇰 HK-A-07
-      - 🇨🇳 TW-A-01
-      - 🇨🇳 TW-A-02
-      - 🇨🇳 TW-A-03
-      - 🇨🇳 TW-A-04
-      - 🇯🇵 JP-A-01
-      - 🇯🇵 JP-A-02
-      - 🇯🇵 JP-A-03
-      - 🇯🇵 JP-A-04
-      - 🇺🇸 US-A-01
-      - 🇺🇸 US-A-02
-      - 🇺🇸 US-A-03
-      - 🇺🇸 US-A-04
-      - 🇺🇸 US-B-01
-      - 🇺🇸 US-B-02
-      - 🇺🇸 US-B-03
-      - 🇺🇸 US-B-04
-      - 🇸🇬 SG-A-01
-      - 🇸🇬 SG-A-02
-      - 🇸🇬 SG-A-03
-      - 🇸🇬 SG-A-04
-      - AQ-A-01
-      - AQ-A-02
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -348,40 +108,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 距离下次重置剩余：17 天
-      - 🇭🇰 HK-A-01
-      - 🇭🇰 HK-A-02
-      - 🇭🇰 HK-A-03
-      - 🇭🇰 HK-A-04
-      - 🇭🇰 HK-A-05
-      - 🇭🇰 HK-A-06
-      - 🇭🇰 HK-A-07
-      - 🇨🇳 TW-A-01
-      - 🇨🇳 TW-A-02
-      - 🇨🇳 TW-A-03
-      - 🇨🇳 TW-A-04
-      - 🇯🇵 JP-A-01
-      - 🇯🇵 JP-A-02
-      - 🇯🇵 JP-A-03
-      - 🇯🇵 JP-A-04
-      - 🇺🇸 US-A-01
-      - 🇺🇸 US-A-02
-      - 🇺🇸 US-A-03
-      - 🇺🇸 US-A-04
-      - 🇺🇸 US-B-01
-      - 🇺🇸 US-B-02
-      - 🇺🇸 US-B-03
-      - 🇺🇸 US-B-04
-      - 🇸🇬 SG-A-01
-      - 🇸🇬 SG-A-02
-      - 🇸🇬 SG-A-03
-      - 🇸🇬 SG-A-04
-      - AQ-A-01
-      - AQ-A-02
+      - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
       - GetAFreeNode.com-Dusseldorf
-      - GetAFreeNode.com-Amsterdam
-      - GetAFreeNode.com-Lille
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
