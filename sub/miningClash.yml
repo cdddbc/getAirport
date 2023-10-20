@@ -36,9 +36,9 @@ proxies:
   - {name: AQ-A-01, server: ss-nanji03.bigdong.link, port: 27740, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
   - {name: AQ-A-02, server: ss-nanji04.bigdong.link, port: 59803, type: ss, cipher: aes-128-gcm, password: 7dde4616-9f92-4bbe-afb5-8bcf1dbe1a3b, udp: true}
   - {name: GetAFreeNode.com-Lille, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}, udp: true}
+  - {name: GetAFreeNode.com-Dusseldorf, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.bobbykotick.rip}}, udp: true}
   - {name: GetAFreeNode.com-Amsterdam, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.bobbykotick.rip}}, udp: true}
   - {name: GetAFreeNode.com-Kansas, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.bobbykotick.rip}}, udp: true}
-  - {name: GetAFreeNode.com-Dusseldorf, server: bobbykotick.rip, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.bobbykotick.rip}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -76,9 +76,9 @@ proxy-groups:
       - AQ-A-01
       - AQ-A-02
       - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Dusseldorf
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -115,9 +115,9 @@ proxy-groups:
       - AQ-A-01
       - AQ-A-02
       - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Dusseldorf
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -155,9 +155,9 @@ proxy-groups:
       - AQ-A-01
       - AQ-A-02
       - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Dusseldorf
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -207,9 +207,9 @@ proxy-groups:
       - AQ-A-01
       - AQ-A-02
       - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Dusseldorf
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -251,9 +251,9 @@ proxy-groups:
       - AQ-A-01
       - AQ-A-02
       - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Dusseldorf
   - name: 📲 电报信息
     type: select
     proxies:
@@ -290,9 +290,9 @@ proxy-groups:
       - AQ-A-01
       - AQ-A-02
       - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Dusseldorf
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -330,9 +330,9 @@ proxy-groups:
       - AQ-A-01
       - AQ-A-02
       - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Dusseldorf
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -379,9 +379,9 @@ proxy-groups:
       - AQ-A-01
       - AQ-A-02
       - GetAFreeNode.com-Lille
+      - GetAFreeNode.com-Dusseldorf
       - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Kansas
-      - GetAFreeNode.com-Dusseldorf
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
